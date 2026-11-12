@@ -1,4 +1,39 @@
-import { ClothesRack } from "@/components/dimaac/clothes-rack";
+import { ClothesRack, type ClothesRackItem } from "@/components/dimaac/clothes-rack";
+
+const items: ClothesRackItem[] = [
+  {
+    name: "Sevilla FC Jersey — Vargas #11",
+    kind: "tee",
+    colour: "#f2f1ed",
+    image: "/products/vargas-back.png",
+    imageFront: "/products/vargas-front.png",
+    imageBack: "/products/vargas-back.png",
+    details: [
+      { label: "Player", value: "Rubén Vargas" },
+      { label: "Club", value: "Sevilla FC" },
+      { label: "Competition", value: "LaLiga" },
+      { label: "Season", value: "2025–2026" },
+      { label: "Type", value: "First" },
+      { label: "Estilo", value: "Preparada" }
+    ],
+  },
+  {
+    name: "Sevilla FC Jersey — Oso #36",
+    kind: "tee",
+    colour: "#000000",
+    image: "/products/oso_back.png",
+    imageFront: "/products/oso_front.png",
+    imageBack: "/products/oso_back.png",
+    details: [
+      { label: "Player", value: "Joaquin Martinez Gauna 'Oso'" },
+      { label: "Club", value: "Sevilla FC" },
+      { label: "Competition", value: "LaLiga" },
+      { label: "Season", value: "2025–2026" },
+      { label: "Type", value: "Third" },
+      { label: "Estilo", value: "MW" }
+    ],
+  }
+];
 
 export default function Home() {
   return (
@@ -8,11 +43,11 @@ export default function Home() {
         <span>Collection 01 — Motion studies</span>
       </header>
 
-      <ClothesRack className="absolute! inset-0" />
+      <ClothesRack items={items} className="absolute! inset-0" />
 
       <footer className="pointer-events-none absolute inset-x-0 bottom-0 z-10 flex items-end justify-between px-6 pb-6 text-[12px] text-[#6B7280] sm:px-[4%] dark:text-[#8B8F98]">
         <p className="max-w-56 leading-relaxed sm:max-w-xs">
-          Ten pieces on a rail.
+          {items.length} {items.length === 1 ? "piece" : "pieces"} on the rail.
           <br />
           Move through the collection.
         </p>
