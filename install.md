@@ -48,7 +48,8 @@ const items: ClothesRackItem[] = [
     kind: "tee",
     colour: "#f2f1ed",
     image: "/products/vargas-front.png",
-    backImage: "/products/vargas-back.png",
+    imageFront: "/products/vargas-front.png",
+    imageBack: "/products/vargas-back.png",
     details: [
       { label: "Player", value: "Rubén Vargas" },
       { label: "Club", value: "Sevilla FC" },
@@ -61,7 +62,7 @@ const items: ClothesRackItem[] = [
 <ClothesRack items={items} />
 ```
 
-Put transparent, tightly cropped garment images in `public/` and pass their public URLs. They are used as the garment itself, not as a print on generated cloth. `image` is the front view; `backImage` is the reverse view and defaults to `image`. Clicking an item opens a product card with a front/back image carousel and any optional `details` rows.
+Put images in `public/` and pass their public URLs. `image` is the transparent cutout shown on the rack; `imageFront` and `imageBack` are shown in the product detail card. Clicking an item opens the card with a front/back carousel and optional `details` rows.
 
 `details` is an ordered array of `{ label, value }` objects and is only shown for image-backed items:
 
@@ -76,7 +77,7 @@ details: [
 
 | Prop | Type | Default | Description |
 | --- | --- | --- | --- |
-| `items` | `ClothesRackItem[]` | `defaultItems` | The garments on the rail, in order. Each item can include transparent `image` and `backImage` product images and optional labeled `details` for its product card. Defaults to ten garments of our own design: eight tees, a crewneck and a shirt. |
+| `items` | `ClothesRackItem[]` | `defaultItems` | The garments on the rail, in order. Each item can include `image` for the rack cutout, `imageFront` and `imageBack` for its detail-card carousel, and optional labeled `details`. Defaults to ten garments of our own design: eight tees, a crewneck and a shirt. |
 | `restAngle` | `number` | `80` | How far each garment is turned away at rest, in degrees. 90 would be edge-on. Default 80. |
 | `gap` | `number` | `7` | The clear air between side-on garments, as a percentage of a garment's body width. Default 7. |
 | `activeScale` | `number` | `1` | How much the facing garment grows, from 1 (not at all) to 1.2. Default 1. |
@@ -1513,9 +1514,9 @@ export function ClothesRack({
     : { ink: "#0A0A0A", paper: "#FAFAFA", line: "#E5E7EB", grey: "#6B7280" };
   const names = itemsRef.current;
   const shown = names[Math.min(detailIndex, names.length - 1)];
-  const hasProductImages = Boolean(shown?.image || shown?.backImage);
-  const hasBackImage = Boolean(shown?.backImage && shown.backImage !== shown.image);
-  const productImage = photoSide === "back" ? shown?.backImage ?? shown?.image : shown?.image ?? shown?.backImage;
+  const hasProductImages = Boolean(shown?.imageFront || shown?.imageBack);
+  const hasBackImage = Boolean(shown?.imageFront && shown?.imageBack && shown.imageFront !== shown.imageBack);
+  const productImage = photoSide === "back" ? shown?.imageBack ?? shown?.imageFront : shown?.imageFront ?? shown?.imageBack;
   const status = open && shown ? `${shown.name}, ${detailIndex + 1} of ${names.length}` : focusIdx >= 0 && names[focusIdx] ? `${names[focusIdx]!.name}, ${focusIdx + 1} of ${names.length}` : "";
   const unavailable = failed || lost || !ready;
 
@@ -1650,7 +1651,7 @@ export function ClothesRack({
           {hasProductImages ? (
             <section
               aria-label={`${shown?.name ?? "Garment"} product details`}
-              className="absolute inset-x-3 top-1/2 mx-auto grid max-h-[88dvh] w-auto max-w-5xl -translate-y-1/2 grid-cols-1 overflow-y-auto rounded-2xl border border-(--cr-line) bg-(--cr-paper) text-left shadow-[0_24px_80px_rgba(0,0,0,0.16)] sm:inset-x-8 md:grid-cols-[minmax(0,1.15fr)_minmax(260px,0.85fr)]"
+              className="absolute inset-x-14 top-1/2 mx-auto grid max-h-[88dvh] w-auto -translate-y-1/2 grid-cols-1 overflow-y-auto rounded-2xl border border-(--cr-line) bg-(--cr-paper) text-left shadow-[0_24px_80px_rgba(0,0,0,0.16)] md:left-1/2 md:right-auto md:w-[min(80vw,64rem)] md:-translate-x-1/2 md:grid-cols-[minmax(0,1.15fr)_minmax(260px,0.85fr)]"
             >
               <div className="relative min-h-72 bg-[color-mix(in_srgb,var(--cr-ink)_3%,var(--cr-paper))] sm:min-h-[min(74dvh,680px)]">
                 {productImage ? (
@@ -1738,7 +1739,11 @@ export function ClothesRack({
                 onPointerLeave={release}
                 onPointerCancel={release}
                 className={keycap(pressed === "prev")}
-                style={{ left: "max(10px, calc(50% - var(--half) - 72px - 44px))" }}
+                style={{
+                  left: hasProductImages
+                    ? "max(4px, calc(50% - min(40vw, 32rem) - 52px))"
+                    : "max(10px, calc(50% - var(--half) - 72px - 44px))",
+                }}
               >
                 <svg {...arrowProps}>
                   <path d="M19 12H5M11 6l-6 6 6 6" />
@@ -1753,7 +1758,11 @@ export function ClothesRack({
                 onPointerLeave={release}
                 onPointerCancel={release}
                 className={keycap(pressed === "next")}
-                style={{ right: "max(10px, calc(50% - var(--half) - 72px - 44px))" }}
+                style={{
+                  right: hasProductImages
+                    ? "max(4px, calc(50% - min(40vw, 32rem) - 52px))"
+                    : "max(10px, calc(50% - var(--half) - 72px - 44px))",
+                }}
               >
                 <svg {...arrowProps}>
                   <path d="M5 12h14M13 6l6 6-6 6" />
@@ -1966,10 +1975,12 @@ export type GarmentSpec = {
   /** The fabric colour, as a hex string. */
   colour: string;
   print?: GarmentPrint;
-  /** Transparent garment cutout used as the front of the item, not as a print on generated cloth. */
+  /** Transparent garment cutout displayed on the rack. */
   image?: string;
-  /** Transparent garment cutout used on the reverse. Defaults to image. */
-  backImage?: string;
+  /** Image shown on the front of the product detail card. */
+  imageFront?: string;
+  /** Image shown on the back of the product detail card. */
+  imageBack?: string;
 };
 
 export type HangerFinish = "wood" | "black" | "chrome";
@@ -3456,7 +3467,7 @@ export function createWardrobe(
     const k = parts(spec.kind);
     const fabric = fabrics.get(spec.kind)!;
     const dimensions = { ...k.size };
-    const photoMode = Boolean(spec.image || spec.backImage);
+    const photoMode = Boolean(spec.image);
     const photoWidths: number[] = [];
     const object = new THREE.Group();
     const turn = new THREE.Group();
@@ -3568,8 +3579,8 @@ export function createWardrobe(
           (error) => console.error(`Could not load garment image: ${url}`, error),
         );
       };
-      addPhoto(spec.image ?? spec.backImage!, false);
-      addPhoto(spec.backImage ?? spec.image!, true);
+      addPhoto(spec.image!, false);
+      addPhoto(spec.image!, true);
     }
 
     // a lacquered finish: a clear coat over the wood, so the hanger catches a crisp highlight like the real thing

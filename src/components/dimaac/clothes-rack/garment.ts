@@ -41,10 +41,12 @@ export type GarmentSpec = {
   /** The fabric colour, as a hex string. */
   colour: string;
   print?: GarmentPrint;
-  /** Transparent garment cutout used as the front of the item, not as a print on generated cloth. */
+  /** Transparent garment cutout displayed on the rack. */
   image?: string;
-  /** Transparent garment cutout used on the reverse. Defaults to image. */
-  backImage?: string;
+  /** Image shown on the front of the product detail card. */
+  imageFront?: string;
+  /** Image shown on the back of the product detail card. */
+  imageBack?: string;
 };
 
 export type HangerFinish = "wood" | "black" | "chrome";
@@ -1531,7 +1533,7 @@ export function createWardrobe(
     const k = parts(spec.kind);
     const fabric = fabrics.get(spec.kind)!;
     const dimensions = { ...k.size };
-    const photoMode = Boolean(spec.image || spec.backImage);
+    const photoMode = Boolean(spec.image);
     const photoWidths: number[] = [];
     const object = new THREE.Group();
     const turn = new THREE.Group();
@@ -1643,8 +1645,8 @@ export function createWardrobe(
           (error) => console.error(`Could not load garment image: ${url}`, error),
         );
       };
-      addPhoto(spec.image ?? spec.backImage!, false);
-      addPhoto(spec.backImage ?? spec.image!, true);
+      addPhoto(spec.image!, false);
+      addPhoto(spec.image!, true);
     }
 
     // a lacquered finish: a clear coat over the wood, so the hanger catches a crisp highlight like the real thing

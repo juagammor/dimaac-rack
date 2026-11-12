@@ -1406,9 +1406,9 @@ export function ClothesRack({
     : { ink: "#0A0A0A", paper: "#FAFAFA", line: "#E5E7EB", grey: "#6B7280" };
   const names = itemsRef.current;
   const shown = names[Math.min(detailIndex, names.length - 1)];
-  const hasProductImages = Boolean(shown?.image || shown?.backImage);
-  const hasBackImage = Boolean(shown?.backImage && shown.backImage !== shown.image);
-  const productImage = photoSide === "back" ? shown?.backImage ?? shown?.image : shown?.image ?? shown?.backImage;
+  const hasProductImages = Boolean(shown?.imageFront || shown?.imageBack);
+  const hasBackImage = Boolean(shown?.imageFront && shown?.imageBack && shown.imageFront !== shown.imageBack);
+  const productImage = photoSide === "back" ? shown?.imageBack ?? shown?.imageFront : shown?.imageFront ?? shown?.imageBack;
   const status = open && shown ? `${shown.name}, ${detailIndex + 1} of ${names.length}` : focusIdx >= 0 && names[focusIdx] ? `${names[focusIdx]!.name}, ${focusIdx + 1} of ${names.length}` : "";
   const unavailable = failed || lost || !ready;
 
@@ -1543,7 +1543,7 @@ export function ClothesRack({
           {hasProductImages ? (
             <section
               aria-label={`${shown?.name ?? "Garment"} product details`}
-              className="absolute inset-x-3 top-1/2 mx-auto grid max-h-[88dvh] w-auto max-w-5xl -translate-y-1/2 grid-cols-1 overflow-y-auto rounded-2xl border border-(--cr-line) bg-(--cr-paper) text-left shadow-[0_24px_80px_rgba(0,0,0,0.16)] sm:inset-x-8 md:grid-cols-[minmax(0,1.15fr)_minmax(260px,0.85fr)]"
+              className="absolute inset-x-14 top-1/2 mx-auto grid max-h-[88dvh] w-auto -translate-y-1/2 grid-cols-1 overflow-y-auto rounded-2xl border border-(--cr-line) bg-(--cr-paper) text-left shadow-[0_24px_80px_rgba(0,0,0,0.16)] md:left-1/2 md:right-auto md:w-[min(80vw,64rem)] md:-translate-x-1/2 md:grid-cols-[minmax(0,1.15fr)_minmax(260px,0.85fr)]"
             >
               <div className="relative min-h-72 bg-[color-mix(in_srgb,var(--cr-ink)_3%,var(--cr-paper))] sm:min-h-[min(74dvh,680px)]">
                 {productImage ? (
@@ -1631,7 +1631,11 @@ export function ClothesRack({
                 onPointerLeave={release}
                 onPointerCancel={release}
                 className={keycap(pressed === "prev")}
-                style={{ left: "max(10px, calc(50% - var(--half) - 72px - 44px))" }}
+                style={{
+                  left: hasProductImages
+                    ? "max(4px, calc(50% - min(40vw, 32rem) - 52px))"
+                    : "max(10px, calc(50% - var(--half) - 72px - 44px))",
+                }}
               >
                 <svg {...arrowProps}>
                   <path d="M19 12H5M11 6l-6 6 6 6" />
@@ -1646,7 +1650,11 @@ export function ClothesRack({
                 onPointerLeave={release}
                 onPointerCancel={release}
                 className={keycap(pressed === "next")}
-                style={{ right: "max(10px, calc(50% - var(--half) - 72px - 44px))" }}
+                style={{
+                  right: hasProductImages
+                    ? "max(4px, calc(50% - min(40vw, 32rem) - 52px))"
+                    : "max(10px, calc(50% - var(--half) - 72px - 44px))",
+                }}
               >
                 <svg {...arrowProps}>
                   <path d="M5 12h14M13 6l6 6-6 6" />

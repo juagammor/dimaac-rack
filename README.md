@@ -21,7 +21,7 @@ import { ClothesRack } from "@/components/dimaac/clothes-rack";
 <ClothesRack />;
 ```
 
-Each garment can use transparent cutout photos as its front and back; the photo becomes the garment rather than a print on generated cloth. Put tightly cropped images in `public/` and use their public URLs:
+Each item has separate images for the rack and detail card: `image` is the transparent cutout shown on the rack, while `imageFront` and `imageBack` are the front and back photos in the detail card. Put the images in `public/` and use their public URLs:
 
 ```tsx
 const items: ClothesRackItem[] = [
@@ -30,7 +30,8 @@ const items: ClothesRackItem[] = [
     kind: "tee",
     colour: "#f2f1ed",
     image: "/products/vargas-front.png",
-    backImage: "/products/vargas-back.png",
+    imageFront: "/products/vargas-front.png",
+    imageBack: "/products/vargas-back.png",
     details: [
       { label: "Player", value: "Rubén Vargas" },
       { label: "Club", value: "Sevilla FC" },
@@ -45,4 +46,4 @@ const items: ClothesRackItem[] = [
 
 See [`install.md`](./install.md) for the full component documentation, props, and source.
 
-The optional `details` array accepts `{ label, value }` rows and appears beside the image in the product card. The card provides front/back carousel controls when both images are supplied.
+The optional `details` array accepts `{ label, value }` rows and appears beside the image in the product card. The card provides front/back carousel controls when `imageFront` and `imageBack` are supplied.

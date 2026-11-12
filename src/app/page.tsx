@@ -5,8 +5,9 @@ const items: ClothesRackItem[] = [
     name: "Sevilla FC Jersey — Vargas #11",
     kind: "tee",
     colour: "#f2f1ed",
-    image: "/products/vargas-front.png",
-    backImage: "/products/vargas-back.png",
+    image: "/products/vargas-back.png",
+    imageFront: "/products/vargas-front.png",
+    imageBack: "/products/vargas-back.png",
     details: [
       { label: "Player", value: "Rubén Vargas" },
       { label: "Club", value: "Sevilla FC" },
@@ -16,6 +17,22 @@ const items: ClothesRackItem[] = [
       { label: "Estilo", value: "Preparada" }
     ],
   },
+  {
+    name: "Sevilla FC Jersey — Oso #36",
+    kind: "tee",
+    colour: "#000000",
+    image: "/products/oso_back.png",
+    imageFront: "/products/oso_front.png",
+    imageBack: "/products/oso_back.png",
+    details: [
+      { label: "Player", value: "Joaquin Martinez Gauna 'Oso'" },
+      { label: "Club", value: "Sevilla FC" },
+      { label: "Competition", value: "LaLiga" },
+      { label: "Season", value: "2025–2026" },
+      { label: "Type", value: "Third" },
+      { label: "Estilo", value: "MW" }
+    ],
+  }
 ];
 
 export default function Home() {
