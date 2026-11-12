@@ -31,6 +31,12 @@ const items: ClothesRackItem[] = [
     colour: "#f2f1ed",
     image: "/products/vargas-front.png",
     backImage: "/products/vargas-back.png",
+    details: [
+      { label: "Player", value: "Rubén Vargas" },
+      { label: "Club", value: "Sevilla FC" },
+      { label: "Competition", value: "LaLiga" },
+      { label: "Season", value: "2025–2026" },
+    ],
   },
 ];
 
@@ -38,3 +44,5 @@ const items: ClothesRackItem[] = [
 ```
 
 See [`install.md`](./install.md) for the full component documentation, props, and source.
+
+The optional `details` array accepts `{ label, value }` rows and appears beside the image in the product card. The card provides front/back carousel controls when both images are supplied.

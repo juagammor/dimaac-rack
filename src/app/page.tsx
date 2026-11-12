@@ -7,6 +7,14 @@ const items: ClothesRackItem[] = [
     colour: "#f2f1ed",
     image: "/products/vargas-front.png",
     backImage: "/products/vargas-back.png",
+    details: [
+      { label: "Player", value: "Rubén Vargas" },
+      { label: "Club", value: "Sevilla FC" },
+      { label: "Competition", value: "LaLiga" },
+      { label: "Season", value: "2025–2026" },
+      { label: "Type", value: "First" },
+      { label: "Estilo", value: "Preparada" }
+    ],
   },
 ];
 

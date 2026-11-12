@@ -1,6 +1,7 @@
 "use client";
 
 import { flushSync } from "react-dom";
+import Image from "next/image";
 import { useEffect, useMemo, useRef, useState, useSyncExternalStore, type FocusEvent, type KeyboardEvent } from "react";
 import * as THREE from "three";
 import { ClothMotion } from "./clothes-rack/cloth-motion";
@@ -22,6 +23,8 @@ import { createWardrobe, type Garment, type GarmentSpec, type GarmentTextures, t
 export type ClothesRackItem = GarmentSpec & {
   /** The product name: the caption under the facing garment and the title in the detail view. */
   name: string;
+  /** Optional labeled facts shown in the product detail card. */
+  details?: { label: string; value: string }[];
 };
 
 export type ClothesRackProps = {
@@ -214,6 +217,7 @@ export function ClothesRack({
   // The detail layer is on screen from the start of its fade in to the end of its fade out
   const [stageOn, setStageOn] = useState(false);
   const [detailIndex, setDetailIndex] = useState(0);
+  const [photoSide, setPhotoSide] = useState<"front" | "back">("front");
   // The garment a keyboard (or screen reader) focus is on: the live status follows this, never the mouse
   const [focusIdx, setFocusIdx] = useState(-1);
   const [, setActiveIdx] = useState(-1);
@@ -1048,6 +1052,7 @@ export function ClothesRack({
       setActive(index);
       flushSync(() => {
         setDetailIndex(index);
+        setPhotoSide("front");
         setStageOn(true);
         setOpen(true);
       });
@@ -1128,7 +1133,10 @@ export function ClothesRack({
       detailIndexRef.current = next;
       setActive(next);
       if (hiddenIndex >= 0) hideRack(next);
-      flushSync(() => setDetailIndex(next));
+      flushSync(() => {
+        setDetailIndex(next);
+        setPhotoSide("front");
+      });
       wake();
       prepareNeighbours();
     }
@@ -1398,6 +1406,9 @@ export function ClothesRack({
     : { ink: "#0A0A0A", paper: "#FAFAFA", line: "#E5E7EB", grey: "#6B7280" };
   const names = itemsRef.current;
   const shown = names[Math.min(detailIndex, names.length - 1)];
+  const hasProductImages = Boolean(shown?.image || shown?.backImage);
+  const hasBackImage = Boolean(shown?.backImage && shown.backImage !== shown.image);
+  const productImage = photoSide === "back" ? shown?.backImage ?? shown?.image : shown?.image ?? shown?.backImage;
   const status = open && shown ? `${shown.name}, ${detailIndex + 1} of ${names.length}` : focusIdx >= 0 && names[focusIdx] ? `${names[focusIdx]!.name}, ${focusIdx + 1} of ${names.length}` : "";
   const unavailable = failed || lost || !ready;
 
@@ -1517,7 +1528,7 @@ export function ClothesRack({
             transition: open ? "opacity 0.25s ease-out, backdrop-filter 0.25s ease-out, -webkit-backdrop-filter 0.25s ease-out" : "opacity 0.15s linear, backdrop-filter 0.15s linear, -webkit-backdrop-filter 0.15s linear",
           }}
         />
-        <div ref={stageRef} className="absolute inset-0" style={{ opacity: 0, filter: dark ? "drop-shadow(0 28px 36px rgba(0,0,0,0.55))" : "drop-shadow(0 1px 1.5px rgba(15,23,42,0.16)) drop-shadow(0 28px 36px rgba(15,23,42,0.14))" }} />
+        <div ref={stageRef} className="absolute inset-0" style={{ opacity: 0, visibility: hasProductImages ? "hidden" : "visible", filter: dark ? "drop-shadow(0 28px 36px rgba(0,0,0,0.55))" : "drop-shadow(0 1px 1.5px rgba(15,23,42,0.16)) drop-shadow(0 28px 36px rgba(15,23,42,0.14))" }} />
         <div className="absolute inset-0" style={{ opacity: open ? 1 : 0, transition: open ? "opacity 0.25s ease-out" : "opacity 0.15s linear" }}>
           <button
             type="button"
@@ -1529,6 +1540,86 @@ export function ClothesRack({
               <path d="M2 2L10 10M10 2L2 10" />
             </svg>
           </button>
+          {hasProductImages ? (
+            <section
+              aria-label={`${shown?.name ?? "Garment"} product details`}
+              className="absolute inset-x-3 top-1/2 mx-auto grid max-h-[88dvh] w-auto max-w-5xl -translate-y-1/2 grid-cols-1 overflow-y-auto rounded-2xl border border-(--cr-line) bg-(--cr-paper) text-left shadow-[0_24px_80px_rgba(0,0,0,0.16)] sm:inset-x-8 md:grid-cols-[minmax(0,1.15fr)_minmax(260px,0.85fr)]"
+            >
+              <div className="relative min-h-72 bg-[color-mix(in_srgb,var(--cr-ink)_3%,var(--cr-paper))] sm:min-h-[min(74dvh,680px)]">
+                {productImage ? (
+                  <Image
+                    key={`${detailIndex}-${photoSide}-${productImage}`}
+                    src={productImage}
+                    alt={`${shown?.name ?? "Garment"} — ${photoSide === "front" ? "front" : "back"}`}
+                    fill
+                    priority
+                    sizes="(max-width: 768px) 100vw, 55vw"
+                    className="object-contain p-8 sm:p-12"
+                  />
+                ) : null}
+                {hasBackImage ? (
+                  <>
+                    <button
+                      type="button"
+                      aria-label="Show previous product image"
+                      onClick={() => setPhotoSide((side) => (side === "front" ? "back" : "front"))}
+                      className={`${keycap(false)} left-3`}
+                      style={{ top: "50%" }}
+                    >
+                      <svg {...arrowProps}>
+                        <path d="M19 12H5M11 6l-6 6 6 6" />
+                      </svg>
+                    </button>
+                    <button
+                      type="button"
+                      aria-label="Show next product image"
+                      onClick={() => setPhotoSide((side) => (side === "front" ? "back" : "front"))}
+                      className={`${keycap(false)} right-3`}
+                      style={{ top: "50%" }}
+                    >
+                      <svg {...arrowProps}>
+                        <path d="M5 12h14M13 6l6 6-6 6" />
+                      </svg>
+                    </button>
+                    <div className="absolute inset-x-0 bottom-4 flex justify-center gap-2">
+                      {(["front", "back"] as const).map((side) => (
+                        <button
+                          key={side}
+                          type="button"
+                          aria-pressed={photoSide === side}
+                          onClick={() => setPhotoSide(side)}
+                          className={`rounded-full border px-3 py-1.5 text-xs transition-colors ${photoSide === side ? "border-(--cr-ink) bg-(--cr-ink) text-(--cr-paper)" : "border-(--cr-line) bg-(--cr-paper) text-(--cr-ink)"}`}
+                        >
+                          {side === "front" ? "Front" : "Back"}
+                        </button>
+                      ))}
+                    </div>
+                  </>
+                ) : null}
+              </div>
+              <div className="flex flex-col p-6 sm:p-8">
+                <p className="mb-3 text-xs tracking-[0.12em] text-(--cr-grey)">
+                  {String(detailIndex + 1).padStart(2, "0")} / {String(names.length).padStart(2, "0")}
+                </p>
+                <h3 className="m-0 text-2xl font-normal leading-tight tracking-[-0.02em] text-(--cr-ink) sm:text-3xl">
+                  {shown?.name}
+                </h3>
+                {shown?.details?.length ? (
+                  <dl className="mt-7 divide-y divide-(--cr-line)">
+                    {shown.details.map(({ label, value }, index) => (
+                      <div key={`${label}-${index}`} className="flex items-start justify-between gap-5 py-3 text-sm">
+                        <dt className="text-(--cr-grey)">{label}</dt>
+                        <dd className="m-0 text-right text-(--cr-ink)">{value}</dd>
+                      </div>
+                    ))}
+                  </dl>
+                ) : null}
+                <button type="button" onClick={() => select(detailIndex)} className={`${pill} mt-auto self-start`}>
+                  See availability
+                </button>
+              </div>
+            </section>
+          ) : null}
           {names.length > 1 ? (
             <>
               <button
@@ -1563,7 +1654,7 @@ export function ClothesRack({
               </button>
             </>
           ) : null}
-          <div className="absolute inset-x-0 bottom-[5%] z-[2] flex flex-col items-center gap-2 px-4 text-center">
+          {!hasProductImages ? <div className="absolute inset-x-0 bottom-[5%] z-[2] flex flex-col items-center gap-2 px-4 text-center">
             <span className="text-[13px] text-(--cr-grey)" style={{ fontVariantNumeric: "tabular-nums" }}>
               {String(detailIndex + 1).padStart(2, "0")} / {String(names.length).padStart(2, "0")}
             </span>
@@ -1571,7 +1662,7 @@ export function ClothesRack({
             <button type="button" onClick={() => select(detailIndex)} className={pill}>
               See availability
             </button>
-          </div>
+          </div> : null}
         </div>
       </div>
     </div>
