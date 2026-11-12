@@ -40,16 +40,28 @@ By hand:
 ## Usage
 
 ```tsx
-import { ClothesRack } from "@/components/dimaac/clothes-rack";
+import { ClothesRack, type ClothesRackItem } from "@/components/dimaac/clothes-rack";
 
-<ClothesRack />
+const items: ClothesRackItem[] = [
+  {
+    name: "Sevilla FC Jersey — Vargas #11",
+    kind: "tee",
+    colour: "#f2f1ed",
+    image: "/products/vargas-front.png",
+    backImage: "/products/vargas-back.png",
+  },
+];
+
+<ClothesRack items={items} />
 ```
+
+Put transparent, tightly cropped garment images in `public/` and pass their public URLs. They are used as the garment itself, not as a print on generated cloth. `image` is the front view; `backImage` is the reverse view and defaults to `image`.
 
 ## Props
 
 | Prop | Type | Default | Description |
 | --- | --- | --- | --- |
-| `items` | `ClothesRackItem[]` | `defaultItems` | The garments on the rail, in order. Defaults to ten garments of our own design: eight tees, a crewneck and a shirt. |
+| `items` | `ClothesRackItem[]` | `defaultItems` | The garments on the rail, in order. Each item can include transparent `image` and `backImage` product images. Defaults to ten garments of our own design: eight tees, a crewneck and a shirt. |
 | `restAngle` | `number` | `80` | How far each garment is turned away at rest, in degrees. 90 would be edge-on. Default 80. |
 | `gap` | `number` | `7` | The clear air between side-on garments, as a percentage of a garment's body width. Default 7. |
 | `activeScale` | `number` | `1` | How much the facing garment grows, from 1 (not at all) to 1.2. Default 1. |
@@ -341,6 +353,8 @@ export function ClothesRack({
       renderer = new THREE.WebGLRenderer({ canvas, antialias: true, alpha: true, powerPreference: "high-performance" });
     } catch {
       canvas.remove();
+      // Renderer setup can fail synchronously when WebGL is unavailable.
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setFailed(true);
       return;
     }
@@ -374,7 +388,7 @@ export function ClothesRack({
 
     // ----- the rack scene -----
     const fabricScans = texturesRef.current ?? {};
-    const wardrobe: Wardrobe = createWardrobe(renderer, fabricScans);
+    const wardrobe: Wardrobe = createWardrobe(renderer, fabricScans, () => refreshRef.current?.());
     const scene = new THREE.Scene();
     // the light goes in once the textures have settled (see buildSome)
     const camera = new THREE.PerspectiveCamera(FOV, 1, 0.1, 80);
@@ -910,7 +924,7 @@ export function ClothesRack({
       // the stage is drawn in passes (solid garments, then each fading one), so it is cleared by hand
       r.autoClear = false;
       c.addEventListener("webglcontextlost", onDetailLost);
-      const w = createWardrobe(r, fabricScans);
+      const w = createWardrobe(r, fabricScans, () => refreshRef.current?.());
       const sc = new THREE.Scene();
       sc.environment = w.environment;
       w.addLights(sc);
@@ -1165,6 +1179,8 @@ export function ClothesRack({
       openRef.current = false;
       closing = true;
       setOpen(false);
+      window.clearTimeout(pressTimer.current);
+      setPressed(null);
       window.clearTimeout(hideTimer);
       hideRack(-1);
       // Under the fade the rack shows the garment that was last shown, facing
@@ -1352,7 +1368,6 @@ export function ClothesRack({
       setStageOn(false);
     };
     // The scene is rebuilt only when the garments themselves change
-    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [itemsKey, texturesKey, generation]);
 
   // Focus moves into the dialog on open and back to the garment on close
@@ -1374,13 +1389,6 @@ export function ClothesRack({
     pressTimer.current = window.setTimeout(() => setPressed(null), wait);
   };
   useEffect(() => () => window.clearTimeout(pressTimer.current), []);
-  // Closing the detail view clears a key that was still showing as pressed, and its timer
-  useEffect(() => {
-    if (!open) {
-      window.clearTimeout(pressTimer.current);
-      setPressed(null);
-    }
-  }, [open]);
 
   // While the detail view is open the page behind is out of reach: keys are handled here, wherever focus is,
   // and Tab cycles through the dialog's own buttons
@@ -1820,6 +1828,7 @@ export const DRAPES: Record<"tee" | "crewneck" | "shirt", DrapeData> = {
 // round the neck, and a colour texture drawn on a canvas in the pattern's own coordinates (the fabric, the
 // stitching and the print), so a print sits on the chest the way it was placed on the flat pattern. The vertex shader
 // bends the cloth with the rows of cloth-motion.ts while the garment moves.
+// Items with transparent image cutouts use the photo itself as the garment surface, attached to the same hanger.
 //
 // Units: the rail's centre line is the x axis at y = 0, z = 0. A garment hangs about 0.85 units below the rail and
 // its front faces +z when its turn group has rotation.y = 0. The hook is a swivel: it stays across the rail while
@@ -1851,8 +1860,10 @@ export type GarmentSpec = {
   /** The fabric colour, as a hex string. */
   colour: string;
   print?: GarmentPrint;
-  /** A transparent PNG or WebP drawn over the front panel instead of the print. */
+  /** Transparent garment cutout used as the front of the item, not as a print on generated cloth. */
   image?: string;
+  /** Transparent garment cutout used on the reverse. Defaults to image. */
+  backImage?: string;
 };
 
 export type HangerFinish = "wood" | "black" | "chrome";
@@ -1914,7 +1925,7 @@ export type Rail = {
 
 export type Wardrobe = {
   /** fadeable: the garment's materials are made so it can fade in and out with setPass (the detail view's swaps). */
-  garment(spec: GarmentSpec, hanger: HangerFinish, options?: { fadeable?: boolean }): Garment;
+  garment(spec: GarmentSpec, hanger: HangerFinish, options?: { fadeable?: boolean; onImageLoad?: () => void }): Garment;
   rail(length: number, finish: RailFinish): Rail;
   /** The light the cloth is seen in: the studio when one was given and has loaded, else a plain room. Set it as
    * scene.environment once `ready` has settled. */
@@ -2325,6 +2336,47 @@ function canvas(w: number, h: number) {
   return c;
 }
 
+function photoTexture(image: HTMLImageElement) {
+  const probeScale = Math.min(1, 256 / image.width, 256 / image.height);
+  const probe = canvas(Math.max(1, Math.round(image.width * probeScale)), Math.max(1, Math.round(image.height * probeScale)));
+  const probeContext = probe.getContext("2d", { willReadFrequently: true });
+  if (!probeContext) throw new Error("Could not inspect garment image transparency.");
+  probeContext.drawImage(image, 0, 0, probe.width, probe.height);
+  const pixels = probeContext.getImageData(0, 0, probe.width, probe.height).data;
+  let left = probe.width;
+  let top = probe.height;
+  let right = -1;
+  let bottom = -1;
+  for (let y = 0; y < probe.height; y++) {
+    for (let x = 0; x < probe.width; x++) {
+      if (pixels[(y * probe.width + x) * 4 + 3]! <= 8) continue;
+      left = Math.min(left, x);
+      top = Math.min(top, y);
+      right = Math.max(right, x);
+      bottom = Math.max(bottom, y);
+    }
+  }
+  if (right < left || bottom < top) throw new Error("Garment image has no visible pixels.");
+
+  const padding = 2;
+  const sourceLeft = Math.max(0, Math.floor((left - padding) / probeScale));
+  const sourceTop = Math.max(0, Math.floor((top - padding) / probeScale));
+  const sourceRight = Math.min(image.width, Math.ceil((right + padding + 1) / probeScale));
+  const sourceBottom = Math.min(image.height, Math.ceil((bottom + padding + 1) / probeScale));
+  const sourceWidth = sourceRight - sourceLeft;
+  const sourceHeight = sourceBottom - sourceTop;
+  const outputScale = Math.min(1, 2048 / sourceWidth, 2048 / sourceHeight);
+  const cropped = canvas(Math.max(1, Math.round(sourceWidth * outputScale)), Math.max(1, Math.round(sourceHeight * outputScale)));
+  const context = cropped.getContext("2d");
+  if (!context) throw new Error("Could not prepare garment image texture.");
+  context.drawImage(image, sourceLeft, sourceTop, sourceWidth, sourceHeight, 0, 0, cropped.width, cropped.height);
+
+  const texture = new THREE.CanvasTexture(cropped);
+  texture.colorSpace = THREE.SRGBColorSpace;
+  texture.anisotropy = 8;
+  return { texture, width: sourceWidth, height: sourceHeight };
+}
+
 function parse(hex: string) {
   return new THREE.Color(hex);
 }
@@ -2725,7 +2777,7 @@ function fabricTexture(spec: GarmentSpec, p: Pattern, box: Box, front: boolean, 
       ctx.stroke();
     }
   }
-  if (front && spec.print) drawPrint(ctx, spec.print, kind, p, box, colour);
+  if (front && spec.print && !spec.image) drawPrint(ctx, spec.print, kind, p, box, colour);
   const tex = new THREE.CanvasTexture(c);
   tex.colorSpace = THREE.SRGBColorSpace;
   tex.anisotropy = 8;
@@ -3183,7 +3235,11 @@ function releaseKind(kind: GarmentKind) {
 
 // ---------------------------------------------------------------- the wardrobe
 
-export function createWardrobe(renderer: THREE.WebGLRenderer, textures: GarmentTextures = {}): Wardrobe {
+export function createWardrobe(
+  renderer: THREE.WebGLRenderer,
+  textures: GarmentTextures = {},
+  onImageLoad?: () => void,
+): Wardrobe {
   const pmrem = new THREE.PMREMGenerator(renderer);
   const room = new RoomEnvironment();
   const roomLight = pmrem.fromScene(room, 0.04).texture;
@@ -3286,89 +3342,128 @@ export function createWardrobe(renderer: THREE.WebGLRenderer, textures: GarmentT
     });
   }
 
-  function garment(spec: GarmentSpec, hangerFinish: HangerFinish, options: { fadeable?: boolean } = {}): Garment {
+  function garment(
+    spec: GarmentSpec,
+    hangerFinish: HangerFinish,
+    options: { fadeable?: boolean; onImageLoad?: () => void } = {},
+  ): Garment {
     const k = parts(spec.kind);
     const fabric = fabrics.get(spec.kind)!;
+    const dimensions = { ...k.size };
+    const photoMode = Boolean(spec.image || spec.backImage);
+    const photoWidths: number[] = [];
     const object = new THREE.Group();
     const turn = new THREE.Group();
     object.add(turn);
     const own: { dispose(): void }[] = [];
 
-    const frontMap = fabricTexture(spec, k.pattern, k.box, true, !fabric.body.scanned);
-    const backMap = fabricTexture(spec, k.pattern, k.box, false, !fabric.body.scanned);
-    own.push(frontMap, backMap);
-    // upload now, while this garment is being built, instead of all twenty textures in the first frame
-    renderer.initTexture(frontMap);
-    renderer.initTexture(backMap);
     let gone = false;
-    if (spec.image) {
-      new THREE.TextureLoader().load(
-        spec.image,
-        (t) => {
-          if (gone) {
-            t.dispose();
-            return;
-          }
-          t.colorSpace = THREE.SRGBColorSpace;
-          frontMat.map = t;
-          frontMat.needsUpdate = true;
-          own.push(t);
-        },
-        undefined,
-        // a photo that fails to load leaves the drawn fabric in place
-        () => {},
-      );
-    }
-    const fleece = spec.kind === "crewneck";
-    const light = lum(spec.colour);
-    // the inside of the cloth is in the garment's own shadow: on white it has to read clearly darker, or a sleeve
-    // opening or the open hem looks like more of the outside
-    const flow: FlowUniforms = {
-      uTwist: { value: new Float32Array(CLOTH_ROWS + 1) },
-      uSway: { value: new Float32Array(CLOTH_ROWS + 1) },
-      uSwayAxis: { value: new THREE.Vector2(1, 0) },
-      // the rows run from just under the hanger's arms to the hem
-      uRows: { value: new THREE.Vector2(-0.2, Math.max(0.2, k.size.height - 0.2)) },
-      uRipple: { value: 0 },
-      uTime: { value: 0 },
-      // garments are made side-on on the rail, sleeves down
-      uHang: { value: HANG_AT_REST },
-      uAO: { value: light > 0.6 ? 2.1 : light > 0.25 ? 1.3 : 1 },
-      uInside: { value: light > 0.6 ? 0.74 : light > 0.25 ? 0.6 : 0.62 },
-      // heather: strong on a grey marl, the faintest unevenness on any other colour, as dyed cotton has
-      uGrain: { value: scans.heatherGrain ?? flatGrain },
-      uGrainAmt: { value: scans.heatherGrain ? (isMarl(spec.colour) ? 0.42 : 0.06) : 0 },
-    };
-    const frontMat = cloth(frontMap, fabric.body, spec.colour, fleece);
-    const backMat = cloth(backMap, fabric.body, spec.colour, fleece);
-    own.push(frontMat, backMat);
-    const folds: Folds = { box: k.box, pattern: k.pattern, strength: fleece ? 0.005 : 0.004 };
-    addFlow(frontMat, flow, false, folds);
-    addFlow(backMat, flow, false, folds);
-    turn.add(new THREE.Mesh(k.front, frontMat), new THREE.Mesh(k.back, backMat));
-    const sleeveMap = sleeveTexture(spec, k.sleeveSize, !fabric.sleeve.scanned);
-    own.push(sleeveMap);
-    renderer.initTexture(sleeveMap);
-    const sleeveMat = cloth(sleeveMap, fabric.sleeve, spec.colour, fleece);
-    own.push(sleeveMat);
-    addFlow(sleeveMat, flow, true);
-    k.sleeves.forEach((g) => turn.add(new THREE.Mesh(g, sleeveMat)));
+    let flow: FlowUniforms | null = null;
+    if (!photoMode) {
+      const frontMap = fabricTexture(spec, k.pattern, k.box, true, !fabric.body.scanned);
+      const backMap = fabricTexture(spec, k.pattern, k.box, false, !fabric.body.scanned);
+      own.push(frontMap, backMap);
+      // upload now, while this garment is being built, instead of all twenty textures in the first frame
+      renderer.initTexture(frontMap);
+      renderer.initTexture(backMap);
+      const fleece = spec.kind === "crewneck";
+      const light = lum(spec.colour);
+      // the inside of the cloth is in the garment's own shadow: on white it has to read clearly darker, or a sleeve
+      // opening or the open hem looks like more of the outside
+      const clothFlow: FlowUniforms = {
+        uTwist: { value: new Float32Array(CLOTH_ROWS + 1) },
+        uSway: { value: new Float32Array(CLOTH_ROWS + 1) },
+        uSwayAxis: { value: new THREE.Vector2(1, 0) },
+        // the rows run from just under the hanger's arms to the hem
+        uRows: { value: new THREE.Vector2(-0.2, Math.max(0.2, k.size.height - 0.2)) },
+        uRipple: { value: 0 },
+        uTime: { value: 0 },
+        // garments are made side-on on the rail, sleeves down
+        uHang: { value: HANG_AT_REST },
+        uAO: { value: light > 0.6 ? 2.1 : light > 0.25 ? 1.3 : 1 },
+        uInside: { value: light > 0.6 ? 0.74 : light > 0.25 ? 0.6 : 0.62 },
+        // heather: strong on a grey marl, the faintest unevenness on any other colour, as dyed cotton has
+        uGrain: { value: scans.heatherGrain ?? flatGrain },
+        uGrainAmt: { value: scans.heatherGrain ? (isMarl(spec.colour) ? 0.42 : 0.06) : 0 },
+      };
+      flow = clothFlow;
+      const frontMat = cloth(frontMap, fabric.body, spec.colour, fleece);
+      const backMat = cloth(backMap, fabric.body, spec.colour, fleece);
+      own.push(frontMat, backMat);
+      const folds: Folds = { box: k.box, pattern: k.pattern, strength: fleece ? 0.005 : 0.004 };
+      addFlow(frontMat, clothFlow, false, folds);
+      addFlow(backMat, clothFlow, false, folds);
+      turn.add(new THREE.Mesh(k.front, frontMat), new THREE.Mesh(k.back, backMat));
+      const sleeveMap = sleeveTexture(spec, k.sleeveSize, !fabric.sleeve.scanned);
+      own.push(sleeveMap);
+      renderer.initTexture(sleeveMap);
+      const sleeveMat = cloth(sleeveMap, fabric.sleeve, spec.colour, fleece);
+      own.push(sleeveMat);
+      addFlow(sleeveMat, clothFlow, true);
+      k.sleeves.forEach((g) => turn.add(new THREE.Mesh(g, sleeveMat)));
 
-    const dark = lum(spec.colour) < 0.12;
-    const collarMat = new THREE.MeshPhysicalMaterial({ color: dark ? spec.colour : shade(spec.colour, light > 0.8 ? -0.2 : -0.04), roughness: 0.92, sheen: dark ? 0.2 : 0.6, sheenRoughness: 0.75, sheenColor: parse(spec.colour).lerp(new THREE.Color(1, 1, 1), dark ? 0.1 : 0.4), normalMap: fabric.body.normal, normalScale: new THREE.Vector2(0.4, 0.4), specularIntensity: 0.25, envMap: studioLight ?? roomLight, envMapRotation: studioLight ? STUDIO_TURN : ROOM_TURN, envMapIntensity: studioLight ? 1.2 : 0.55 });
-    own.push(collarMat);
-    addFlow(collarMat, flow);
-    turn.add(new THREE.Mesh(k.collar, collarMat));
-    if (k.extras) {
-      // the collar is the body's own cloth (same print, same knit, same faint sheen), only a shade darker
-      const flapMat = cloth(frontMap, fabric.body, spec.colour, false);
-      own.push(flapMat);
-      addFlow(flapMat, flow);
-      const shirtButtons = buttonMat.clone();
-      own.push(shirtButtons);
-      addFlow(shirtButtons, flow);
-      k.extras.flaps.forEach((g) => turn.add(new THREE.Mesh(g, flapMat)));
-      k.extras.buttons.forEach((b) => turn.add(new THREE.Mesh(b, shirtButtons)));
+      const dark = lum(spec.colour) < 0.12;
+      const collarMat = new THREE.MeshPhysicalMaterial({ color: dark ? spec.colour : shade(spec.colour, light > 0.8 ? -0.2 : -0.04), roughness: 0.92, sheen: dark ? 0.2 : 0.6, sheenRoughness: 0.75, sheenColor: parse(spec.colour).lerp(new THREE.Color(1, 1, 1), dark ? 0.1 : 0.4), normalMap: fabric.body.normal, normalScale: new THREE.Vector2(0.4, 0.4), specularIntensity: 0.25, envMap: studioLight ?? roomLight, envMapRotation: studioLight ? STUDIO_TURN : ROOM_TURN, envMapIntensity: studioLight ? 1.2 : 0.55 });
+      own.push(collarMat);
+      addFlow(collarMat, clothFlow);
+      turn.add(new THREE.Mesh(k.collar, collarMat));
+      if (k.extras) {
+        // the collar is the body's own cloth (same print, same knit, same faint sheen), only a shade darker
+        const flapMat = cloth(frontMap, fabric.body, spec.colour, false);
+        own.push(flapMat);
+        addFlow(flapMat, clothFlow);
+        const shirtButtons = buttonMat.clone();
+        own.push(shirtButtons);
+        addFlow(shirtButtons, clothFlow);
+        k.extras.flaps.forEach((g) => turn.add(new THREE.Mesh(g, flapMat)));
+        k.extras.buttons.forEach((b) => turn.add(new THREE.Mesh(b, shirtButtons)));
+      }
+    }
+    if (photoMode) {
+      const photoHeight = Math.max(0.25, k.size.height - 0.08);
+      dimensions.depth = 0.025;
+      dimensions.height = photoHeight + 0.08;
+      const addPhoto = (url: string, back: boolean) => {
+        const material = new THREE.MeshBasicMaterial({
+          alphaTest: 0.015,
+          depthWrite: true,
+          side: THREE.FrontSide,
+          toneMapped: false,
+          transparent: true,
+        });
+        const mesh = new THREE.Mesh(new THREE.PlaneGeometry(1, 1), material);
+        mesh.visible = false;
+        mesh.position.set(0, -0.07 - photoHeight / 2, back ? -0.02 : 0.02);
+        if (back) mesh.rotation.y = Math.PI;
+        turn.add(mesh);
+        own.push(mesh.geometry, material);
+
+        new THREE.ImageLoader().load(
+          url,
+          (image) => {
+            if (gone) return;
+            try {
+              const photo = photoTexture(image);
+              const width = (photoHeight * photo.width) / photo.height;
+              material.map = photo.texture;
+              material.needsUpdate = true;
+              mesh.scale.set(width, photoHeight, 1);
+              mesh.visible = true;
+              photoWidths.push(width);
+              dimensions.width = Math.max(...photoWidths);
+              renderer.initTexture(photo.texture);
+              own.push(photo.texture);
+              (options.onImageLoad ?? onImageLoad)?.();
+            } catch (error) {
+              console.error(`Could not prepare garment image: ${url}`, error);
+            }
+          },
+          undefined,
+          (error) => console.error(`Could not load garment image: ${url}`, error),
+        );
+      };
+      addPhoto(spec.image ?? spec.backImage!, false);
+      addPhoto(spec.backImage ?? spec.image!, true);
     }
 
     // a lacquered finish: a clear coat over the wood, so the hanger catches a crisp highlight like the real thing
@@ -3393,20 +3488,25 @@ export function createWardrobe(renderer: THREE.WebGLRenderer, textures: GarmentT
       object,
       turn,
       hook,
-      ...k.size,
+      get width() { return dimensions.width; },
+      get bodyWidth() { return dimensions.bodyWidth; },
+      get depth() { return dimensions.depth; },
+      get height() { return dimensions.height; },
       setCloth(c) {
-        flow.uTwist.value.set(c.twist);
-        flow.uSway.value.set(c.sway);
-        flow.uRipple.value = c.ripple;
-        flow.uTime.value = c.time;
+        const clothFlow = flow;
+        if (!clothFlow) return;
+        clothFlow.uTwist.value.set(c.twist);
+        clothFlow.uSway.value.set(c.sway);
+        clothFlow.uRipple.value = c.ripple;
+        clothFlow.uTime.value = c.time;
         // the sway is along the rail, but the cloth bends in the garment's own frame, which is turned by
         // turn.rotation.y: the rail's direction seen from inside the garment
         const th = turn.rotation.y;
-        flow.uSwayAxis.value.set(Math.cos(th), Math.sin(th));
+        clothFlow.uSwayAxis.value.set(Math.cos(th), Math.sin(th));
         // side-on on the rail the sleeves hang half way down (all the way down they read as flat slabs, fully open as
         // pouches sticking out); they open fully within about 20 degrees of facing you
         const a = Math.min(1, Math.max(0, (Math.abs(th) - 0.35) / 0.9));
-        flow.uHang.value = HANG_AT_REST * a * a * (3 - 2 * a);
+        clothFlow.uHang.value = HANG_AT_REST * a * a * (3 - 2 * a);
       },
       setPass(pass, opacity = 1) {
         if (!options.fadeable) return;

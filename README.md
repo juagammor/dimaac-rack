@@ -21,4 +21,20 @@ import { ClothesRack } from "@/components/dimaac/clothes-rack";
 <ClothesRack />;
 ```
 
+Each garment can use transparent cutout photos as its front and back; the photo becomes the garment rather than a print on generated cloth. Put tightly cropped images in `public/` and use their public URLs:
+
+```tsx
+const items: ClothesRackItem[] = [
+  {
+    name: "Sevilla FC Jersey — Vargas #11",
+    kind: "tee",
+    colour: "#f2f1ed",
+    image: "/products/vargas-front.png",
+    backImage: "/products/vargas-back.png",
+  },
+];
+
+<ClothesRack items={items} />;
+```
+
 See [`install.md`](./install.md) for the full component documentation, props, and source.

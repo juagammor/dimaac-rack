@@ -296,7 +296,7 @@ export function ClothesRack({
 
     // ----- the rack scene -----
     const fabricScans = texturesRef.current ?? {};
-    const wardrobe: Wardrobe = createWardrobe(renderer, fabricScans);
+    const wardrobe: Wardrobe = createWardrobe(renderer, fabricScans, () => refreshRef.current?.());
     const scene = new THREE.Scene();
     // the light goes in once the textures have settled (see buildSome)
     const camera = new THREE.PerspectiveCamera(FOV, 1, 0.1, 80);
@@ -832,7 +832,7 @@ export function ClothesRack({
       // the stage is drawn in passes (solid garments, then each fading one), so it is cleared by hand
       r.autoClear = false;
       c.addEventListener("webglcontextlost", onDetailLost);
-      const w = createWardrobe(r, fabricScans);
+      const w = createWardrobe(r, fabricScans, () => refreshRef.current?.());
       const sc = new THREE.Scene();
       sc.environment = w.environment;
       w.addLights(sc);
