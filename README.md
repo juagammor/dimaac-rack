@@ -45,7 +45,7 @@ const items: ClothesRackItem[] = [
 <ClothesRack items={items} />;
 ```
 
-Open the page with `?season=2025-2026` to show only products from that season. Without the parameter, all catalog items are shown.
+The home page lists every distinct season in the catalog. Selecting one opens `/rack?season=2025-2026`, showing only products from that season. Visiting `/rack` without the parameter shows all catalog items.
 
 See [`install.md`](./install.md) for the full component documentation, props, and source.
 
