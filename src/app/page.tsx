@@ -1,41 +1,30 @@
+import { Suspense } from "react";
 import { ClothesRack, type ClothesRackItem } from "@/components/dimaac/clothes-rack";
+import catalogData from "@/data/products.json";
 
-const items: ClothesRackItem[] = [
-  {
-    name: "Sevilla FC Jersey — Vargas #11",
-    kind: "tee",
-    colour: "#f2f1ed",
-    image: "/products/vargas-back.png",
-    imageFront: "/products/vargas-front.png",
-    imageBack: "/products/vargas-back.png",
-    details: [
-      { label: "Player", value: "Rubén Vargas" },
-      { label: "Club", value: "Sevilla FC" },
-      { label: "Competition", value: "LaLiga" },
-      { label: "Season", value: "2025–2026" },
-      { label: "Type", value: "First" },
-      { label: "Estilo", value: "Preparada" }
-    ],
-  },
-  {
-    name: "Sevilla FC Jersey — Oso #36",
-    kind: "tee",
-    colour: "#000000",
-    image: "/products/oso_back.png",
-    imageFront: "/products/oso_front.png",
-    imageBack: "/products/oso_back.png",
-    details: [
-      { label: "Player", value: "Joaquin Martinez Gauna 'Oso'" },
-      { label: "Club", value: "Sevilla FC" },
-      { label: "Competition", value: "LaLiga" },
-      { label: "Season", value: "2025–2026" },
-      { label: "Type", value: "Third" },
-      { label: "Estilo", value: "MW" }
-    ],
+type SeasonalClothesRackItem = ClothesRackItem & { season: string };
+
+function isGarmentKind(kind: string): kind is ClothesRackItem["kind"] {
+  return kind === "tee" || kind === "crewneck" || kind === "shirt";
+}
+
+const catalog: SeasonalClothesRackItem[] = catalogData.map((item) => {
+  if (!isGarmentKind(item.kind)) {
+    throw new Error(`Unknown garment kind "${item.kind}" in the product catalog.`);
   }
-];
 
-export default function Home() {
+  return { ...item, kind: item.kind };
+});
+
+async function SeasonalHome({
+  searchParams,
+}: {
+  searchParams: Promise<{ season?: string | string[] }>;
+}) {
+  const { season: seasonParam } = await searchParams;
+  const season = Array.isArray(seasonParam) ? seasonParam[0] : seasonParam;
+  const items = season ? catalog.filter((item) => item.season === season) : catalog;
+
   return (
     <main className="relative h-dvh min-h-[36rem] overflow-hidden bg-[#FAFAFA] text-[#0A0A0A] dark:bg-[#0B0B0C] dark:text-[#F5F5F5]">
       <header className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-center justify-between px-6 pt-6 text-[13px] text-[#6B7280] sm:px-[4%] dark:text-[#8B8F98]">
@@ -47,7 +36,9 @@ export default function Home() {
 
       <footer className="pointer-events-none absolute inset-x-0 bottom-0 z-10 flex items-end justify-between px-6 pb-6 text-[12px] text-[#6B7280] sm:px-[4%] dark:text-[#8B8F98]">
         <p className="max-w-56 leading-relaxed sm:max-w-xs">
-          {items.length} {items.length === 1 ? "piece" : "pieces"} on the rail.
+          {items.length > 0
+            ? `${items.length} ${items.length === 1 ? "piece" : "pieces"} on the rail.`
+            : `No pieces found${season ? ` for season ${season}` : ""}.`}
           <br />
           Move through the collection.
         </p>
@@ -58,5 +49,23 @@ export default function Home() {
         </p>
       </footer>
     </main>
+  );
+}
+
+export default function Home({
+  searchParams,
+}: {
+  searchParams: Promise<{ season?: string | string[] }>;
+}) {
+  return (
+    <Suspense
+      fallback={
+        <main className="flex h-dvh min-h-[36rem] items-center justify-center bg-[#FAFAFA] text-[#6B7280] dark:bg-[#0B0B0C] dark:text-[#8B8F98]">
+          Loading collection…
+        </main>
+      }
+    >
+      <SeasonalHome searchParams={searchParams} />
+    </Suspense>
   );
 }

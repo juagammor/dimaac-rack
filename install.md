@@ -488,8 +488,8 @@ export function ClothesRack({
       // The lowest hem (facing garment, grown) must leave room for the pill under it, even on a short box
       const roomBelow = Math.max(0.2, (view.height - 84) / view.height - view.railAt);
       const natural = Math.max(tallest() / s.size, (s.activeScale * tallest()) / roomBelow);
-      // like the reference, the rail spans about 78% of a wide box, with clear page either side
-      const fit = view.railLength / (0.78 * view.aspect);
+      // Keep a little clear page either side while giving the rail more room on wide boxes
+      const fit = view.railLength / (0.85 * view.aspect);
       // Fit the whole rail when that is a reasonable zoom (wide boxes, tablets); a phone keeps the garments big and pans
       // Tall boxes (tablets) zoom out at most 1.5x and pan a little; phones stay big and pan
       view.hw = fit > natural && (view.aspect >= 1.2 || fit <= natural * 3) ? (view.aspect < 1.2 ? clamp(fit, natural, 1.5 * natural) : fit) : natural;

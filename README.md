@@ -21,7 +21,7 @@ import { ClothesRack } from "@/components/dimaac/clothes-rack";
 <ClothesRack />;
 ```
 
-Each item has separate images for the rack and detail card: `image` is the transparent cutout shown on the rack, while `imageFront` and `imageBack` are the front and back photos in the detail card. Put the images in `public/` and use their public URLs:
+The product catalog lives in [`src/data/products.json`](./src/data/products.json). Each item has separate images for the rack and detail card: `image` is the transparent cutout shown on the rack, while `imageFront` and `imageBack` are the front and back photos in the detail card. `season` is a separate catalog field used for filtering; the visible Season row remains in `details`. Put the images in `public/` and use their public URLs:
 
 ```tsx
 const items: ClothesRackItem[] = [
@@ -32,6 +32,7 @@ const items: ClothesRackItem[] = [
     image: "/products/vargas-front.png",
     imageFront: "/products/vargas-front.png",
     imageBack: "/products/vargas-back.png",
+    season: "2025-2026",
     details: [
       { label: "Player", value: "Rubén Vargas" },
       { label: "Club", value: "Sevilla FC" },
@@ -43,6 +44,8 @@ const items: ClothesRackItem[] = [
 
 <ClothesRack items={items} />;
 ```
+
+Open the page with `?season=2025-2026` to show only products from that season. Without the parameter, all catalog items are shown.
 
 See [`install.md`](./install.md) for the full component documentation, props, and source.
 
