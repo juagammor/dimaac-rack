@@ -1,103 +1,6074 @@
 [
-  {
-    "name": "Sevilla FC Jersey — Vargas #11",
-    "kind": "tee",
-    "image": "/products/vargas-back.png",
-    "imageFront": "/products/vargas-front.png",
-    "imageBack": "/products/vargas-back.png",
-    "season": "2025-2026",
-    "details": [
-      { "label": "Player", "value": "Rubén Vargas" },
-      { "label": "Club", "value": "Sevilla FC" },
-      { "label": "Competition", "value": "LaLiga" },
-      { "label": "Season", "value": "2025–2026" },
-      { "label": "Type", "value": "First" },
-      { "label": "Estilo", "value": "Preparada" }
-    ]
-  },
-  {
-    "name": "Sevilla FC Jersey — Oso #36",
-    "kind": "tee",
-    "colour": "#000000",
-    "image": "/products/oso_back.png",
-    "imageFront": "/products/oso_front.png",
-    "imageBack": "/products/oso_back.png",
-    "season": "2025-2026",
-    "details": [
-      { "label": "Player", "value": "Joaquin Martinez Gauna 'Oso'" },
-      { "label": "Club", "value": "Sevilla FC" },
-      { "label": "Competition", "value": "LaLiga" },
-      { "label": "Season", "value": "2025–2026" },
-      { "label": "Type", "value": "Third" },
-      { "label": "Estilo", "value": "MW" }
-    ]
-  },
-  {
-    "name": "Sevilla FC Jersey — Luis Gil #15",
-    "kind": "tee",
-    "colour": "#ff2c2c",
-    "image": "/products/LUISGIL_BACK.png",
-    "imageFront": "/products/LUISGIL_FRONT.png",
-    "imageBack": "/products/LUISGIL_BACK.png",
-    "season": "2001-2002",
-    "details": [
-      { "label": "Player", "value": "Luis Gil" },
-      { "label": "Club", "value": "Sevilla FC" },
-      { "label": "Competition", "value": "LaLiga" },
-      { "label": "Season", "value": "2001-2002" },
-      { "label": "Type", "value": "Second" },
-      { "label": "Estilo", "value": "MW" }
-    ]
-  },
-  {
-    "name": "Sevilla FC Jersey — Jesús Navas #7",
-    "kind": "tee",
-    "colour": "#ff2c2c",
-    "image": "/products/NAVAS_BACK.png",
-    "imageFront": "/products/NAVAS_FRONT.png",
-    "imageBack": "/products/NAVAS_BACK.png",
-    "season": "2008-2009",
-    "details": [
-      { "label": "Player", "value": "Jesús Navas" },
-      { "label": "Club", "value": "Sevilla FC" },
-      { "label": "Competition", "value": "LaLiga" },
-      { "label": "Season", "value": "2008-2009" },
-      { "label": "Type", "value": "Third" },
-      { "label": "Estilo", "value": "Issued" }
-    ]
-  },
-  {
-    "name": "Sevilla FC Jersey — Jose Antonio Reyes #11",
-    "kind": "tee",
-    "colour": "#ff2c2c",
-    "image": "/products/REYES0203_BACK.png",
-    "imageFront": "/products/REYES0203_FRONT.png",
-    "imageBack": "/products/REYES0203_BACK.png",
-    "season": "2002-2003",
-    "details": [
-      { "label": "Player", "value": "Jose Antonio Reyes" },
-      { "label": "Club", "value": "Sevilla FC" },
-      { "label": "Competition", "value": "LaLiga" },
-      { "label": "Season", "value": "2002-2003" },
-      { "label": "Type", "value": "Second" },
-      { "label": "Estilo", "value": "Shop" }
-    ]
-  },
-  {
-    "name": "Sevilla FC Jersey — Moisés García León #16",
-    "kind": "tee",
-    "colour": "#ff2c2c",
-    "image": "/products/MOISES_BACK.png",
-    "imageFront": "/products/MOISES_FRONT.png",
-    "imageBack": "/products/MOISES_BACK.png",
-    "season": "2001-2002",
-    "details": [
-      { "label": "Player", "value": "Moisés García León" },
-      { "label": "Club", "value": "Sevilla FC" },
-      { "label": "Competition", "value": "LaLiga" },
-      { "label": "Season", "value": "2001-2002" },
-      { "label": "Type", "value": "First" },
-      { "label": "Estilo", "value": "MW" }
-    ]
-  }
+    {
+        "id": "509",
+        "name": "",
+        "image": "/products/jerseys/1992-1993-509/COPA_FRONT.png",
+        "imageFront": "/products/jerseys/1992-1993-509/COPA_FRONT.png",
+        "imageBack": "/products/jerseys/1992-1993-509/COPA_BACK.png",
+        "season": "1992-1993",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "1992-1993"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "R\u00e9plica"
+            },
+            {
+                "label": "Marca",
+                "value": "Copa"
+            }
+        ]
+    },
+    {
+        "id": "486",
+        "name": "",
+        "image": "/products/jerseys/1992-1993-486/FR_FRONT.png",
+        "imageFront": "/products/jerseys/1992-1993-486/FR_FRONT.png",
+        "imageBack": "/products/jerseys/1992-1993-486/FR_BACK.png",
+        "season": "1992-1993",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "1992-1993"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Front Runner"
+            }
+        ]
+    },
+    {
+        "id": "341",
+        "name": "",
+        "image": "/products/jerseys/1993-1994-341/HS_FRONT.png",
+        "imageFront": "/products/jerseys/1993-1994-341/HS_FRONT.png",
+        "imageBack": "/products/jerseys/1993-1994-341/HS_BACK.png",
+        "season": "1993-1994",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "1993-1994"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Hot Shots"
+            }
+        ]
+    },
+    {
+        "id": "426",
+        "name": "",
+        "image": "/products/jerseys/1994-1995-426/9495_FRONT.png",
+        "imageFront": "/products/jerseys/1994-1995-426/9495_FRONT.png",
+        "imageBack": "/products/jerseys/1994-1995-426/9495_BACK.png",
+        "season": "1994-1995",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "1994-1995"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Umbro"
+            }
+        ]
+    },
+    {
+        "id": "408",
+        "name": "Davor Suker #9",
+        "image": "/products/jerseys/1994-1996-408/SUKER_BACK.png",
+        "imageFront": "/products/jerseys/1994-1996-408/SUKER_FRONT.png",
+        "imageBack": "/products/jerseys/1994-1996-408/SUKER_BACK.png",
+        "season": "1994-1996",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "9"
+            },
+            {
+                "label": "Jugador",
+                "value": "Davor Suker"
+            },
+            {
+                "label": "Temporada",
+                "value": "1994-1996"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Umbro"
+            }
+        ]
+    },
+    {
+        "id": "529",
+        "name": "",
+        "image": "/products/jerseys/1995-1996-529/9596_FRONT.png",
+        "imageFront": "/products/jerseys/1995-1996-529/9596_FRONT.png",
+        "imageBack": "/products/jerseys/1995-1996-529/9596_BACK.png",
+        "season": "1995-1996",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "1995-1996"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Umbro"
+            }
+        ]
+    },
+    {
+        "id": "660",
+        "name": "Arturo Pav\u00f3n #29",
+        "image": "/products/jerseys/1996-1997-660/ARTURO_BACK.png",
+        "imageFront": "/products/jerseys/1996-1997-660/ARTURO_FRONT.png",
+        "imageBack": "/products/jerseys/1996-1997-660/ARTURO_BACK.png",
+        "season": "1996-1997",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "29"
+            },
+            {
+                "label": "Jugador",
+                "value": "Arturo Pav\u00f3n"
+            },
+            {
+                "label": "Temporada",
+                "value": "1996-1997"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "MW"
+            },
+            {
+                "label": "Marca",
+                "value": "Umbro"
+            }
+        ]
+    },
+    {
+        "id": "303",
+        "name": "",
+        "image": "/products/jerseys/1996-1997-303/HIBIC_BACK.png",
+        "imageFront": "/products/jerseys/1996-1997-303/HIBIC_FRONT.png",
+        "imageBack": "/products/jerseys/1996-1997-303/HIBIC_BACK.png",
+        "season": "1996-1997",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "23"
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "1996-1997"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Umbro"
+            }
+        ]
+    },
+    {
+        "id": "487",
+        "name": "Bebeto #19",
+        "image": "/products/jerseys/1996-1997-487/BEBETO_BACK.png",
+        "imageFront": "/products/jerseys/1996-1997-487/BEBETO_FRONT.png",
+        "imageBack": "/products/jerseys/1996-1997-487/BEBETO_BACK.png",
+        "season": "1996-1997",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "19"
+            },
+            {
+                "label": "Jugador",
+                "value": "Bebeto"
+            },
+            {
+                "label": "Temporada",
+                "value": "1996-1997"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Umbro"
+            }
+        ]
+    },
+    {
+        "id": "510",
+        "name": "",
+        "image": "/products/jerseys/1996-1997-510/9697_BACK.png",
+        "imageFront": "/products/jerseys/1996-1997-510/9697_FRONT.png",
+        "imageBack": "/products/jerseys/1996-1997-510/9697_BACK.png",
+        "season": "1996-1997",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "8"
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "1996-1997"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Umbro"
+            }
+        ]
+    },
+    {
+        "id": "677",
+        "name": "Fernando Mart\u00ednez \u2018Nando\u2019 #19",
+        "image": "/products/jerseys/1996-1997-677/NANDO_BACK.png",
+        "imageFront": "/products/jerseys/1996-1997-677/NANDO_FRONT.png",
+        "imageBack": "/products/jerseys/1996-1997-677/NANDO_BACK.png",
+        "season": "1996-1997",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "19"
+            },
+            {
+                "label": "Jugador",
+                "value": "Fernando Mart\u00ednez \u2018Nando\u2019"
+            },
+            {
+                "label": "Temporada",
+                "value": "1996-1997"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Umbro"
+            }
+        ]
+    },
+    {
+        "id": "561",
+        "name": "Mois\u00e9s Garc\u00eda Le\u00f3n #16",
+        "image": "/products/jerseys/2001-2002-561/MOISES_BACK.png",
+        "imageFront": "/products/jerseys/2001-2002-561/MOISES_FRONT.png",
+        "imageBack": "/products/jerseys/2001-2002-561/MOISES_BACK.png",
+        "season": "2001-2002",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "16"
+            },
+            {
+                "label": "Jugador",
+                "value": "Mois\u00e9s Garc\u00eda Le\u00f3n"
+            },
+            {
+                "label": "Temporada",
+                "value": "2001-2002"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "380",
+        "name": "Jos\u00e9 Antonio Reyes #11",
+        "image": "/products/jerseys/2002-2003-380/REYES_BACK.png",
+        "imageFront": "/products/jerseys/2002-2003-380/REYES_FRONT.png",
+        "imageBack": "/products/jerseys/2002-2003-380/REYES_BACK.png",
+        "season": "2002-2003",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "11"
+            },
+            {
+                "label": "Jugador",
+                "value": "Jos\u00e9 Antonio Reyes"
+            },
+            {
+                "label": "Temporada",
+                "value": "2002-2003"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "484",
+        "name": "Dar\u00edo Silva #4",
+        "image": "/products/jerseys/2003-2004-484/DARIO_BACK.png",
+        "imageFront": "/products/jerseys/2003-2004-484/DARIO_FRONT.png",
+        "imageBack": "/products/jerseys/2003-2004-484/DARIO_BACK.png",
+        "season": "2003-2004",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "4"
+            },
+            {
+                "label": "Jugador",
+                "value": "Dar\u00edo Silva"
+            },
+            {
+                "label": "Temporada",
+                "value": "2003-2004"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "397",
+        "name": "",
+        "image": "/products/jerseys/2003-2004-397/0304_FRONT.png",
+        "imageFront": "/products/jerseys/2003-2004-397/0304_FRONT.png",
+        "imageBack": "/products/jerseys/2003-2004-397/0304_BACK.png",
+        "season": "2003-2004",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2003-2004"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "378",
+        "name": "",
+        "image": "/products/jerseys/2004-2005-378/0405_FRONT.png",
+        "imageFront": "/products/jerseys/2004-2005-378/0405_FRONT.png",
+        "imageBack": "/products/jerseys/2004-2005-378/0405_BACK.png",
+        "season": "2004-2005",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2004-2005"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "504",
+        "name": "Javier Saviola #7",
+        "image": "/products/jerseys/2005-2006-504/SAVIOLA_BACK.png",
+        "imageFront": "/products/jerseys/2005-2006-504/SAVIOLA_FRONT.png",
+        "imageBack": "/products/jerseys/2005-2006-504/SAVIOLA_BACK.png",
+        "season": "2005-2006",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "7"
+            },
+            {
+                "label": "Jugador",
+                "value": "Javier Saviola"
+            },
+            {
+                "label": "Temporada",
+                "value": "2005-2006"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "305",
+        "name": "",
+        "image": "/products/jerseys/2005-2006-305/0506_FINAL_FRONT.png",
+        "imageFront": "/products/jerseys/2005-2006-305/0506_FINAL_FRONT.png",
+        "imageBack": "/products/jerseys/2005-2006-305/0506_FINAL_BACK.png",
+        "season": "2005-2006",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2005-2006"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "UEFA Europa League"
+            },
+            {
+                "label": "Ronda",
+                "value": "Final"
+            },
+            {
+                "label": "Rival",
+                "value": "Middlesbrough FC"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "519",
+        "name": "Enzo Maresca #25",
+        "image": "/products/jerseys/2005-2006-519/ENZO_BACK.png",
+        "imageFront": "/products/jerseys/2005-2006-519/ENZO_FRONT.png",
+        "imageBack": "/products/jerseys/2005-2006-519/ENZO_BACK.png",
+        "season": "2005-2006",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "25"
+            },
+            {
+                "label": "Jugador",
+                "value": "Enzo Maresca"
+            },
+            {
+                "label": "Temporada",
+                "value": "2005-2006"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "UEFA Europa League"
+            },
+            {
+                "label": "Ronda",
+                "value": "Final"
+            },
+            {
+                "label": "Rival",
+                "value": "Middlesbrough FC"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "R\u00e9plica"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "44",
+        "name": "Pep Mart\u00ed #18",
+        "image": "/products/jerseys/2006-2007-44/MARTI_BACK.png",
+        "imageFront": "/products/jerseys/2006-2007-44/MARTI_FRONT.png",
+        "imageBack": "/products/jerseys/2006-2007-44/MARTI_BACK.png",
+        "season": "2006-2007",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "18"
+            },
+            {
+                "label": "Jugador",
+                "value": "Pep Mart\u00ed"
+            },
+            {
+                "label": "Temporada",
+                "value": "2006-2007"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "UEFA SuperCup"
+            },
+            {
+                "label": "Ronda",
+                "value": "Final"
+            },
+            {
+                "label": "Rival",
+                "value": "FC Barcelona"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "R\u00e9plica"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "43",
+        "name": "",
+        "image": "/products/jerseys/2006-2007-43/0607CREY_FRONT.png",
+        "imageFront": "/products/jerseys/2006-2007-43/0607CREY_FRONT.png",
+        "imageBack": "/products/jerseys/2006-2007-43/0607CREY_BACK.png",
+        "season": "2006-2007",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2006-2007"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Copa del Rey"
+            },
+            {
+                "label": "Ronda",
+                "value": "Final"
+            },
+            {
+                "label": "Rival",
+                "value": "Getafe CF"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "471",
+        "name": "Christian Poulsen #8",
+        "image": "/products/jerseys/2006-2007-471/POULSEN_BACK.png",
+        "imageFront": "/products/jerseys/2006-2007-471/POULSEN_FRONT.png",
+        "imageBack": "/products/jerseys/2006-2007-471/POULSEN_BACK.png",
+        "season": "2006-2007",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "8"
+            },
+            {
+                "label": "Jugador",
+                "value": "Christian Poulsen"
+            },
+            {
+                "label": "Temporada",
+                "value": "2006-2007"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Tercera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "348",
+        "name": "Luis Fabiano #10",
+        "image": "/products/jerseys/2006-2007-348/LUISFAB_BACK.png",
+        "imageFront": "/products/jerseys/2006-2007-348/LUISFAB_FRONT.png",
+        "imageBack": "/products/jerseys/2006-2007-348/LUISFAB_BACK.png",
+        "season": "2006-2007",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "10"
+            },
+            {
+                "label": "Jugador",
+                "value": "Luis Fabiano"
+            },
+            {
+                "label": "Temporada",
+                "value": "2006-2007"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "UEFA Europa League"
+            },
+            {
+                "label": "Ronda",
+                "value": "Final"
+            },
+            {
+                "label": "Rival",
+                "value": "RCD Espanyol"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "130",
+        "name": "",
+        "image": "/products/jerseys/2006-2007-130/0607_FRONT.png",
+        "imageFront": "/products/jerseys/2006-2007-130/0607_FRONT.png",
+        "imageBack": "/products/jerseys/2006-2007-130/0607_BACK.png",
+        "season": "2006-2007",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2006-2007"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "UEFA Europa League"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "490",
+        "name": "Antonio Moreno #34",
+        "image": "/products/jerseys/2007-2008-490/MORENO_BACK.png",
+        "imageFront": "/products/jerseys/2007-2008-490/MORENO_FRONT.png",
+        "imageBack": "/products/jerseys/2007-2008-490/MORENO_BACK.png",
+        "season": "2007-2008",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "34"
+            },
+            {
+                "label": "Jugador",
+                "value": "Antonio Moreno"
+            },
+            {
+                "label": "Temporada",
+                "value": "2007-2008"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "670",
+        "name": "Aquivaldo Mosquera #15",
+        "image": "/products/jerseys/2007-2008-670/MOSQUERA_BACK.png",
+        "imageFront": "/products/jerseys/2007-2008-670/MOSQUERA_FRONT.png",
+        "imageBack": "/products/jerseys/2007-2008-670/MOSQUERA_BACK.png",
+        "season": "2007-2008",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "15"
+            },
+            {
+                "label": "Jugador",
+                "value": "Aquivaldo Mosquera"
+            },
+            {
+                "label": "Temporada",
+                "value": "2007-2008"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "MW?"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "122",
+        "name": "",
+        "image": "/products/jerseys/2007-2008-122/SUPERCUP_FRONT.png",
+        "imageFront": "/products/jerseys/2007-2008-122/SUPERCUP_FRONT.png",
+        "imageBack": "/products/jerseys/2007-2008-122/SUPERCUP_BACK.png",
+        "season": "2007-2008",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2007-2008"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "UEFA SuperCup"
+            },
+            {
+                "label": "Ronda",
+                "value": "Final"
+            },
+            {
+                "label": "Rival",
+                "value": "AC Milan"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "123",
+        "name": "",
+        "image": "/products/jerseys/2007-2008-123/CL_FRONT.png",
+        "imageFront": "/products/jerseys/2007-2008-123/CL_FRONT.png",
+        "imageBack": "/products/jerseys/2007-2008-123/CL_BACK.png",
+        "season": "2007-2008",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2007-2008"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Champions League"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "426",
+        "name": "",
+        "image": "/products/jerseys/2007-2008-426/0708CL_FRONT.png",
+        "imageFront": "/products/jerseys/2007-2008-426/0708CL_FRONT.png",
+        "imageBack": "/products/jerseys/2007-2008-426/0708CL_BACK.png",
+        "season": "2007-2008",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2007-2008"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Champions League"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "121",
+        "name": "",
+        "image": "/products/jerseys/2007-2008-121/0708B_FRONT.png",
+        "imageFront": "/products/jerseys/2007-2008-121/0708B_FRONT.png",
+        "imageBack": "/products/jerseys/2007-2008-121/0708B_BACK.png",
+        "season": "2007-2008",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2007-2008"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga 2 Divisi\u00f3n B"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "675",
+        "name": "Jes\u00fas Navas #7",
+        "image": "/products/jerseys/2008-2009-675/NAVAS_BACK.png",
+        "imageFront": "/products/jerseys/2008-2009-675/NAVAS_FRONT.png",
+        "imageBack": "/products/jerseys/2008-2009-675/NAVAS_BACK.png",
+        "season": "2008-2009",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "7"
+            },
+            {
+                "label": "Jugador",
+                "value": "Jes\u00fas Navas"
+            },
+            {
+                "label": "Temporada",
+                "value": "2008-2009"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Tercera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "387",
+        "name": "",
+        "image": "/products/jerseys/2008-2009-387/0809_FRONT.png",
+        "imageFront": "/products/jerseys/2008-2009-387/0809_FRONT.png",
+        "imageBack": "/products/jerseys/2008-2009-387/0809_BACK.png",
+        "season": "2008-2009",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2008-2009"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "181",
+        "name": "",
+        "image": "/products/jerseys/2009-2010-181/CREY0910_FRONT.png",
+        "imageFront": "/products/jerseys/2009-2010-181/CREY0910_FRONT.png",
+        "imageBack": "/products/jerseys/2009-2010-181/CREY0910_BACK.png",
+        "season": "2009-2010",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2009-2010"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Copa del Rey"
+            },
+            {
+                "label": "Ronda",
+                "value": "Final"
+            },
+            {
+                "label": "Rival",
+                "value": "Atl\u00e9tico Madrid"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "BNWT"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "112",
+        "name": "Diego Capel #16",
+        "image": "/products/jerseys/2009-2010-112/DCAPEL_BACK.png",
+        "imageFront": "/products/jerseys/2009-2010-112/DCAPEL_FRONT.png",
+        "imageBack": "/products/jerseys/2009-2010-112/DCAPEL_BACK.png",
+        "season": "2009-2010",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "16"
+            },
+            {
+                "label": "Jugador",
+                "value": "Diego Capel"
+            },
+            {
+                "label": "Temporada",
+                "value": "2009-2010"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Tercera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "132",
+        "name": "",
+        "image": "/products/jerseys/2009-2010-132/0910CL_FRONT.png",
+        "imageFront": "/products/jerseys/2009-2010-132/0910CL_FRONT.png",
+        "imageBack": "/products/jerseys/2009-2010-132/0910CL_BACK.png",
+        "season": "2009-2010",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2009-2010"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Champions League"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "485",
+        "name": "",
+        "image": "/products/jerseys/2009-2010-485/0910_FRONT.png",
+        "imageFront": "/products/jerseys/2009-2010-485/0910_FRONT.png",
+        "imageBack": "/products/jerseys/2009-2010-485/0910_BACK.png",
+        "season": "2009-2010",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2009-2010"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "388",
+        "name": "Antonio Luna #27",
+        "image": "/products/jerseys/2010-2011-388/LUNA_BACK.png",
+        "imageFront": "/products/jerseys/2010-2011-388/LUNA_FRONT.png",
+        "imageBack": "/products/jerseys/2010-2011-388/LUNA_BACK.png",
+        "season": "2010-2011",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "27"
+            },
+            {
+                "label": "Jugador",
+                "value": "Antonio Luna"
+            },
+            {
+                "label": "Temporada",
+                "value": "2010-2011"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "452",
+        "name": "",
+        "image": "/products/jerseys/2010-2011-452/1011_3_FRONT.png",
+        "imageFront": "/products/jerseys/2010-2011-452/1011_3_FRONT.png",
+        "imageBack": "/products/jerseys/2010-2011-452/1011_3_BACK.png",
+        "season": "2010-2011",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2010-2011"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Tercera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "676",
+        "name": "Sergio S\u00e1nchez #17",
+        "image": "/products/jerseys/2010-2011-676/SSANCHEZ_BACK.png",
+        "imageFront": "/products/jerseys/2010-2011-676/SSANCHEZ_FRONT.png",
+        "imageBack": "/products/jerseys/2010-2011-676/SSANCHEZ_BACK.png",
+        "season": "2010-2011",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "17"
+            },
+            {
+                "label": "Jugador",
+                "value": "Sergio S\u00e1nchez"
+            },
+            {
+                "label": "Temporada",
+                "value": "2010-2011"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "520",
+        "name": "Frederic Kanoute #12",
+        "image": "/products/jerseys/2010-2011-520/KANOUTE_BACK.png",
+        "imageFront": "/products/jerseys/2010-2011-520/KANOUTE_FRONT.png",
+        "imageBack": "/products/jerseys/2010-2011-520/KANOUTE_BACK.png",
+        "season": "2010-2011",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "12"
+            },
+            {
+                "label": "Jugador",
+                "value": "Frederic Kanoute"
+            },
+            {
+                "label": "Temporada",
+                "value": "2010-2011"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "UEFA Europa League"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "304",
+        "name": "",
+        "image": "/products/jerseys/2011-2012-304/1112FIRM_FRONT.png",
+        "imageFront": "/products/jerseys/2011-2012-304/1112FIRM_FRONT.png",
+        "imageBack": "/products/jerseys/2011-2012-304/1112FIRM_BACK.png",
+        "season": "2011-2012",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2011-2012"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "BNWT"
+            },
+            {
+                "label": "Marca",
+                "value": "LiNing"
+            }
+        ]
+    },
+    {
+        "id": "442",
+        "name": "\u00c1lvaro Negredo #9",
+        "image": "/products/jerseys/2011-2012-442/NEGREDO_BACK.png",
+        "imageFront": "/products/jerseys/2011-2012-442/NEGREDO_FRONT.png",
+        "imageBack": "/products/jerseys/2011-2012-442/NEGREDO_BACK.png",
+        "season": "2011-2012",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "9"
+            },
+            {
+                "label": "Jugador",
+                "value": "\u00c1lvaro Negredo"
+            },
+            {
+                "label": "Temporada",
+                "value": "2011-2012"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "UEFA Europa League"
+            },
+            {
+                "label": "Ronda",
+                "value": "Previa"
+            },
+            {
+                "label": "Rival",
+                "value": "Hannover 96"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "LiNing"
+            }
+        ]
+    },
+    {
+        "id": "216",
+        "name": "Piotr Trochowski #15",
+        "image": "/products/jerseys/2011-2012-216/TROCHO_BACK.png",
+        "imageFront": "/products/jerseys/2011-2012-216/TROCHO_FRONT.png",
+        "imageBack": "/products/jerseys/2011-2012-216/TROCHO_BACK.png",
+        "season": "2011-2012",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "15"
+            },
+            {
+                "label": "Jugador",
+                "value": "Piotr Trochowski"
+            },
+            {
+                "label": "Temporada",
+                "value": "2011-2012"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda?"
+            },
+            {
+                "label": "Marca",
+                "value": "LiNing"
+            }
+        ]
+    },
+    {
+        "id": "441",
+        "name": "",
+        "image": "/products/jerseys/2011-2012-441/1112EURO_FRONT.png",
+        "imageFront": "/products/jerseys/2011-2012-441/1112EURO_FRONT.png",
+        "imageBack": "/products/jerseys/2011-2012-441/1112EURO_BACK.png",
+        "season": "2011-2012",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2011-2012"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "UEFA Europa League"
+            },
+            {
+                "label": "Ronda",
+                "value": "Previa"
+            },
+            {
+                "label": "Rival",
+                "value": "Hannover 96"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "LiNing"
+            }
+        ]
+    },
+    {
+        "id": "331",
+        "name": "Marco Manche\u00f1o #26",
+        "image": "/products/jerseys/2011-2012-331/MARCO_BACK.png",
+        "imageFront": "/products/jerseys/2011-2012-331/MARCO_FRONT.png",
+        "imageBack": "/products/jerseys/2011-2012-331/MARCO_BACK.png",
+        "season": "2011-2012",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "26"
+            },
+            {
+                "label": "Jugador",
+                "value": "Marco Manche\u00f1o"
+            },
+            {
+                "label": "Temporada",
+                "value": "2011-2012"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga 2 Divisi\u00f3n B"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "LiNing"
+            }
+        ]
+    },
+    {
+        "id": "542",
+        "name": "Iv\u00e1n Rakitic #11",
+        "image": "/products/jerseys/2011-2012-542/RAKITIC_BACK.png",
+        "imageFront": "/products/jerseys/2011-2012-542/RAKITIC_FRONT.png",
+        "imageBack": "/products/jerseys/2011-2012-542/RAKITIC_BACK.png",
+        "season": "2011-2012",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "11"
+            },
+            {
+                "label": "Jugador",
+                "value": "Iv\u00e1n Rakitic"
+            },
+            {
+                "label": "Temporada",
+                "value": "2011-2012"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Tercera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "LiNing"
+            }
+        ]
+    },
+    {
+        "id": "674",
+        "name": "Julien Escud\u00e9 #14",
+        "image": "/products/jerseys/2011-2012-674/ESCUDE_BACK.png",
+        "imageFront": "/products/jerseys/2011-2012-674/ESCUDE_FRONT.png",
+        "imageBack": "/products/jerseys/2011-2012-674/ESCUDE_BACK.png",
+        "season": "2011-2012",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "14"
+            },
+            {
+                "label": "Jugador",
+                "value": "Julien Escud\u00e9"
+            },
+            {
+                "label": "Temporada",
+                "value": "2011-2012"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "UEFA Europa League"
+            },
+            {
+                "label": "Ronda",
+                "value": "Previa"
+            },
+            {
+                "label": "Rival",
+                "value": "Hannover 96"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "LiNing"
+            }
+        ]
+    },
+    {
+        "id": "382",
+        "name": "",
+        "image": "/products/jerseys/2013-2014-382/TURIN_FRONT.png",
+        "imageFront": "/products/jerseys/2013-2014-382/TURIN_FRONT.png",
+        "imageBack": "/products/jerseys/2013-2014-382/TURIN_BACK.png",
+        "season": "2013-2014",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2013-2014"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "UEFA Europa League"
+            },
+            {
+                "label": "Ronda",
+                "value": "Final"
+            },
+            {
+                "label": "Rival",
+                "value": "SL Benfica"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Warrior"
+            }
+        ]
+    },
+    {
+        "id": "406",
+        "name": "",
+        "image": "/products/jerseys/2013-2014-406/1314_FRONT.png",
+        "imageFront": "/products/jerseys/2013-2014-406/1314_FRONT.png",
+        "imageBack": "/products/jerseys/2013-2014-406/1314_BACK.png",
+        "season": "2013-2014",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2013-2014"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Warrior"
+            }
+        ]
+    },
+    {
+        "id": "407",
+        "name": "",
+        "image": "/products/jerseys/2013-2014-407/1314_3_FRONT.png",
+        "imageFront": "/products/jerseys/2013-2014-407/1314_3_FRONT.png",
+        "imageBack": "/products/jerseys/2013-2014-407/1314_3_BACK.png",
+        "season": "2013-2014",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2013-2014"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Tercera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Warrior"
+            }
+        ]
+    },
+    {
+        "id": "673",
+        "name": "Juanje Arg\u00fcez #31",
+        "image": "/products/jerseys/2014-2015-673/JUANJE_BACK.png",
+        "imageFront": "/products/jerseys/2014-2015-673/JUANJE_FRONT.png",
+        "imageBack": "/products/jerseys/2014-2015-673/JUANJE_BACK.png",
+        "season": "2014-2015",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "31"
+            },
+            {
+                "label": "Jugador",
+                "value": "Juanje Arg\u00fcez"
+            },
+            {
+                "label": "Temporada",
+                "value": "2014-2015"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Tercera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Warrior"
+            }
+        ]
+    },
+    {
+        "id": "663",
+        "name": "Mariano Barbosa #25",
+        "image": "/products/jerseys/2014-2015-663/BARBOSA_BACK.png",
+        "imageFront": "/products/jerseys/2014-2015-663/BARBOSA_FRONT.png",
+        "imageBack": "/products/jerseys/2014-2015-663/BARBOSA_BACK.png",
+        "season": "2014-2015",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "25"
+            },
+            {
+                "label": "Jugador",
+                "value": "Mariano Barbosa"
+            },
+            {
+                "label": "Temporada",
+                "value": "2014-2015"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Portero"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Warrior"
+            }
+        ]
+    },
+    {
+        "id": "455",
+        "name": "Grzegorz Krychowiak  #4",
+        "image": "/products/jerseys/2014-2015-455/KRYCHO_BACK.png",
+        "imageFront": "/products/jerseys/2014-2015-455/KRYCHO_FRONT.png",
+        "imageBack": "/products/jerseys/2014-2015-455/KRYCHO_BACK.png",
+        "season": "2014-2015",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "4"
+            },
+            {
+                "label": "Jugador",
+                "value": "Grzegorz Krychowiak "
+            },
+            {
+                "label": "Temporada",
+                "value": "2014-2015"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "UEFA Europa League"
+            },
+            {
+                "label": "Ronda",
+                "value": "Final"
+            },
+            {
+                "label": "Rival",
+                "value": "Dnipro"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "New Balance"
+            }
+        ]
+    },
+    {
+        "id": "445",
+        "name": "",
+        "image": "/products/jerseys/2014-2015-445/1415_UEL_FRONT.png",
+        "imageFront": "/products/jerseys/2014-2015-445/1415_UEL_FRONT.png",
+        "imageBack": "/products/jerseys/2014-2015-445/1415_UEL_BACK.png",
+        "season": "2014-2015",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2014-2015"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "UEFA Europa League"
+            },
+            {
+                "label": "Ronda",
+                "value": "Octavos de Final \u2013 Ida"
+            },
+            {
+                "label": "Rival",
+                "value": "Villarreal CF"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Warrior"
+            }
+        ]
+    },
+    {
+        "id": "479",
+        "name": "Daniel Carri\u00e7o #6",
+        "image": "/products/jerseys/2015-2016-479/CARRICO_BACK.png",
+        "imageFront": "/products/jerseys/2015-2016-479/CARRICO_FRONT.png",
+        "imageBack": "/products/jerseys/2015-2016-479/CARRICO_BACK.png",
+        "season": "2015-2016",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "6"
+            },
+            {
+                "label": "Jugador",
+                "value": "Daniel Carri\u00e7o"
+            },
+            {
+                "label": "Temporada",
+                "value": "2015-2016"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Copa del Rey"
+            },
+            {
+                "label": "Ronda",
+                "value": "Final"
+            },
+            {
+                "label": "Rival",
+                "value": "FC Barcelona"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "BNWT"
+            },
+            {
+                "label": "Marca",
+                "value": "New Balance"
+            }
+        ]
+    },
+    {
+        "id": "463",
+        "name": "Yevhen Konoplyanka #22",
+        "image": "/products/jerseys/2015-2016-463/KONO_BACK.png",
+        "imageFront": "/products/jerseys/2015-2016-463/KONO_FRONT.png",
+        "imageBack": "/products/jerseys/2015-2016-463/KONO_BACK.png",
+        "season": "2015-2016",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "22"
+            },
+            {
+                "label": "Jugador",
+                "value": "Yevhen Konoplyanka"
+            },
+            {
+                "label": "Temporada",
+                "value": "2015-2016"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Champions League"
+            },
+            {
+                "label": "Ronda",
+                "value": "J2"
+            },
+            {
+                "label": "Rival",
+                "value": "Juventus Tur\u00edn"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "New Balance"
+            }
+        ]
+    },
+    {
+        "id": "477",
+        "name": "Jos\u00e9 Antonio Reyes #10",
+        "image": "/products/jerseys/2015-2016-477/REYES_BACK.png",
+        "imageFront": "/products/jerseys/2015-2016-477/REYES_FRONT.png",
+        "imageBack": "/products/jerseys/2015-2016-477/REYES_BACK.png",
+        "season": "2015-2016",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "10"
+            },
+            {
+                "label": "Jugador",
+                "value": "Jos\u00e9 Antonio Reyes"
+            },
+            {
+                "label": "Temporada",
+                "value": "2015-2016"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "UEFA Europa League"
+            },
+            {
+                "label": "Ronda",
+                "value": "Final"
+            },
+            {
+                "label": "Rival",
+                "value": "Liverpool"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "New Balance"
+            }
+        ]
+    },
+    {
+        "id": "513",
+        "name": "Juan Soriano #35",
+        "image": "/products/jerseys/2016-2017-513/SORIANO_BACK.png",
+        "imageFront": "/products/jerseys/2016-2017-513/SORIANO_FRONT.png",
+        "imageBack": "/products/jerseys/2016-2017-513/SORIANO_BACK.png",
+        "season": "2016-2017",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "35"
+            },
+            {
+                "label": "Jugador",
+                "value": "Juan Soriano"
+            },
+            {
+                "label": "Temporada",
+                "value": "2016-2017"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Portero"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "New Balance"
+            }
+        ]
+    },
+    {
+        "id": "518",
+        "name": "Stevan Jovetic #16",
+        "image": "/products/jerseys/2016-2017-518/JOVETIC_BACK.png",
+        "imageFront": "/products/jerseys/2016-2017-518/JOVETIC_FRONT.png",
+        "imageBack": "/products/jerseys/2016-2017-518/JOVETIC_BACK.png",
+        "season": "2016-2017",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "16"
+            },
+            {
+                "label": "Jugador",
+                "value": "Stevan Jovetic"
+            },
+            {
+                "label": "Temporada",
+                "value": "2016-2017"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "New Balance"
+            }
+        ]
+    },
+    {
+        "id": "492",
+        "name": "V\u00edctor Mach\u00edn \u2018Vitolo\u2019 #20",
+        "image": "/products/jerseys/2016-2017-492/VITOLO_BACK.png",
+        "imageFront": "/products/jerseys/2016-2017-492/VITOLO_FRONT.png",
+        "imageBack": "/products/jerseys/2016-2017-492/VITOLO_BACK.png",
+        "season": "2016-2017",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "20"
+            },
+            {
+                "label": "Jugador",
+                "value": "V\u00edctor Mach\u00edn \u2018Vitolo\u2019"
+            },
+            {
+                "label": "Temporada",
+                "value": "2016-2017"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Tercera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "New Balance"
+            }
+        ]
+    },
+    {
+        "id": "489",
+        "name": "",
+        "image": "/products/jerseys/2016-2017-489/1617_FRONT.png",
+        "imageFront": "/products/jerseys/2016-2017-489/1617_FRONT.png",
+        "imageBack": "/products/jerseys/2016-2017-489/1617_BACK.png",
+        "season": "2016-2017",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2016-2017"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "BNWT"
+            },
+            {
+                "label": "Marca",
+                "value": "New Balance"
+            }
+        ]
+    },
+    {
+        "id": "498",
+        "name": "Franco V\u00e1zquez #22",
+        "image": "/products/jerseys/2017-2018-498/FRANCO_BACK.png",
+        "imageFront": "/products/jerseys/2017-2018-498/FRANCO_FRONT.png",
+        "imageBack": "/products/jerseys/2017-2018-498/FRANCO_BACK.png",
+        "season": "2017-2018",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "22"
+            },
+            {
+                "label": "Jugador",
+                "value": "Franco V\u00e1zquez"
+            },
+            {
+                "label": "Temporada",
+                "value": "2017-2018"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Copa del Rey"
+            },
+            {
+                "label": "Ronda",
+                "value": "Final"
+            },
+            {
+                "label": "Rival",
+                "value": "FC Barcelona"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "New Balance"
+            }
+        ]
+    },
+    {
+        "id": "493",
+        "name": "Franco V\u00e1zquez #22",
+        "image": "/products/jerseys/2017-2018-493/FRANCO_BACK.png",
+        "imageFront": "/products/jerseys/2017-2018-493/FRANCO_FRONT.png",
+        "imageBack": "/products/jerseys/2017-2018-493/FRANCO_BACK.png",
+        "season": "2017-2018",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "22"
+            },
+            {
+                "label": "Jugador",
+                "value": "Franco V\u00e1zquez"
+            },
+            {
+                "label": "Temporada",
+                "value": "2017-2018"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Champions League"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Tercera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "New Balance"
+            }
+        ]
+    },
+    {
+        "id": "494",
+        "name": "Johannes Geis #12",
+        "image": "/products/jerseys/2017-2018-494/GEIS_BACK.png",
+        "imageFront": "/products/jerseys/2017-2018-494/GEIS_FRONT.png",
+        "imageBack": "/products/jerseys/2017-2018-494/GEIS_BACK.png",
+        "season": "2017-2018",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "12"
+            },
+            {
+                "label": "Jugador",
+                "value": "Johannes Geis"
+            },
+            {
+                "label": "Temporada",
+                "value": "2017-2018"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Champions League"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "New Balance"
+            }
+        ]
+    },
+    {
+        "id": "496",
+        "name": "Gabriel Mercado #25",
+        "image": "/products/jerseys/2017-2018-496/MERCADO_BACK.png",
+        "imageFront": "/products/jerseys/2017-2018-496/MERCADO_FRONT.png",
+        "imageBack": "/products/jerseys/2017-2018-496/MERCADO_BACK.png",
+        "season": "2017-2018",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "25"
+            },
+            {
+                "label": "Jugador",
+                "value": "Gabriel Mercado"
+            },
+            {
+                "label": "Temporada",
+                "value": "2017-2018"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Tercera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "New Balance"
+            }
+        ]
+    },
+    {
+        "id": "497",
+        "name": "Borja Lasso #23",
+        "image": "/products/jerseys/2017-2018-497/LASSO_BACK.png",
+        "imageFront": "/products/jerseys/2017-2018-497/LASSO_FRONT.png",
+        "imageBack": "/products/jerseys/2017-2018-497/LASSO_BACK.png",
+        "season": "2017-2018",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "23"
+            },
+            {
+                "label": "Jugador",
+                "value": "Borja Lasso"
+            },
+            {
+                "label": "Temporada",
+                "value": "2017-2018"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Champions League"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "New Balance"
+            }
+        ]
+    },
+    {
+        "id": "511",
+        "name": "Alejandro Pozo #31",
+        "image": "/products/jerseys/2017-2018-511/POZO_BACK.png",
+        "imageFront": "/products/jerseys/2017-2018-511/POZO_FRONT.png",
+        "imageBack": "/products/jerseys/2017-2018-511/POZO_BACK.png",
+        "season": "2017-2018",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "31"
+            },
+            {
+                "label": "Jugador",
+                "value": "Alejandro Pozo"
+            },
+            {
+                "label": "Temporada",
+                "value": "2017-2018"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "New Balance"
+            }
+        ]
+    },
+    {
+        "id": "512",
+        "name": "David Soria #13",
+        "image": "/products/jerseys/2017-2018-512/SORIA_BACK.png",
+        "imageFront": "/products/jerseys/2017-2018-512/SORIA_FRONT.png",
+        "imageBack": "/products/jerseys/2017-2018-512/SORIA_BACK.png",
+        "season": "2017-2018",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "13"
+            },
+            {
+                "label": "Jugador",
+                "value": "David Soria"
+            },
+            {
+                "label": "Temporada",
+                "value": "2017-2018"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Champions League"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Portero"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "New Balance"
+            }
+        ]
+    },
+    {
+        "id": "505",
+        "name": "Andr\u00e9 Silva #12",
+        "image": "/products/jerseys/2018-2019-505/ASILVA_BACK.png",
+        "imageFront": "/products/jerseys/2018-2019-505/ASILVA_FRONT.png",
+        "imageBack": "/products/jerseys/2018-2019-505/ASILVA_BACK.png",
+        "season": "2018-2019",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "12"
+            },
+            {
+                "label": "Jugador",
+                "value": "Andr\u00e9 Silva"
+            },
+            {
+                "label": "Temporada",
+                "value": "2018-2019"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "UEFA Europa League"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Nike"
+            }
+        ]
+    },
+    {
+        "id": "506",
+        "name": "",
+        "image": "/products/jerseys/2018-2019-506/1819_2_FRONT.png",
+        "imageFront": "/products/jerseys/2018-2019-506/1819_2_FRONT.png",
+        "imageBack": "/products/jerseys/2018-2019-506/1819_2_BACK.png",
+        "season": "2018-2019",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2018-2019"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Nike"
+            }
+        ]
+    },
+    {
+        "id": "507",
+        "name": "",
+        "image": "/products/jerseys/2018-2019-507/1819_3_FRONT.png",
+        "imageFront": "/products/jerseys/2018-2019-507/1819_3_FRONT.png",
+        "imageBack": "/products/jerseys/2018-2019-507/1819_3_BACK.png",
+        "season": "2018-2019",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2018-2019"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Tercera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Nike"
+            }
+        ]
+    },
+    {
+        "id": "508",
+        "name": "",
+        "image": "/products/jerseys/2018-2019-508/1819_SAT_BACK.png",
+        "imageFront": "/products/jerseys/2018-2019-508/1819_SAT_FRONT.png",
+        "imageBack": "/products/jerseys/2018-2019-508/1819_SAT_BACK.png",
+        "season": "2018-2019",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "20"
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2018-2019"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga 2 Divisi\u00f3n B"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Nike"
+            }
+        ]
+    },
+    {
+        "id": "541",
+        "name": "Diego Carlos #20",
+        "image": "/products/jerseys/2019-2020-541/DC_BACK.png",
+        "imageFront": "/products/jerseys/2019-2020-541/DC_FRONT.png",
+        "imageBack": "/products/jerseys/2019-2020-541/DC_BACK.png",
+        "season": "2019-2020",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "20"
+            },
+            {
+                "label": "Jugador",
+                "value": "Diego Carlos"
+            },
+            {
+                "label": "Temporada",
+                "value": "2019-2020"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J31"
+            },
+            {
+                "label": "Rival",
+                "value": "Villarreal CF"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Tercera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "NIKE"
+            }
+        ]
+    },
+    {
+        "id": "527",
+        "name": "Diego Carlos #20",
+        "image": "/products/jerseys/2019-2020-527/DC_BACK.png",
+        "imageFront": "/products/jerseys/2019-2020-527/DC_FRONT.png",
+        "imageBack": "/products/jerseys/2019-2020-527/DC_BACK.png",
+        "season": "2019-2020",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "20"
+            },
+            {
+                "label": "Jugador",
+                "value": "Diego Carlos"
+            },
+            {
+                "label": "Temporada",
+                "value": "2019-2020"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "BNWT"
+            },
+            {
+                "label": "Marca",
+                "value": "NIKE"
+            }
+        ]
+    },
+    {
+        "id": "539",
+        "name": "Jes\u00fas Navas #16",
+        "image": "/products/jerseys/2019-2020-539/NAVAS_BACK.png",
+        "imageFront": "/products/jerseys/2019-2020-539/NAVAS_FRONT.png",
+        "imageBack": "/products/jerseys/2019-2020-539/NAVAS_BACK.png",
+        "season": "2019-2020",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "16"
+            },
+            {
+                "label": "Jugador",
+                "value": "Jes\u00fas Navas"
+            },
+            {
+                "label": "Temporada",
+                "value": "2019-2020"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J28"
+            },
+            {
+                "label": "Rival",
+                "value": "Real Betis Balompi\u00e9"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "NIKE"
+            }
+        ]
+    },
+    {
+        "id": "528",
+        "name": "",
+        "image": "/products/jerseys/2019-2020-528/1920BLACK_FRONT.png",
+        "imageFront": "/products/jerseys/2019-2020-528/1920BLACK_FRONT.png",
+        "imageBack": "/products/jerseys/2019-2020-528/1920BLACK_BACK.png",
+        "season": "2019-2020",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": ""
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2019-2020"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Cuarta"
+            },
+            {
+                "label": "Tipo",
+                "value": "BNWT"
+            },
+            {
+                "label": "Marca",
+                "value": "NIKE"
+            }
+        ]
+    },
+    {
+        "id": "665",
+        "name": "Sergio Escudero #18",
+        "image": "/products/jerseys/2019-2020-665/ESCUDERO_BACK.png",
+        "imageFront": "/products/jerseys/2019-2020-665/ESCUDERO_FRONT.png",
+        "imageBack": "/products/jerseys/2019-2020-665/ESCUDERO_BACK.png",
+        "season": "2019-2020",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "18"
+            },
+            {
+                "label": "Jugador",
+                "value": "Sergio Escudero"
+            },
+            {
+                "label": "Temporada",
+                "value": "2019-2020"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J21"
+            },
+            {
+                "label": "Rival",
+                "value": "Granada CF"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "NIKE"
+            }
+        ]
+    },
+    {
+        "id": "544",
+        "name": "Genaro Rodr\u00edguez #36",
+        "image": "/products/jerseys/2019-2020-544/GENARO_BACK.png",
+        "imageFront": "/products/jerseys/2019-2020-544/GENARO_FRONT.png",
+        "imageBack": "/products/jerseys/2019-2020-544/GENARO_BACK.png",
+        "season": "2019-2020",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "36"
+            },
+            {
+                "label": "Jugador",
+                "value": "Genaro Rodr\u00edguez"
+            },
+            {
+                "label": "Temporada",
+                "value": "2019-2020"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "UEFA Europa League"
+            },
+            {
+                "label": "Ronda",
+                "value": "Final"
+            },
+            {
+                "label": "Rival",
+                "value": "FC Internazionale"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "NIKE"
+            }
+        ]
+    },
+    {
+        "id": "568",
+        "name": "Alejandro 'Papu' G\u00f3mez #24",
+        "image": "/products/jerseys/2020-2021-568/PAPU_BACK.png",
+        "imageFront": "/products/jerseys/2020-2021-568/PAPU_FRONT.png",
+        "imageBack": "/products/jerseys/2020-2021-568/PAPU_BACK.png",
+        "season": "2020-2021",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "24"
+            },
+            {
+                "label": "Jugador",
+                "value": "Alejandro 'Papu' G\u00f3mez"
+            },
+            {
+                "label": "Temporada",
+                "value": "2020-2021"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J23"
+            },
+            {
+                "label": "Rival",
+                "value": "CD Huesca"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "NIKE"
+            }
+        ]
+    },
+    {
+        "id": "569",
+        "name": "Youssef En-Nesyri #15",
+        "image": "/products/jerseys/2020-2021-569/YEN_BACK.png",
+        "imageFront": "/products/jerseys/2020-2021-569/YEN_FRONT.png",
+        "imageBack": "/products/jerseys/2020-2021-569/YEN_BACK.png",
+        "season": "2020-2021",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "15"
+            },
+            {
+                "label": "Jugador",
+                "value": "Youssef En-Nesyri"
+            },
+            {
+                "label": "Temporada",
+                "value": "2020-2021"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Copa del Rey"
+            },
+            {
+                "label": "Ronda",
+                "value": "Cuartos de Final"
+            },
+            {
+                "label": "Rival",
+                "value": "UD Almer\u00eda"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Tercera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "NIKE"
+            }
+        ]
+    },
+    {
+        "id": "570",
+        "name": "Yassine Bono #13",
+        "image": "/products/jerseys/2020-2021-570/BONO_BACK.png",
+        "imageFront": "/products/jerseys/2020-2021-570/BONO_FRONT.png",
+        "imageBack": "/products/jerseys/2020-2021-570/BONO_BACK.png",
+        "season": "2020-2021",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "13"
+            },
+            {
+                "label": "Jugador",
+                "value": "Yassine Bono"
+            },
+            {
+                "label": "Temporada",
+                "value": "2020-2021"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Portero"
+            },
+            {
+                "label": "Tipo",
+                "value": "BNWT"
+            },
+            {
+                "label": "Marca",
+                "value": "NIKE"
+            }
+        ]
+    },
+    {
+        "id": "584",
+        "name": "\u00d3liver Torres #21",
+        "image": "/products/jerseys/2020-2021-584/OLIVER_BACK.png",
+        "imageFront": "/products/jerseys/2020-2021-584/OLIVER_FRONT.png",
+        "imageBack": "/products/jerseys/2020-2021-584/OLIVER_BACK.png",
+        "season": "2020-2021",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "21"
+            },
+            {
+                "label": "Jugador",
+                "value": "\u00d3liver Torres"
+            },
+            {
+                "label": "Temporada",
+                "value": "2020-2021"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Champions League"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "NIKE"
+            }
+        ]
+    },
+    {
+        "id": "586",
+        "name": "Jes\u00fas Navas #16",
+        "image": "/products/jerseys/2020-2021-586/NAVAS_BACK.png",
+        "imageFront": "/products/jerseys/2020-2021-586/NAVAS_FRONT.png",
+        "imageBack": "/products/jerseys/2020-2021-586/NAVAS_BACK.png",
+        "season": "2020-2021",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "16"
+            },
+            {
+                "label": "Jugador",
+                "value": "Jes\u00fas Navas"
+            },
+            {
+                "label": "Temporada",
+                "value": "2020-2021"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "UEFA SuperCup"
+            },
+            {
+                "label": "Ronda",
+                "value": "Final"
+            },
+            {
+                "label": "Rival",
+                "value": "Bayern Munchen"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "NIKE"
+            }
+        ]
+    },
+    {
+        "id": "557",
+        "name": "Lucas Ocampos #5",
+        "image": "/products/jerseys/2020-2021-557/OCAMPOS_BACK.png",
+        "imageFront": "/products/jerseys/2020-2021-557/OCAMPOS_FRONT.png",
+        "imageBack": "/products/jerseys/2020-2021-557/OCAMPOS_BACK.png",
+        "season": "2020-2021",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "5"
+            },
+            {
+                "label": "Jugador",
+                "value": "Lucas Ocampos"
+            },
+            {
+                "label": "Temporada",
+                "value": "2020-2021"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J8"
+            },
+            {
+                "label": "Rival",
+                "value": "Athletic Bilbao"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Tercera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "NIKE"
+            }
+        ]
+    },
+    {
+        "id": "562",
+        "name": "Jules Kounde #12",
+        "image": "/products/jerseys/2020-2021-562/KOUNDE_BACK.png",
+        "imageFront": "/products/jerseys/2020-2021-562/KOUNDE_FRONT.png",
+        "imageBack": "/products/jerseys/2020-2021-562/KOUNDE_BACK.png",
+        "season": "2020-2021",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "12"
+            },
+            {
+                "label": "Jugador",
+                "value": "Jules Kounde"
+            },
+            {
+                "label": "Temporada",
+                "value": "2020-2021"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J15"
+            },
+            {
+                "label": "Rival",
+                "value": "Valencia CF"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "NIKE"
+            }
+        ]
+    },
+    {
+        "id": "602",
+        "name": "Alejandro 'Papu' G\u00f3mez #24",
+        "image": "/products/jerseys/2021-2022-602/PAPU_BACK.png",
+        "imageFront": "/products/jerseys/2021-2022-602/PAPU_FRONT.png",
+        "imageBack": "/products/jerseys/2021-2022-602/PAPU_BACK.png",
+        "season": "2021-2022",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "24"
+            },
+            {
+                "label": "Jugador",
+                "value": "Alejandro 'Papu' G\u00f3mez"
+            },
+            {
+                "label": "Temporada",
+                "value": "2021-2022"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J3"
+            },
+            {
+                "label": "Rival",
+                "value": "Elche CF"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Tercera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "NIKE"
+            }
+        ]
+    },
+    {
+        "id": "615",
+        "name": "Joan Jord\u00e1n #8",
+        "image": "/products/jerseys/2021-2022-615/JORDAN_BACK.png",
+        "imageFront": "/products/jerseys/2021-2022-615/JORDAN_FRONT.png",
+        "imageBack": "/products/jerseys/2021-2022-615/JORDAN_BACK.png",
+        "season": "2021-2022",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "8"
+            },
+            {
+                "label": "Jugador",
+                "value": "Joan Jord\u00e1n"
+            },
+            {
+                "label": "Temporada",
+                "value": "2021-2022"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "UEFA Europa League"
+            },
+            {
+                "label": "Ronda",
+                "value": "Octavos de Final \u2013 Ida"
+            },
+            {
+                "label": "Rival",
+                "value": "West Ham United"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "NIKE"
+            }
+        ]
+    },
+    {
+        "id": "610",
+        "name": "Lucas Ocampos #5",
+        "image": "/products/jerseys/2021-2022-610/OCAMPOS_BACK.png",
+        "imageFront": "/products/jerseys/2021-2022-610/OCAMPOS_FRONT.png",
+        "imageBack": "/products/jerseys/2021-2022-610/OCAMPOS_BACK.png",
+        "season": "2021-2022",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "5"
+            },
+            {
+                "label": "Jugador",
+                "value": "Lucas Ocampos"
+            },
+            {
+                "label": "Temporada",
+                "value": "2021-2022"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Copa del Rey"
+            },
+            {
+                "label": "Ronda",
+                "value": "Octavos de Final"
+            },
+            {
+                "label": "Rival",
+                "value": "Real Betis Balompi\u00e9"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "NIKE"
+            }
+        ]
+    },
+    {
+        "id": "638",
+        "name": "Fernando Reges #25",
+        "image": "/products/jerseys/2021-2022-638/FERNANDO_BACK.png",
+        "imageFront": "/products/jerseys/2021-2022-638/FERNANDO_FRONT.png",
+        "imageBack": "/products/jerseys/2021-2022-638/FERNANDO_BACK.png",
+        "season": "2021-2022",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "25"
+            },
+            {
+                "label": "Jugador",
+                "value": "Fernando Reges"
+            },
+            {
+                "label": "Temporada",
+                "value": "2021-2022"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J25"
+            },
+            {
+                "label": "Rival",
+                "value": "RCD Espanyol"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "NIKE"
+            }
+        ]
+    },
+    {
+        "id": "622",
+        "name": "Yassine Bono #13",
+        "image": "/products/jerseys/2021-2022-622/BONO_BACK.png",
+        "imageFront": "/products/jerseys/2021-2022-622/BONO_FRONT.png",
+        "imageBack": "/products/jerseys/2021-2022-622/BONO_BACK.png",
+        "season": "2021-2022",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "13"
+            },
+            {
+                "label": "Jugador",
+                "value": "Yassine Bono"
+            },
+            {
+                "label": "Temporada",
+                "value": "2021-2022"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J11"
+            },
+            {
+                "label": "Rival",
+                "value": "RCD Mallorca"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Portero"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "NIKE"
+            }
+        ]
+    },
+    {
+        "id": "594",
+        "name": "Erik Lamela #17",
+        "image": "/products/jerseys/2021-2022-594/LAMELA_BACK.png",
+        "imageFront": "/products/jerseys/2021-2022-594/LAMELA_FRONT.png",
+        "imageBack": "/products/jerseys/2021-2022-594/LAMELA_BACK.png",
+        "season": "2021-2022",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "17"
+            },
+            {
+                "label": "Jugador",
+                "value": "Erik Lamela"
+            },
+            {
+                "label": "Temporada",
+                "value": "2021-2022"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Champions League"
+            },
+            {
+                "label": "Ronda",
+                "value": "J1"
+            },
+            {
+                "label": "Rival",
+                "value": "Red Bull Salzburg"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "NIKE"
+            }
+        ]
+    },
+    {
+        "id": "652",
+        "name": "Suso #7",
+        "image": "/products/jerseys/2022-2023-652/SUSO_BACK.png",
+        "imageFront": "/products/jerseys/2022-2023-652/SUSO_FRONT.png",
+        "imageBack": "/products/jerseys/2022-2023-652/SUSO_BACK.png",
+        "season": "2022-2023",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "7"
+            },
+            {
+                "label": "Jugador",
+                "value": "Suso"
+            },
+            {
+                "label": "Temporada",
+                "value": "2022-2023"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "UEFA Europa League"
+            },
+            {
+                "label": "Ronda",
+                "value": "Final"
+            },
+            {
+                "label": "Rival",
+                "value": "AS Roma"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "639",
+        "name": "\u00d3liver Torres #21",
+        "image": "/products/jerseys/2022-2023-639/OLIVER_BACK.png",
+        "imageFront": "/products/jerseys/2022-2023-639/OLIVER_FRONT.png",
+        "imageBack": "/products/jerseys/2022-2023-639/OLIVER_BACK.png",
+        "season": "2022-2023",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "21"
+            },
+            {
+                "label": "Jugador",
+                "value": "\u00d3liver Torres"
+            },
+            {
+                "label": "Temporada",
+                "value": "2022-2023"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J3"
+            },
+            {
+                "label": "Rival",
+                "value": "UD Almer\u00eda"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Tercera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "650",
+        "name": "Fernando Reges #20",
+        "image": "/products/jerseys/2022-2023-650/FREGES_BACK.png",
+        "imageFront": "/products/jerseys/2022-2023-650/FREGES_FRONT.png",
+        "imageBack": "/products/jerseys/2022-2023-650/FREGES_BACK.png",
+        "season": "2022-2023",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "20"
+            },
+            {
+                "label": "Jugador",
+                "value": "Fernando Reges"
+            },
+            {
+                "label": "Temporada",
+                "value": "2022-2023"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "UEFA Europa League"
+            },
+            {
+                "label": "Ronda",
+                "value": "Semifinales \u2013 Ida"
+            },
+            {
+                "label": "Rival",
+                "value": "Juventus Tur\u00edn"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "631",
+        "name": "Joan Jord\u00e1n #8",
+        "image": "/products/jerseys/2022-2023-631/JORDAN_BACK.png",
+        "imageFront": "/products/jerseys/2022-2023-631/JORDAN_FRONT.png",
+        "imageBack": "/products/jerseys/2022-2023-631/JORDAN_BACK.png",
+        "season": "2022-2023",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "8"
+            },
+            {
+                "label": "Jugador",
+                "value": "Joan Jord\u00e1n"
+            },
+            {
+                "label": "Temporada",
+                "value": "2022-2023"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Champions League"
+            },
+            {
+                "label": "Ronda",
+                "value": "J5"
+            },
+            {
+                "label": "Rival",
+                "value": "FC Kobenhavn"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "MW"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "642",
+        "name": "Yassine Bono #13",
+        "image": "/products/jerseys/2022-2023-642/BONO_BACK.png",
+        "imageFront": "/products/jerseys/2022-2023-642/BONO_FRONT.png",
+        "imageBack": "/products/jerseys/2022-2023-642/BONO_BACK.png",
+        "season": "2022-2023",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "13"
+            },
+            {
+                "label": "Jugador",
+                "value": "Yassine Bono"
+            },
+            {
+                "label": "Temporada",
+                "value": "2022-2023"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J9"
+            },
+            {
+                "label": "Rival",
+                "value": "RCD Mallorca"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Portero"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "654",
+        "name": "Loic Bade #22",
+        "image": "/products/jerseys/2022-2023-654/BADE_BACK.png",
+        "imageFront": "/products/jerseys/2022-2023-654/BADE_FRONT.png",
+        "imageBack": "/products/jerseys/2022-2023-654/BADE_BACK.png",
+        "season": "2022-2023",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "22"
+            },
+            {
+                "label": "Jugador",
+                "value": "Loic Bade"
+            },
+            {
+                "label": "Temporada",
+                "value": "2022-2023"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Copa del Rey"
+            },
+            {
+                "label": "Ronda",
+                "value": "Cuartos de Final"
+            },
+            {
+                "label": "Rival",
+                "value": "CA Osasuna"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "667",
+        "name": "Orjan Nyland #13",
+        "image": "/products/jerseys/2023-2024-667/NYLAND_BACK.png",
+        "imageFront": "/products/jerseys/2023-2024-667/NYLAND_FRONT.png",
+        "imageBack": "/products/jerseys/2023-2024-667/NYLAND_BACK.png",
+        "season": "2023-2024",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "13"
+            },
+            {
+                "label": "Jugador",
+                "value": "Orjan Nyland"
+            },
+            {
+                "label": "Temporada",
+                "value": "2023-2024"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Champions League"
+            },
+            {
+                "label": "Ronda",
+                "value": "J3"
+            },
+            {
+                "label": "Rival",
+                "value": "Arsenal FC"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Portero"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "661",
+        "name": "Youssef En-Nesyri #15",
+        "image": "/products/jerseys/2023-2024-661/YEN_BACK.png",
+        "imageFront": "/products/jerseys/2023-2024-661/YEN_FRONT.png",
+        "imageBack": "/products/jerseys/2023-2024-661/YEN_BACK.png",
+        "season": "2023-2024",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "15"
+            },
+            {
+                "label": "Jugador",
+                "value": "Youssef En-Nesyri"
+            },
+            {
+                "label": "Temporada",
+                "value": "2023-2024"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Champions League"
+            },
+            {
+                "label": "Ronda",
+                "value": "J2"
+            },
+            {
+                "label": "Rival",
+                "value": "PSV Eindhoven"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Tercera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "669",
+        "name": "Loic Bade #22",
+        "image": "/products/jerseys/2023-2024-669/BADE_BACK.png",
+        "imageFront": "/products/jerseys/2023-2024-669/BADE_FRONT.png",
+        "imageBack": "/products/jerseys/2023-2024-669/BADE_BACK.png",
+        "season": "2023-2024",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "22"
+            },
+            {
+                "label": "Jugador",
+                "value": "Loic Bade"
+            },
+            {
+                "label": "Temporada",
+                "value": "2023-2024"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J24"
+            },
+            {
+                "label": "Rival",
+                "value": "Atl\u00e9tico Madrid"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "658",
+        "name": "Nemanja Gudelj #6",
+        "image": "/products/jerseys/2023-2024-658/GUDELJ_BACK.png",
+        "imageFront": "/products/jerseys/2023-2024-658/GUDELJ_FRONT.png",
+        "imageBack": "/products/jerseys/2023-2024-658/GUDELJ_BACK.png",
+        "season": "2023-2024",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "6"
+            },
+            {
+                "label": "Jugador",
+                "value": "Nemanja Gudelj"
+            },
+            {
+                "label": "Temporada",
+                "value": "2023-2024"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Champions League"
+            },
+            {
+                "label": "Ronda",
+                "value": "J1"
+            },
+            {
+                "label": "Rival",
+                "value": "RC Lens"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "668",
+        "name": "Jes\u00fas Navas #16",
+        "image": "/products/jerseys/2023-2024-668/NAVAS_134_BACK.png",
+        "imageFront": "/products/jerseys/2023-2024-668/NAVAS_134_FRONT.png",
+        "imageBack": "/products/jerseys/2023-2024-668/NAVAS_134_BACK.png",
+        "season": "2023-2024",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "16"
+            },
+            {
+                "label": "Jugador",
+                "value": "Jes\u00fas Navas"
+            },
+            {
+                "label": "Temporada",
+                "value": "2023-2024"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Copa del Rey"
+            },
+            {
+                "label": "Ronda",
+                "value": "Cuartos de Final"
+            },
+            {
+                "label": "Rival",
+                "value": "Atl\u00e9tico Madrid"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "671",
+        "name": "Alberto Flores #31",
+        "image": "/products/jerseys/2023-2024-671/FLORES_BACK.png",
+        "imageFront": "/products/jerseys/2023-2024-671/FLORES_FRONT.png",
+        "imageBack": "/products/jerseys/2023-2024-671/FLORES_BACK.png",
+        "season": "2023-2024",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "31"
+            },
+            {
+                "label": "Jugador",
+                "value": "Alberto Flores"
+            },
+            {
+                "label": "Temporada",
+                "value": "2023-2024"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Copa del Rey"
+            },
+            {
+                "label": "Ronda",
+                "value": "Cuartos de Final"
+            },
+            {
+                "label": "Rival",
+                "value": "Atl\u00e9tico Madrid"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Portero"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "655",
+        "name": "Erik Lamela #17",
+        "image": "/products/jerseys/2023-2024-655/LAMELA_BACK.png",
+        "imageFront": "/products/jerseys/2023-2024-655/LAMELA_FRONT.png",
+        "imageBack": "/products/jerseys/2023-2024-655/LAMELA_BACK.png",
+        "season": "2023-2024",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "17"
+            },
+            {
+                "label": "Jugador",
+                "value": "Erik Lamela"
+            },
+            {
+                "label": "Temporada",
+                "value": "2023-2024"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "UEFA SuperCup"
+            },
+            {
+                "label": "Ronda",
+                "value": "Final"
+            },
+            {
+                "label": "Rival",
+                "value": "Manchester City"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "672",
+        "name": "Yassine Bono #13",
+        "image": "/products/jerseys/2023-2024-672/BONO_BACK.png",
+        "imageFront": "/products/jerseys/2023-2024-672/BONO_FRONT.png",
+        "imageBack": "/products/jerseys/2023-2024-672/BONO_BACK.png",
+        "season": "2023-2024",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "13"
+            },
+            {
+                "label": "Jugador",
+                "value": "Yassine Bono"
+            },
+            {
+                "label": "Temporada",
+                "value": "2023-2024"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga Summer Tour"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": "Atl\u00e9tico Madrid"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Portero"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "678",
+        "name": "Yassine Bono #13",
+        "image": "/products/jerseys/2019-2020-678/BONO_BACK.png",
+        "imageFront": "/products/jerseys/2019-2020-678/BONO_FRONT.png",
+        "imageBack": "/products/jerseys/2019-2020-678/BONO_BACK.png",
+        "season": "2019-2020",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "13"
+            },
+            {
+                "label": "Jugador",
+                "value": "Yassine Bono"
+            },
+            {
+                "label": "Temporada",
+                "value": "2019-2020"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J28"
+            },
+            {
+                "label": "Rival",
+                "value": "Real Betis Balompi\u00e9"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Portero"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "NIKE"
+            }
+        ]
+    },
+    {
+        "id": "679",
+        "name": "Fernando Reges #20",
+        "image": "/products/jerseys/2023-2024-679/FREGES_BACK.png",
+        "imageFront": "/products/jerseys/2023-2024-679/FREGES_FRONT.png",
+        "imageBack": "/products/jerseys/2023-2024-679/FREGES_BACK.png",
+        "season": "2023-2024",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "20"
+            },
+            {
+                "label": "Jugador",
+                "value": "Fernando Reges"
+            },
+            {
+                "label": "Temporada",
+                "value": "2023-2024"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga Summer Tour"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": "Real Betis Balompi\u00e9"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "MW?"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "681",
+        "name": "Igor Gluscevic #19",
+        "image": "/products/jerseys/1998-1999-681/GLUSCEVIC_BACK.png",
+        "imageFront": "/products/jerseys/1998-1999-681/GLUSCEVIC_FRONT.png",
+        "imageBack": "/products/jerseys/1998-1999-681/GLUSCEVIC_BACK.png",
+        "season": "1998-1999",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "19"
+            },
+            {
+                "label": "Jugador",
+                "value": "Igor Gluscevic"
+            },
+            {
+                "label": "Temporada",
+                "value": "1998-1999"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "MW"
+            },
+            {
+                "label": "Marca",
+                "value": "Umbro"
+            }
+        ]
+    },
+    {
+        "id": "682",
+        "name": "Brian Rabello #14",
+        "image": "/products/jerseys/2013-2014-682/RABELLO_BACK.png",
+        "imageFront": "/products/jerseys/2013-2014-682/RABELLO_FRONT.png",
+        "imageBack": "/products/jerseys/2013-2014-682/RABELLO_BACK.png",
+        "season": "2013-2014",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "14"
+            },
+            {
+                "label": "Jugador",
+                "value": "Brian Rabello"
+            },
+            {
+                "label": "Temporada",
+                "value": "2013-2014"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Warrior"
+            }
+        ]
+    },
+    {
+        "id": "683",
+        "name": "Luis Gil #15",
+        "image": "/products/jerseys/2001-2002-683/LUISGIL_BACK.png",
+        "imageFront": "/products/jerseys/2001-2002-683/LUISGIL_FRONT.png",
+        "imageBack": "/products/jerseys/2001-2002-683/LUISGIL_BACK.png",
+        "season": "2001-2002",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "15"
+            },
+            {
+                "label": "Jugador",
+                "value": "Luis Gil"
+            },
+            {
+                "label": "Temporada",
+                "value": "2001-2002"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J29"
+            },
+            {
+                "label": "Rival",
+                "value": "Valencia CF"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "MW"
+            },
+            {
+                "label": "Marca",
+                "value": "Joma"
+            }
+        ]
+    },
+    {
+        "id": "693",
+        "name": "Jos\u00e9 \u00c1ngel Carmona #32",
+        "image": "/products/jerseys/2024-2025-693/CARMONA_BACK.png",
+        "imageFront": "/products/jerseys/2024-2025-693/CARMONA_FRONT.png",
+        "imageBack": "/products/jerseys/2024-2025-693/CARMONA_BACK.png",
+        "season": "2024-2025",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "32"
+            },
+            {
+                "label": "Jugador",
+                "value": "Jos\u00e9 \u00c1ngel Carmona"
+            },
+            {
+                "label": "Temporada",
+                "value": "2024-2025"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J10"
+            },
+            {
+                "label": "Rival",
+                "value": "FC Barcelona"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "MW"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "694",
+        "name": "Pedro Ortiz #8",
+        "image": "/products/jerseys/2024-2025-694/PORTIZ_BACK.png",
+        "imageFront": "/products/jerseys/2024-2025-694/PORTIZ_FRONT.png",
+        "imageBack": "/products/jerseys/2024-2025-694/PORTIZ_BACK.png",
+        "season": "2024-2025",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "8"
+            },
+            {
+                "label": "Jugador",
+                "value": "Pedro Ortiz"
+            },
+            {
+                "label": "Temporada",
+                "value": "2024-2025"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Copa del Rey"
+            },
+            {
+                "label": "Ronda",
+                "value": "Primera Ronda"
+            },
+            {
+                "label": "Rival",
+                "value": "Las Rozas"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "MW"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "695",
+        "name": "Israel Dom\u00ednguez #41",
+        "image": "/products/jerseys/2024-2025-695/ISRA_BACK.png",
+        "imageFront": "/products/jerseys/2024-2025-695/ISRA_FRONT.png",
+        "imageBack": "/products/jerseys/2024-2025-695/ISRA_BACK.png",
+        "season": "2024-2025",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "41"
+            },
+            {
+                "label": "Jugador",
+                "value": "Israel Dom\u00ednguez"
+            },
+            {
+                "label": "Temporada",
+                "value": "2024-2025"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J12"
+            },
+            {
+                "label": "Rival",
+                "value": "Real Sociedad"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "MW"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "697",
+        "name": "Nemanja Gudelj #6",
+        "image": "/products/jerseys/2024-2025-697/GUDELJ_BACK.png",
+        "imageFront": "/products/jerseys/2024-2025-697/GUDELJ_FRONT.png",
+        "imageBack": "/products/jerseys/2024-2025-697/GUDELJ_BACK.png",
+        "season": "2024-2025",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "6"
+            },
+            {
+                "label": "Jugador",
+                "value": "Nemanja Gudelj"
+            },
+            {
+                "label": "Temporada",
+                "value": "2024-2025"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J13"
+            },
+            {
+                "label": "Rival",
+                "value": "CD Legan\u00e9s"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Tercera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "699",
+        "name": "Jes\u00fas Navas #16",
+        "image": "/products/jerseys/2024-2025-699/JNAVAS_BACK.png",
+        "imageFront": "/products/jerseys/2024-2025-699/JNAVAS_FRONT.png",
+        "imageBack": "/products/jerseys/2024-2025-699/JNAVAS_BACK.png",
+        "season": "2024-2025",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "16"
+            },
+            {
+                "label": "Jugador",
+                "value": "Jes\u00fas Navas"
+            },
+            {
+                "label": "Temporada",
+                "value": "2024-2025"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "701",
+        "name": "Jes\u00fas Navas #16",
+        "image": "/products/jerseys/2024-2025-701/JNAVAS_BACK.png",
+        "imageFront": "/products/jerseys/2024-2025-701/JNAVAS_FRONT.png",
+        "imageBack": "/products/jerseys/2024-2025-701/JNAVAS_BACK.png",
+        "season": "2024-2025",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "16"
+            },
+            {
+                "label": "Jugador",
+                "value": "Jes\u00fas Navas"
+            },
+            {
+                "label": "Temporada",
+                "value": "2024-2025"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Edici\u00f3n Especial"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "702",
+        "name": "Stanis Idumbo #27",
+        "image": "/products/jerseys/2024-2025-702/IDUMBO_BACK.png",
+        "imageFront": "/products/jerseys/2024-2025-702/IDUMBO_FRONT.png",
+        "imageBack": "/products/jerseys/2024-2025-702/IDUMBO_BACK.png",
+        "season": "2024-2025",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "27"
+            },
+            {
+                "label": "Jugador",
+                "value": "Stanis Idumbo"
+            },
+            {
+                "label": "Temporada",
+                "value": "2024-2025"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J21"
+            },
+            {
+                "label": "Rival",
+                "value": "RCD Espanyol"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "708",
+        "name": "Dodi Lukebakio #11",
+        "image": "/products/jerseys/2024-2025-708/DODI_BACK.png",
+        "imageFront": "/products/jerseys/2024-2025-708/DODI_FRONT.png",
+        "imageBack": "/products/jerseys/2024-2025-708/DODI_BACK.png",
+        "season": "2024-2025",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "11"
+            },
+            {
+                "label": "Jugador",
+                "value": "Dodi Lukebakio"
+            },
+            {
+                "label": "Temporada",
+                "value": "2024-2025"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J29"
+            },
+            {
+                "label": "Rival",
+                "value": "Real Betis Balompi\u00e9"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "721",
+        "name": "Rub\u00e9n Vargas #11",
+        "image": "/products/jerseys/2025-2026-721/VARGAS_BACK.png",
+        "imageFront": "/products/jerseys/2025-2026-721/VARGAS_FRONT.png",
+        "imageBack": "/products/jerseys/2025-2026-721/VARGAS_BACK.png",
+        "season": "2025-2026",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "11"
+            },
+            {
+                "label": "Jugador",
+                "value": "Rub\u00e9n Vargas"
+            },
+            {
+                "label": "Temporada",
+                "value": "2025-2026"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J2"
+            },
+            {
+                "label": "Rival",
+                "value": "Getafe CF"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Adidas"
+            }
+        ]
+    },
+    {
+        "id": "724",
+        "name": "",
+        "image": "/products/jerseys/2022-2023-724/35_EMIRATES_BACK.png",
+        "imageFront": "/products/jerseys/2022-2023-724/35_EMIRATES_FRONT.png",
+        "imageBack": "/products/jerseys/2022-2023-724/35_EMIRATES_BACK.png",
+        "season": "2022-2023",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "35"
+            },
+            {
+                "label": "Jugador",
+                "value": ""
+            },
+            {
+                "label": "Temporada",
+                "value": "2022-2023"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Emirates Cup"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": "Arsenal FC"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Tercera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "725",
+        "name": "Marko Dmitrovic #1",
+        "image": "/products/jerseys/2023-2024-725/DMITROVIC_BACK.png",
+        "imageFront": "/products/jerseys/2023-2024-725/DMITROVIC_FRONT.png",
+        "imageBack": "/products/jerseys/2023-2024-725/DMITROVIC_BACK.png",
+        "season": "2023-2024",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "1"
+            },
+            {
+                "label": "Jugador",
+                "value": "Marko Dmitrovic"
+            },
+            {
+                "label": "Temporada",
+                "value": "2023-2024"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J19"
+            },
+            {
+                "label": "Rival",
+                "value": "Athletic Bilbao"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Portero"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Castore"
+            }
+        ]
+    },
+    {
+        "id": "727",
+        "name": "Andr\u00e9s Castr\u00edn #32",
+        "image": "/products/jerseys/2025-2026-727/CASTRIN_BACK.png",
+        "imageFront": "/products/jerseys/2025-2026-727/CASTRIN_FRONT.png",
+        "imageBack": "/products/jerseys/2025-2026-727/CASTRIN_BACK.png",
+        "season": "2025-2026",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "32"
+            },
+            {
+                "label": "Jugador",
+                "value": "Andr\u00e9s Castr\u00edn"
+            },
+            {
+                "label": "Temporada",
+                "value": "2025-2026"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Copa del Rey"
+            },
+            {
+                "label": "Ronda",
+                "value": "Octavos de Final"
+            },
+            {
+                "label": "Rival",
+                "value": "Deportivo Alav\u00e9s"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "MW"
+            },
+            {
+                "label": "Marca",
+                "value": "Adidas"
+            }
+        ]
+    },
+    {
+        "id": "730",
+        "name": "Joaqu\u00edn Mart\u00ednez Gauna OSO #36",
+        "image": "/products/jerseys/2025-2026-730/OSO_BACK.png",
+        "imageFront": "/products/jerseys/2025-2026-730/OSO_FRONT.png",
+        "imageBack": "/products/jerseys/2025-2026-730/OSO_BACK.png",
+        "season": "2025-2026",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "36"
+            },
+            {
+                "label": "Jugador",
+                "value": "Joaqu\u00edn Mart\u00ednez Gauna OSO"
+            },
+            {
+                "label": "Temporada",
+                "value": "2025-2026"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J20"
+            },
+            {
+                "label": "Rival",
+                "value": "Elche CF"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Tercera"
+            },
+            {
+                "label": "Tipo",
+                "value": "MW"
+            },
+            {
+                "label": "Marca",
+                "value": "Adidas"
+            }
+        ]
+    },
+    {
+        "id": "731",
+        "name": "Lucien Agoum\u00e9 #18",
+        "image": "/products/jerseys/2025-2026-731/AGOUME_BACK.png",
+        "imageFront": "/products/jerseys/2025-2026-731/AGOUME_FRONT.png",
+        "imageBack": "/products/jerseys/2025-2026-731/AGOUME_BACK.png",
+        "season": "2025-2026",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "18"
+            },
+            {
+                "label": "Jugador",
+                "value": "Lucien Agoum\u00e9"
+            },
+            {
+                "label": "Temporada",
+                "value": "2025-2026"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J21"
+            },
+            {
+                "label": "Rival",
+                "value": "Athletic Bilbao"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "MW"
+            },
+            {
+                "label": "Marca",
+                "value": "Adidas"
+            }
+        ]
+    },
+    {
+        "id": "732",
+        "name": "Akor Adams #9",
+        "image": "/products/jerseys/2025-2026-732/AKOR_BACK.png",
+        "imageFront": "/products/jerseys/2025-2026-732/AKOR_FRONT.png",
+        "imageBack": "/products/jerseys/2025-2026-732/AKOR_BACK.png",
+        "season": "2025-2026",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "9"
+            },
+            {
+                "label": "Jugador",
+                "value": "Akor Adams"
+            },
+            {
+                "label": "Temporada",
+                "value": "2025-2026"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J26"
+            },
+            {
+                "label": "Rival",
+                "value": "Real Betis Balompi\u00e9"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Adidas"
+            }
+        ]
+    },
+    {
+        "id": "733",
+        "name": "Odysseas Vlachodimos #1",
+        "image": "/products/jerseys/2025-2026-733/VLACHODIMOS_BACK.png",
+        "imageFront": "/products/jerseys/2025-2026-733/VLACHODIMOS_FRONT.png",
+        "imageBack": "/products/jerseys/2025-2026-733/VLACHODIMOS_BACK.png",
+        "season": "2025-2026",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "1"
+            },
+            {
+                "label": "Jugador",
+                "value": "Odysseas Vlachodimos"
+            },
+            {
+                "label": "Temporada",
+                "value": "2025-2026"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J21"
+            },
+            {
+                "label": "Rival",
+                "value": "Athletic Bilbao"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Portero"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Adidas"
+            }
+        ]
+    },
+    {
+        "id": "738",
+        "name": "Chidera Ejuke #21",
+        "image": "/products/jerseys/2025-2026-738/EJUKE_BACK.png",
+        "imageFront": "/products/jerseys/2025-2026-738/EJUKE_FRONT.png",
+        "imageBack": "/products/jerseys/2025-2026-738/EJUKE_BACK.png",
+        "season": "2025-2026",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "21"
+            },
+            {
+                "label": "Jugador",
+                "value": "Chidera Ejuke"
+            },
+            {
+                "label": "Temporada",
+                "value": "2025-2026"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J34"
+            },
+            {
+                "label": "Rival",
+                "value": "Real Sociedad"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "MW"
+            },
+            {
+                "label": "Marca",
+                "value": "Adidas"
+            }
+        ]
+    },
+    {
+        "id": "739",
+        "name": "Odysseas Vlachodimos #1",
+        "image": "/products/jerseys/2025-2026-739/ODYSSEAS_BACK.png",
+        "imageFront": "/products/jerseys/2025-2026-739/ODYSSEAS_FRONT.png",
+        "imageBack": "/products/jerseys/2025-2026-739/ODYSSEAS_BACK.png",
+        "season": "2025-2026",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "1"
+            },
+            {
+                "label": "Jugador",
+                "value": "Odysseas Vlachodimos"
+            },
+            {
+                "label": "Temporada",
+                "value": "2025-2026"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "Copa del Rey"
+            },
+            {
+                "label": "Ronda",
+                "value": "Segunda Ronda"
+            },
+            {
+                "label": "Rival",
+                "value": "CD Extremadura"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Portero"
+            },
+            {
+                "label": "Tipo",
+                "value": "Preparada"
+            },
+            {
+                "label": "Marca",
+                "value": "Adidas"
+            }
+        ]
+    },
+    {
+        "id": "745",
+        "name": "Marko Marin #7",
+        "image": "/products/jerseys/2013-2014-745/MARIN_BACK.png",
+        "imageFront": "/products/jerseys/2013-2014-745/MARIN_FRONT.png",
+        "imageBack": "/products/jerseys/2013-2014-745/MARIN_BACK.png",
+        "season": "2013-2014",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "7"
+            },
+            {
+                "label": "Jugador",
+                "value": "Marko Marin"
+            },
+            {
+                "label": "Temporada",
+                "value": "2013-2014"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J19"
+            },
+            {
+                "label": "Rival",
+                "value": "Elche CF"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Warrior"
+            }
+        ]
+    },
+    {
+        "id": "746",
+        "name": "Andr\u00e9s Castr\u00edn #5",
+        "image": "/products/jerseys/2026-2027-746/CASTRIN_BACK.png",
+        "imageFront": "/products/jerseys/2026-2027-746/CASTRIN_FRONT.png",
+        "imageBack": "/products/jerseys/2026-2027-746/CASTRIN_BACK.png",
+        "season": "2026-2027",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "5"
+            },
+            {
+                "label": "Jugador",
+                "value": "Andr\u00e9s Castr\u00edn"
+            },
+            {
+                "label": "Temporada",
+                "value": "2026-2027"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": "J5"
+            },
+            {
+                "label": "Rival",
+                "value": "Valencia CF"
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Primera"
+            },
+            {
+                "label": "Tipo",
+                "value": "MW"
+            },
+            {
+                "label": "Marca",
+                "value": "Adidas"
+            }
+        ]
+    },
+    {
+        "id": "747",
+        "name": "Jos\u00e9 Am\u00e9rico Taira Costa Pereira #4",
+        "image": "",
+        "imageFront": "",
+        "imageBack": "",
+        "season": "2000-2001",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "4"
+            },
+            {
+                "label": "Jugador",
+                "value": "Jos\u00e9 Am\u00e9rico Taira Costa Pereira"
+            },
+            {
+                "label": "Temporada",
+                "value": "2000-2001"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Tercera"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Umbro"
+            }
+        ]
+    },
+    {
+        "id": "748",
+        "name": "Vassilis Tsartas #10",
+        "image": "",
+        "imageFront": "",
+        "imageBack": "",
+        "season": "2000-2001",
+        "details": [
+            {
+                "label": "Dorsal",
+                "value": "10"
+            },
+            {
+                "label": "Jugador",
+                "value": "Vassilis Tsartas"
+            },
+            {
+                "label": "Temporada",
+                "value": "2000-2001"
+            },
+            {
+                "label": "Competici\u00f3n",
+                "value": "LaLiga"
+            },
+            {
+                "label": "Ronda",
+                "value": ""
+            },
+            {
+                "label": "Rival",
+                "value": ""
+            },
+            {
+                "label": "Equipaci\u00f3n",
+                "value": "Segunda"
+            },
+            {
+                "label": "Tipo",
+                "value": "Tienda"
+            },
+            {
+                "label": "Marca",
+                "value": "Umbro"
+            }
+        ]
+    }
 ]

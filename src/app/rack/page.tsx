@@ -5,17 +5,11 @@ import catalogData from "@/data/products.json";
 
 type SeasonalClothesRackItem = ClothesRackItem & { season: string };
 
-function isGarmentKind(kind: string): kind is ClothesRackItem["kind"] {
-  return kind === "tee" || kind === "crewneck" || kind === "shirt";
-}
-
-const catalog: SeasonalClothesRackItem[] = catalogData.map((item): SeasonalClothesRackItem => {
-  if (!isGarmentKind(item.kind)) {
-    throw new Error(`Unknown garment kind "${item.kind}" in the product catalog.`);
-  }
-
-  return { ...item, kind: item.kind } as SeasonalClothesRackItem;
-});
+const catalog: SeasonalClothesRackItem[] = catalogData.map((item) => ({
+  ...item,
+  kind: "tee",
+  colour: "#ffffff",
+}));
 
 async function SeasonalRack({
   searchParams,

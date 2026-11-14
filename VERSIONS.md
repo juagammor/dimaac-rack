@@ -7,15 +7,17 @@ Objetivo
 Objetivo
 - Rack con una camiseta relativamente realista
 - Ficha de la camiseta seleccionada con detalle de ambos lados (front y back) usando las fotos en buena calidad e información.
-##Versión 0.0.2
+## Versión 0.0.2
 Objetivo
 - Las camisetas vienen de un fichero JSON
 - Se paramtetriza el rack para que muestre las camisetas de una temporada
-##Versión 0.0.3
+## Versión 0.0.3
 Objetivo
 - Landing Page con las temporadas y una intro
 ## Versión 0.0.4
 Objetivo
+- Rellenar la información del json de camisetas con todas las camisetas de la colección para ver como se comporta con los datos reales y finales
+- Retoques de las ficha para que las imagenes delantera y trasera se vean mejor.
 
 
 

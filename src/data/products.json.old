@@ -1,0 +1,103 @@
+[
+  {
+    "name": "Sevilla FC Jersey — Vargas #11",
+    "kind": "tee",
+    "image": "/products/vargas-back.png",
+    "imageFront": "/products/vargas-front.png",
+    "imageBack": "/products/vargas-back.png",
+    "season": "2025-2026",
+    "details": [
+      { "label": "Player", "value": "Rubén Vargas" },
+      { "label": "Club", "value": "Sevilla FC" },
+      { "label": "Competition", "value": "LaLiga" },
+      { "label": "Season", "value": "2025–2026" },
+      { "label": "Type", "value": "First" },
+      { "label": "Estilo", "value": "Preparada" }
+    ]
+  },
+  {
+    "name": "Sevilla FC Jersey — Oso #36",
+    "kind": "tee",
+    "colour": "#000000",
+    "image": "/products/oso_back.png",
+    "imageFront": "/products/oso_front.png",
+    "imageBack": "/products/oso_back.png",
+    "season": "2025-2026",
+    "details": [
+      { "label": "Player", "value": "Joaquin Martinez Gauna 'Oso'" },
+      { "label": "Club", "value": "Sevilla FC" },
+      { "label": "Competition", "value": "LaLiga" },
+      { "label": "Season", "value": "2025–2026" },
+      { "label": "Type", "value": "Third" },
+      { "label": "Estilo", "value": "MW" }
+    ]
+  },
+  {
+    "name": "Sevilla FC Jersey — Luis Gil #15",
+    "kind": "tee",
+    "colour": "#ff2c2c",
+    "image": "/products/LUISGIL_BACK.png",
+    "imageFront": "/products/LUISGIL_FRONT.png",
+    "imageBack": "/products/LUISGIL_BACK.png",
+    "season": "2001-2002",
+    "details": [
+      { "label": "Player", "value": "Luis Gil" },
+      { "label": "Club", "value": "Sevilla FC" },
+      { "label": "Competition", "value": "LaLiga" },
+      { "label": "Season", "value": "2001-2002" },
+      { "label": "Type", "value": "Second" },
+      { "label": "Estilo", "value": "MW" }
+    ]
+  },
+  {
+    "name": "Sevilla FC Jersey — Jesús Navas #7",
+    "kind": "tee",
+    "colour": "#ff2c2c",
+    "image": "/products/NAVAS_BACK.png",
+    "imageFront": "/products/NAVAS_FRONT.png",
+    "imageBack": "/products/NAVAS_BACK.png",
+    "season": "2008-2009",
+    "details": [
+      { "label": "Player", "value": "Jesús Navas" },
+      { "label": "Club", "value": "Sevilla FC" },
+      { "label": "Competition", "value": "LaLiga" },
+      { "label": "Season", "value": "2008-2009" },
+      { "label": "Type", "value": "Third" },
+      { "label": "Estilo", "value": "Issued" }
+    ]
+  },
+  {
+    "name": "Sevilla FC Jersey — Jose Antonio Reyes #11",
+    "kind": "tee",
+    "colour": "#ff2c2c",
+    "image": "/products/REYES0203_BACK.png",
+    "imageFront": "/products/REYES0203_FRONT.png",
+    "imageBack": "/products/REYES0203_BACK.png",
+    "season": "2002-2003",
+    "details": [
+      { "label": "Player", "value": "Jose Antonio Reyes" },
+      { "label": "Club", "value": "Sevilla FC" },
+      { "label": "Competition", "value": "LaLiga" },
+      { "label": "Season", "value": "2002-2003" },
+      { "label": "Type", "value": "Second" },
+      { "label": "Estilo", "value": "Shop" }
+    ]
+  },
+  {
+    "name": "Sevilla FC Jersey — Moisés García León #16",
+    "kind": "tee",
+    "colour": "#ff2c2c",
+    "image": "/products/MOISES_BACK.png",
+    "imageFront": "/products/MOISES_FRONT.png",
+    "imageBack": "/products/MOISES_BACK.png",
+    "season": "2001-2002",
+    "details": [
+      { "label": "Player", "value": "Moisés García León" },
+      { "label": "Club", "value": "Sevilla FC" },
+      { "label": "Competition", "value": "LaLiga" },
+      { "label": "Season", "value": "2001-2002" },
+      { "label": "Type", "value": "First" },
+      { "label": "Estilo", "value": "MW" }
+    ]
+  }
+]
