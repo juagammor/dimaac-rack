@@ -18,15 +18,19 @@ Objetivo
 Objetivo
 - Rellenar la información del json de camisetas con todas las camisetas de la colección para ver como se comporta con los datos reales y finales
 - Retoques de las ficha para que las imagenes delantera y trasera se vean mejor.
+## Versión 0.0.5
+Objetivo
+- Landing Page
+- Quitar botones innecesarios
+- Estilos de Textos en pantallas
 
 
 
 
 TODO
 
-- Hacer el panel de la foto de la ficha mas grande para que se vea mejor o poner una opción lupa para que se vea la imagen mas grande
+
 - Desactivar el botón derecho en la pagina
-- Rellenado de toda la información del JSON
 - Castellanizar
 - Quitar botones que no funcionan o no son necesarios
 - Cambiar flechas por otra opción mas minimalista / elegante

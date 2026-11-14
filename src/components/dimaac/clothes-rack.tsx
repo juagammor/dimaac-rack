@@ -58,7 +58,7 @@ export type ClothesRackProps = {
   detail?: boolean;
   /** How much of the box height a garment takes, from 0.25 to 0.42. Default 0.4. */
   size?: number;
-  /** Called when "See availability" is pressed, with the garment it was pressed for. */
+  /** Called when an item is selected while the detail view is disabled. */
   onSelect?: (item: ClothesRackItem, index: number) => void;
   /**
    * Photographic cloth and light: addresses of tiling fabric scans (normal and roughness maps of jersey for the tees
@@ -161,10 +161,7 @@ type Engine = {
   openDetail(index: number): void;
   closeDetail(): void;
   stepDetail(direction: 1 | -1): void;
-  /** Called when the pointer leaves the pill without going back over the rack */
-  releaseHover(): void;
   activeIndex(): number;
-  lastIndex(): number;
 };
 
 // Moves a spring one step toward its goal without ever overshooting (critically damped)
@@ -225,7 +222,6 @@ export function ClothesRack({
   const [pressed, setPressed] = useState<"prev" | "next" | null>(null);
   const wasOpen = useRef(false);
   const detailIndexRef = useRef(0);
-  const pillRef = useRef<HTMLDivElement>(null);
   const garmentButtons = useRef<(HTMLButtonElement | null)[]>([]);
   const pressTimer = useRef(0);
   const pressedAt = useRef(0);
@@ -367,17 +363,17 @@ export function ClothesRack({
     }
 
     let layout: Layout = computeLayout();
-    // The longest garment on the rail, rail to hem: framing and the pill leave room for it
+    // The longest garment on the rail, rail to hem: framing and the caption leave room for it
     const tallest = () => entries.reduce((most, e) => Math.max(most, e.garment.height), 0.3);
 
     function frameView() {
       const s = settings.current;
       layout = computeLayout();
       view.railLength = layout.railLength;
-      // A tall box (tablet, phone) puts the rack a little lower, so the rack and the pill sit in the middle
+      // A tall box (tablet, phone) puts the rack a little lower, keeping it centered
       view.railAt = view.aspect < 1 ? 0.37 : RAIL_AT;
       const faceMax = layout.faceHalf.reduce((m, v) => Math.max(m, v), 0.2);
-      // The lowest hem (facing garment, grown) must leave room for the pill under it, even on a short box
+      // Keep space below the lowest hem for the caption, even on a short box
       const roomBelow = Math.max(0.2, (view.height - 84) / view.height - view.railAt);
       const natural = Math.max(tallest() / s.size, (s.activeScale * tallest()) / roomBelow);
       // Keep a little clear page either side while giving the rail more room on wide boxes
@@ -440,7 +436,6 @@ export function ClothesRack({
 
     // ----- hover, touch, pan -----
     let active = -1;
-    let lastActive = -1;
     let panVelocity = 0;
     let panGoal: number | null = null;
     let dragging = false;
@@ -476,7 +471,6 @@ export function ClothesRack({
       // a hand over a garment says it can be opened
       canvas.style.cursor = index >= 0 && settings.current.detail ? "pointer" : "";
       setActiveIdx(index);
-      if (index >= 0) lastActive = index;
       if (index >= 0) bringIntoView(index);
       for (let i = 0; i < entries.length; i++) entries[i]!.tGoal = i === index ? 1 : 0;
       wake();
@@ -597,9 +591,6 @@ export function ClothesRack({
     function onPointerLeave(event: PointerEvent) {
       if (event.pointerType === "touch") return;
       hovering = false;
-      // Going onto the pill keeps the garment facing (the pill is for it); the detail layer covers the canvas, which fires a leave too
-      const next = event.relatedTarget as Node | null;
-      if (next && pillRef.current?.contains(next)) return;
       if (!openRef.current && !closing) setActive(-1);
     }
 
@@ -613,21 +604,16 @@ export function ClothesRack({
     const captionEl = captionRef.current;
     let captionIndex = -1;
     const corner = new THREE.Vector3();
-    const pillEl = pillRef.current;
     // depth: how far below the rail the hem is
     const hemPx = (depth: number, z: number) => {
       corner.set(0, -depth, z).project(camera);
       return (-corner.y * 0.5 + 0.5) * view.height;
     };
-    // Puts the pill below the hems and says whether the caption still fits between the two without touching either
+    // Keep the caption inside the stage beneath the lowest garment hem
     function layoutDom(): boolean {
       const s = settings.current;
       const lowestHem = hemPx(s.activeScale * tallest(), 0.06);
-      // Like the reference, the pill sits low under the rack, about a fifth of the box height below the lowest hem
-      // (so the caption has its own band between them), kept above the bottom 62 px and never closer than 60 px
-      const centre = Math.min(view.height - 30, Math.max(Math.min(view.height - 62, lowestHem + Math.max(90, view.height * 0.2)), lowestHem + 60));
-      if (pillEl) pillEl.style.transform = `translate(-50%, ${(centre - 18).toFixed(1)}px)`;
-      return centre - 18 >= lowestHem + 18 + 16 + 4;
+      return lowestHem + 18 + 16 <= view.height - 30;
     }
     function updateCaption() {
       const fits = layoutDom();
@@ -1149,11 +1135,7 @@ export function ClothesRack({
       openDetail,
       closeDetail,
       stepDetail,
-      releaseHover() {
-        if (!openRef.current && !closing && !hovering) setActive(-1);
-      },
       activeIndex: () => active,
-      lastIndex: () => lastActive,
     };
 
     // ----- the loop: only runs while something moves -----
@@ -1393,13 +1375,6 @@ export function ClothesRack({
     engineRef.current?.setActive(-1);
   };
 
-  // The pill is for the facing garment, or the last one looked at
-  const onPill = () => {
-    const engine = engineRef.current;
-    if (!engine) return;
-    select(engine.activeIndex() >= 0 ? engine.activeIndex() : Math.max(0, engine.lastIndex()));
-  };
-
   // The DiMaac look: near-monochrome, hairlines, Inter Tight, sentence case
   const vars = dark
     ? { ink: "#F5F5F5", paper: "#0B0B0C", line: "#27272A", grey: "#8B8F98" }
@@ -1489,21 +1464,6 @@ export function ClothesRack({
       </ul>
       <div className="sr-only" role="status" aria-live="polite">
         {status}
-      </div>
-
-      <div
-        ref={pillRef}
-        className="pointer-events-none absolute top-0 left-1/2 z-[1]"
-        style={{ transform: "translate(-50%, 70vh)", opacity: ready && !stageOn ? 1 : 0, transition: "opacity 0.3s ease" }}
-        inert={open || unavailable}
-        aria-hidden={unavailable}
-        onPointerLeave={(event) => {
-          if (!canvasBoxRef.current?.contains(event.relatedTarget as Node | null)) engineRef.current?.releaseHover();
-        }}
-      >
-        <button type="button" onClick={onPill} className={`${pill} pointer-events-auto`}>
-          See availability
-        </button>
       </div>
 
       <div
@@ -1614,9 +1574,6 @@ export function ClothesRack({
                     ))}
                   </dl>
                 ) : null}
-                <button type="button" onClick={() => select(detailIndex)} className={`${pill} mt-auto self-start`}>
-                  See availability
-                </button>
               </div>
             </section>
           ) : null}
@@ -1667,9 +1624,6 @@ export function ClothesRack({
               {String(detailIndex + 1).padStart(2, "0")} / {String(names.length).padStart(2, "0")}
             </span>
             <h3 className="m-0 mb-1 text-[32px] leading-[1.1] font-normal tracking-[-0.02em] text-(--cr-ink)">{shown?.name}</h3>
-            <button type="button" onClick={() => select(detailIndex)} className={pill}>
-              See availability
-            </button>
           </div> : null}
         </div>
       </div>

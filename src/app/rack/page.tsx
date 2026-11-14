@@ -2,6 +2,7 @@ import { Suspense } from "react";
 import Link from "next/link";
 import { ClothesRack, type ClothesRackItem } from "@/components/dimaac/clothes-rack";
 import catalogData from "@/data/products.json";
+import presentation from "@/config/presentation.json";
 
 type SeasonalClothesRackItem = ClothesRackItem & { season: string };
 
@@ -23,14 +24,14 @@ async function SeasonalRack({
   return (
     <main className="relative h-dvh min-h-[36rem] overflow-hidden bg-[#FAFAFA] text-[#0A0A0A] dark:bg-[#0B0B0C] dark:text-[#F5F5F5]">
       <header className="pointer-events-none absolute inset-x-0 top-0 z-10 flex items-center justify-between px-6 pt-6 text-[13px] text-[#6B7280] sm:px-[4%] dark:text-[#8B8F98]">
-        <span className="font-medium tracking-[0.08em]">DIMAAC / OBJECTS</span>
+        <span className="font-medium tracking-[0.08em]">{presentation.sitename}</span>
         <div className="flex items-center gap-6">
-          <span>{season ? `Season ${season.replace("-", "–")}` : "All seasons"}</span>
+          <span>{season ? `Temporada ${season.replace("-", "–")}` : "All seasons"}</span>
           <Link
             href="/"
             className="pointer-events-auto flex items-center gap-2 rounded-full border-0 bg-transparent px-2 py-1 text-[13px] text-[#0A0A0A] transition-opacity duration-150 hover:opacity-60 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-current dark:text-[#F5F5F5]"
           >
-            Close
+            Cerrar
             <svg width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" aria-hidden="true">
               <path d="M2 2L10 10M10 2L2 10" />
             </svg>
