@@ -1543,9 +1543,9 @@ export function ClothesRack({
           {hasProductImages ? (
             <section
               aria-label={`${shown?.name ?? "Garment"} product details`}
-              className="absolute inset-x-14 top-1/2 mx-auto grid max-h-[88dvh] w-auto -translate-y-1/2 grid-cols-1 overflow-y-auto rounded-2xl border border-(--cr-line) bg-(--cr-paper) text-left shadow-[0_24px_80px_rgba(0,0,0,0.16)] md:left-1/2 md:right-auto md:w-[min(80vw,64rem)] md:-translate-x-1/2 md:grid-cols-[minmax(0,1.15fr)_minmax(260px,0.85fr)]"
+              className="absolute inset-x-14 top-1/2 mx-auto grid max-h-[88dvh] w-auto -translate-y-1/2 grid-cols-1 overflow-y-auto rounded-2xl border border-(--cr-line) bg-(--cr-paper) text-left shadow-[0_24px_80px_rgba(0,0,0,0.16)] md:left-1/2 md:right-auto md:w-[min(90vw,80rem)] md:-translate-x-1/2 md:grid-cols-[minmax(0,1.35fr)_minmax(260px,0.65fr)]"
             >
-              <div className="relative min-h-72 bg-[color-mix(in_srgb,var(--cr-ink)_3%,var(--cr-paper))] sm:min-h-[min(74dvh,680px)]">
+              <div className="relative min-h-[min(82dvh,760px)] bg-[color-mix(in_srgb,var(--cr-ink)_3%,var(--cr-paper))]">
                 {productImage ? (
                   <Image
                     key={`${detailIndex}-${photoSide}-${productImage}`}
@@ -1553,8 +1553,8 @@ export function ClothesRack({
                     alt={`${shown?.name ?? "Garment"} — ${photoSide === "front" ? "front" : "back"}`}
                     fill
                     priority
-                    sizes="(max-width: 768px) 100vw, 55vw"
-                    className="object-contain p-8 sm:p-12"
+                    sizes="(max-width: 768px) 100vw, 65vw"
+                    className="object-contain p-4 sm:p-8"
                   />
                 ) : null}
                 {hasBackImage ? (
@@ -1633,7 +1633,7 @@ export function ClothesRack({
                 className={keycap(pressed === "prev")}
                 style={{
                   left: hasProductImages
-                    ? "max(4px, calc(50% - min(40vw, 32rem) - 52px))"
+                    ? "max(4px, calc(50% - min(45vw, 40rem) - 52px))"
                     : "max(10px, calc(50% - var(--half) - 72px - 44px))",
                 }}
               >
@@ -1652,7 +1652,7 @@ export function ClothesRack({
                 className={keycap(pressed === "next")}
                 style={{
                   right: hasProductImages
-                    ? "max(4px, calc(50% - min(40vw, 32rem) - 52px))"
+                    ? "max(4px, calc(50% - min(45vw, 40rem) - 52px))"
                     : "max(10px, calc(50% - var(--half) - 72px - 44px))",
                 }}
               >

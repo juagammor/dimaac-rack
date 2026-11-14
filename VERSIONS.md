@@ -17,6 +17,7 @@ Objetivo
 ## Versión 0.0.4
 Objetivo
 - Rellenar la información del json de camisetas con todas las camisetas de la colección para ver como se comporta con los datos reales y finales
+- Retoques de las ficha para que las imagenes delantera y trasera se vean mejor.
 
 
 
