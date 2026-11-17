@@ -23,16 +23,11 @@ Objetivo
 - Landing Page
 - Quitar botones innecesarios
 - Estilos de Textos en pantallas
-
-
-
-
-TODO
-
-
+## Version 0.0.6
+Objetivo
+- Se ha incluido la configuración para que la pagina muestre las camisetas de Piel Cajista y de SFC Closet
+## TODO
 - Desactivar el botón derecho en la pagina
-- Castellanizar
-- Quitar botones que no funcionan o no son necesarios
 - Cambiar flechas por otra opción mas minimalista / elegante
 
 

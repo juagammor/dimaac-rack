@@ -1,0 +1,24 @@
+{
+  "sitename": "SFCCLOSET",
+  "section": {
+    "inicio": {
+      "title": "SFC CLOSET",
+      "subtitle": "Bienvenido a SFC CLOSET, mi colección de camisetas del Sevilla FC.",
+      "bg": {
+        "image": "/landing-1.jpg",
+        "color": "#10100f"
+      }
+    },
+    "temporadas": {
+      "bg": {
+        "color": "#FAFAFA"
+      }
+    },
+    "contacto": {
+      "description": "Bienvenido a este espacio sevillista donde podrás disfrutar de la colección de camisetas del Sevilla FC. Son muchos años recopilando estas camisetas con ilusión y pasión y, ahora, te las enseño en este humilde sitio. Si deseas ponerte en contacto conmigo, puedes hacerlo a través de mis redes sociales. ¡Gracias por visitar SFC CLOSET!",
+      "instagram": "https://www.instagram.com/closetsfc/",
+      "twitter": "https://x.com/sfccloset",
+      "email": ""
+    }
+  }
+}
