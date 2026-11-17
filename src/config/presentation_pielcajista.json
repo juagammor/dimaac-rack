@@ -1,0 +1,24 @@
+{
+  "sitename": "Piel Cajista",
+  "section": {
+    "inicio": {
+      "title": "Piel Cajista",
+      "subtitle": "Bienvenido a Piel Cajista, mi colección de camisetas del CDB Sevilla SAD y del Caja 87.",
+      "bg": {
+        "image": "/landing-2.jpg",
+        "color": "#084117f"
+      }
+    },
+    "temporadas": {
+      "bg": {
+        "color": "#FF3737"
+      }
+    },
+    "contacto": {
+      "description": "Bienvenido a este espacio cajista donde podrás disfrutar de la colección de camisetas del CDB Sevilla SAD y del Caja 87. Si deseas ponerte en contacto conmigo, puedes hacerlo a través de mis redes sociales o enviando un correo electrónico.",
+      "instagram": "https://www.instagram.com/pielcajista/",
+      "twitter": "https://x.com/pielcajista",
+      "email": ""
+    }
+  }
+}

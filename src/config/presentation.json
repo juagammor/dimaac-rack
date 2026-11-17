@@ -1,11 +1,11 @@
 {
-  "sitename": "SFCCLOSET",
+  "sitename": "Piel Cajista",
   "section": {
     "inicio": {
-      "title": "SFC CLOSET",
-      "subtitle": "Bienvenido a SFC CLOSET, mi colección de camisetas del Sevilla FC.",
+      "title": "Piel Cajista",
+      "subtitle": "Bienvenido a Piel Cajista, mi colección de camisetas del CDB Sevilla SAD y del Caja 87.",
       "bg": {
-        "image": "/landing-1.jpg",
+        "image": "/landing-2.jpg",
         "color": "#10100f"
       }
     },
@@ -15,9 +15,9 @@
       }
     },
     "contacto": {
-      "description": "Bienvenido a este espacio sevillista donde podrás disfrutar de la colección de camisetas del Sevilla FC. Son muchos años recopilando estas camisetas con ilusión y pasión y, ahora, te las enseño en este humilde sitio. Si deseas ponerte en contacto conmigo, puedes hacerlo a través de mis redes sociales. ¡Gracias por visitar SFC CLOSET!",
-      "instagram": "https://www.instagram.com/closetsfc/",
-      "twitter": "https://x.com/sfccloset",
+      "description": "Bienvenido a este espacio cajista donde podrás disfrutar de la colección de camisetas del CDB Sevilla SAD y del Caja 87. Si deseas ponerte en contacto conmigo, puedes hacerlo a través de mis redes sociales o enviando un correo electrónico.",
+      "instagram": "https://www.instagram.com/pielcajista/",
+      "twitter": "https://x.com/pielcajista",
       "email": ""
     }
   }
