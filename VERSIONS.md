@@ -27,8 +27,13 @@ Objetivo
 Objetivo
 - Se ha incluido la configuración para que la pagina muestre las camisetas de Piel Cajista y de SFC Closet
 ## TODO
+### General
+- Fichero de settings que indique donde están los ficheros json de products y de presentation
 - Desactivar el botón derecho en la pagina
 - Cambiar flechas por otra opción mas minimalista / elegante
+- Posibilidad de añadir al carrusel más imágenes a parte de imageFron e imageBack, cambio en el products.json y en la ficha
+### PielCajista
+- Añadir al detail products.json el equipo.
 
 
 
