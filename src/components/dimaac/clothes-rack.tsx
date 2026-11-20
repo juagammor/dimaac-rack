@@ -25,6 +25,8 @@ export type ClothesRackItem = GarmentSpec & {
   name: string;
   /** Optional labeled facts shown in the product detail card. */
   details?: { label: string; value: string }[];
+  /** Optional additional product photos, as paths or labeled paths. */
+  images?: (string | { label?: string; value: string })[];
 };
 
 export type ClothesRackProps = {
@@ -214,7 +216,7 @@ export function ClothesRack({
   // The detail layer is on screen from the start of its fade in to the end of its fade out
   const [stageOn, setStageOn] = useState(false);
   const [detailIndex, setDetailIndex] = useState(0);
-  const [photoSide, setPhotoSide] = useState<"front" | "back">("front");
+  const [photoIndex, setPhotoIndex] = useState(0);
   // The garment a keyboard (or screen reader) focus is on: the live status follows this, never the mouse
   const [focusIdx, setFocusIdx] = useState(-1);
   const [, setActiveIdx] = useState(-1);
@@ -1038,7 +1040,7 @@ export function ClothesRack({
       setActive(index);
       flushSync(() => {
         setDetailIndex(index);
-        setPhotoSide("front");
+        setPhotoIndex(0);
         setStageOn(true);
         setOpen(true);
       });
@@ -1121,7 +1123,7 @@ export function ClothesRack({
       if (hiddenIndex >= 0) hideRack(next);
       flushSync(() => {
         setDetailIndex(next);
-        setPhotoSide("front");
+        setPhotoIndex(0);
       });
       wake();
       prepareNeighbours();
@@ -1381,9 +1383,23 @@ export function ClothesRack({
     : { ink: "#0A0A0A", paper: "#FAFAFA", line: "#E5E7EB", grey: "#6B7280" };
   const names = itemsRef.current;
   const shown = names[Math.min(detailIndex, names.length - 1)];
-  const hasProductImages = Boolean(shown?.imageFront || shown?.imageBack);
-  const hasBackImage = Boolean(shown?.imageFront && shown?.imageBack && shown.imageFront !== shown.imageBack);
-  const productImage = photoSide === "back" ? shown?.imageBack ?? shown?.imageFront : shown?.imageFront ?? shown?.imageBack;
+  const productImages = shown
+    ? [
+        ...(shown.imageFront ? [{ src: shown.imageFront, label: "Front" }] : []),
+        ...(shown.imageBack && shown.imageBack !== shown.imageFront
+          ? [{ src: shown.imageBack, label: "Back" }]
+          : []),
+        ...(shown.images ?? []).map((image) => ({
+          src: typeof image === "string" ? image : image.value,
+          label: typeof image === "string" ? undefined : image.label?.trim(),
+        })),
+      ].filter(
+        (image, index, images) =>
+          image.src && images.findIndex(({ src }) => src === image.src) === index,
+      )
+    : [];
+  const hasProductImages = productImages.length > 0;
+  const productImage = productImages[photoIndex] ?? productImages[0];
   const status = open && shown ? `${shown.name}, ${detailIndex + 1} of ${names.length}` : focusIdx >= 0 && names[focusIdx] ? `${names[focusIdx]!.name}, ${focusIdx + 1} of ${names.length}` : "";
   const unavailable = failed || lost || !ready;
 
@@ -1503,26 +1519,30 @@ export function ClothesRack({
           {hasProductImages ? (
             <section
               aria-label={`${shown?.name ?? "Garment"} product details`}
-              className="absolute inset-x-14 top-1/2 mx-auto grid max-h-[88dvh] w-auto -translate-y-1/2 grid-cols-1 overflow-y-auto rounded-2xl border border-(--cr-line) bg-(--cr-paper) text-left shadow-[0_24px_80px_rgba(0,0,0,0.16)] md:left-1/2 md:right-auto md:w-[min(90vw,80rem)] md:-translate-x-1/2 md:grid-cols-[minmax(0,1.35fr)_minmax(260px,0.65fr)]"
+              className="absolute inset-x-14 top-1/2 mx-auto grid max-h-[88dvh] w-auto -translate-y-1/2 grid-cols-1 overflow-y-auto rounded-2xl border border-(--cr-line) bg-(--cr-paper) text-left shadow-[0_24px_80px_rgba(0,0,0,0.16)] md:left-1/2 md:right-auto md:w-[min(92vw,88rem)] md:-translate-x-1/2 md:grid-cols-[minmax(0,1.5fr)_minmax(240px,0.5fr)]"
             >
               <div className="relative min-h-[min(82dvh,760px)] bg-[color-mix(in_srgb,var(--cr-ink)_3%,var(--cr-paper))]">
                 {productImage ? (
                   <Image
-                    key={`${detailIndex}-${photoSide}-${productImage}`}
-                    src={productImage}
-                    alt={`${shown?.name ?? "Garment"} — ${photoSide === "front" ? "front" : "back"}`}
+                    key={`${detailIndex}-${photoIndex}-${productImage.src}`}
+                    src={productImage.src}
+                    alt={`${shown?.name ?? "Garment"} — ${productImage.label || `Image ${photoIndex + 1}`}`}
                     fill
                     priority
                     sizes="(max-width: 768px) 100vw, 65vw"
-                    className="object-contain p-4 sm:p-8"
+                    className="object-contain p-2 sm:p-5"
                   />
                 ) : null}
-                {hasBackImage ? (
+                {productImages.length > 1 ? (
                   <>
                     <button
                       type="button"
                       aria-label="Show previous product image"
-                      onClick={() => setPhotoSide((side) => (side === "front" ? "back" : "front"))}
+                      onClick={() =>
+                        setPhotoIndex(
+                          (index) => (index - 1 + productImages.length) % productImages.length,
+                        )
+                      }
                       className={`${keycap(false)} left-3`}
                       style={{ top: "50%" }}
                     >
@@ -1533,7 +1553,9 @@ export function ClothesRack({
                     <button
                       type="button"
                       aria-label="Show next product image"
-                      onClick={() => setPhotoSide((side) => (side === "front" ? "back" : "front"))}
+                      onClick={() =>
+                        setPhotoIndex((index) => (index + 1) % productImages.length)
+                      }
                       className={`${keycap(false)} right-3`}
                       style={{ top: "50%" }}
                     >
@@ -1542,15 +1564,15 @@ export function ClothesRack({
                       </svg>
                     </button>
                     <div className="absolute inset-x-0 bottom-4 flex justify-center gap-2">
-                      {(["front", "back"] as const).map((side) => (
+                      {productImages.map((image, index) => (
                         <button
-                          key={side}
+                          key={`${image.src}-${index}`}
                           type="button"
-                          aria-pressed={photoSide === side}
-                          onClick={() => setPhotoSide(side)}
-                          className={`rounded-full border px-3 py-1.5 text-xs transition-colors ${photoSide === side ? "border-(--cr-ink) bg-(--cr-ink) text-(--cr-paper)" : "border-(--cr-line) bg-(--cr-paper) text-(--cr-ink)"}`}
+                          aria-pressed={photoIndex === index}
+                          onClick={() => setPhotoIndex(index)}
+                          className={`rounded-full border px-3 py-1.5 text-xs transition-colors ${photoIndex === index ? "border-(--cr-ink) bg-(--cr-ink) text-(--cr-paper)" : "border-(--cr-line) bg-(--cr-paper) text-(--cr-ink)"}`}
                         >
-                          {side === "front" ? "Front" : "Back"}
+                          {image.label || `Image ${index + 1}`}
                         </button>
                       ))}
                     </div>
@@ -1590,7 +1612,7 @@ export function ClothesRack({
                 className={keycap(pressed === "prev")}
                 style={{
                   left: hasProductImages
-                    ? "max(4px, calc(50% - min(45vw, 40rem) - 52px))"
+                    ? "max(4px, calc(50% - min(45vw, 44rem) - 52px))"
                     : "max(10px, calc(50% - var(--half) - 72px - 44px))",
                 }}
               >
@@ -1609,7 +1631,7 @@ export function ClothesRack({
                 className={keycap(pressed === "next")}
                 style={{
                   right: hasProductImages
-                    ? "max(4px, calc(50% - min(45vw, 40rem) - 52px))"
+                    ? "max(4px, calc(50% - min(45vw, 44rem) - 52px))"
                     : "max(10px, calc(50% - var(--half) - 72px - 44px))",
                 }}
               >

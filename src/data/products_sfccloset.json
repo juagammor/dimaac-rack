@@ -2,9 +2,9 @@
     {
         "id": "509",
         "name": "",
-        "image": "/products/jerseys/1992-1993-509/COPA_FRONT.png",
-        "imageFront": "/products/jerseys/1992-1993-509/COPA_FRONT.png",
-        "imageBack": "/products/jerseys/1992-1993-509/COPA_BACK.png",
+        "image": "/products/jerseys/sfc/1992-1993-509/COPA_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/1992-1993-509/COPA_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/1992-1993-509/COPA_BACK.png",
         "season": "1992-1993",
         "details": [
             {
@@ -48,9 +48,9 @@
     {
         "id": "486",
         "name": "",
-        "image": "/products/jerseys/1992-1993-486/FR_FRONT.png",
-        "imageFront": "/products/jerseys/1992-1993-486/FR_FRONT.png",
-        "imageBack": "/products/jerseys/1992-1993-486/FR_BACK.png",
+        "image": "/products/jerseys/sfc/1992-1993-486/FR_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/1992-1993-486/FR_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/1992-1993-486/FR_BACK.png",
         "season": "1992-1993",
         "details": [
             {
@@ -94,9 +94,9 @@
     {
         "id": "341",
         "name": "",
-        "image": "/products/jerseys/1993-1994-341/HS_FRONT.png",
-        "imageFront": "/products/jerseys/1993-1994-341/HS_FRONT.png",
-        "imageBack": "/products/jerseys/1993-1994-341/HS_BACK.png",
+        "image": "/products/jerseys/sfc/1993-1994-341/HS_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/1993-1994-341/HS_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/1993-1994-341/HS_BACK.png",
         "season": "1993-1994",
         "details": [
             {
@@ -140,9 +140,9 @@
     {
         "id": "426",
         "name": "",
-        "image": "/products/jerseys/1994-1995-426/9495_FRONT.png",
-        "imageFront": "/products/jerseys/1994-1995-426/9495_FRONT.png",
-        "imageBack": "/products/jerseys/1994-1995-426/9495_BACK.png",
+        "image": "/products/jerseys/sfc/1994-1995-426/9495_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/1994-1995-426/9495_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/1994-1995-426/9495_BACK.png",
         "season": "1994-1995",
         "details": [
             {
@@ -186,9 +186,9 @@
     {
         "id": "408",
         "name": "Davor Suker #9",
-        "image": "/products/jerseys/1994-1996-408/SUKER_BACK.png",
-        "imageFront": "/products/jerseys/1994-1996-408/SUKER_FRONT.png",
-        "imageBack": "/products/jerseys/1994-1996-408/SUKER_BACK.png",
+        "image": "/products/jerseys/sfc/1994-1996-408/SUKER_BACK.png",
+        "imageFront": "/products/jerseys/sfc/1994-1996-408/SUKER_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/1994-1996-408/SUKER_BACK.png",
         "season": "1994-1996",
         "details": [
             {
@@ -232,9 +232,9 @@
     {
         "id": "529",
         "name": "",
-        "image": "/products/jerseys/1995-1996-529/9596_FRONT.png",
-        "imageFront": "/products/jerseys/1995-1996-529/9596_FRONT.png",
-        "imageBack": "/products/jerseys/1995-1996-529/9596_BACK.png",
+        "image": "/products/jerseys/sfc/1995-1996-529/9596_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/1995-1996-529/9596_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/1995-1996-529/9596_BACK.png",
         "season": "1995-1996",
         "details": [
             {
@@ -278,9 +278,9 @@
     {
         "id": "660",
         "name": "Arturo Pav\u00f3n #29",
-        "image": "/products/jerseys/1996-1997-660/ARTURO_BACK.png",
-        "imageFront": "/products/jerseys/1996-1997-660/ARTURO_FRONT.png",
-        "imageBack": "/products/jerseys/1996-1997-660/ARTURO_BACK.png",
+        "image": "/products/jerseys/sfc/1996-1997-660/ARTURO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/1996-1997-660/ARTURO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/1996-1997-660/ARTURO_BACK.png",
         "season": "1996-1997",
         "details": [
             {
@@ -324,9 +324,9 @@
     {
         "id": "303",
         "name": "",
-        "image": "/products/jerseys/1996-1997-303/HIBIC_BACK.png",
-        "imageFront": "/products/jerseys/1996-1997-303/HIBIC_FRONT.png",
-        "imageBack": "/products/jerseys/1996-1997-303/HIBIC_BACK.png",
+        "image": "/products/jerseys/sfc/1996-1997-303/HIBIC_BACK.png",
+        "imageFront": "/products/jerseys/sfc/1996-1997-303/HIBIC_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/1996-1997-303/HIBIC_BACK.png",
         "season": "1996-1997",
         "details": [
             {
@@ -370,9 +370,9 @@
     {
         "id": "487",
         "name": "Bebeto #19",
-        "image": "/products/jerseys/1996-1997-487/BEBETO_BACK.png",
-        "imageFront": "/products/jerseys/1996-1997-487/BEBETO_FRONT.png",
-        "imageBack": "/products/jerseys/1996-1997-487/BEBETO_BACK.png",
+        "image": "/products/jerseys/sfc/1996-1997-487/BEBETO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/1996-1997-487/BEBETO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/1996-1997-487/BEBETO_BACK.png",
         "season": "1996-1997",
         "details": [
             {
@@ -416,9 +416,9 @@
     {
         "id": "510",
         "name": "",
-        "image": "/products/jerseys/1996-1997-510/9697_BACK.png",
-        "imageFront": "/products/jerseys/1996-1997-510/9697_FRONT.png",
-        "imageBack": "/products/jerseys/1996-1997-510/9697_BACK.png",
+        "image": "/products/jerseys/sfc/1996-1997-510/9697_BACK.png",
+        "imageFront": "/products/jerseys/sfc/1996-1997-510/9697_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/1996-1997-510/9697_BACK.png",
         "season": "1996-1997",
         "details": [
             {
@@ -462,9 +462,9 @@
     {
         "id": "677",
         "name": "Fernando Mart\u00ednez \u2018Nando\u2019 #19",
-        "image": "/products/jerseys/1996-1997-677/NANDO_BACK.png",
-        "imageFront": "/products/jerseys/1996-1997-677/NANDO_FRONT.png",
-        "imageBack": "/products/jerseys/1996-1997-677/NANDO_BACK.png",
+        "image": "/products/jerseys/sfc/1996-1997-677/NANDO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/1996-1997-677/NANDO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/1996-1997-677/NANDO_BACK.png",
         "season": "1996-1997",
         "details": [
             {
@@ -508,9 +508,9 @@
     {
         "id": "561",
         "name": "Mois\u00e9s Garc\u00eda Le\u00f3n #16",
-        "image": "/products/jerseys/2001-2002-561/MOISES_BACK.png",
-        "imageFront": "/products/jerseys/2001-2002-561/MOISES_FRONT.png",
-        "imageBack": "/products/jerseys/2001-2002-561/MOISES_BACK.png",
+        "image": "/products/jerseys/sfc/2001-2002-561/MOISES_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2001-2002-561/MOISES_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2001-2002-561/MOISES_BACK.png",
         "season": "2001-2002",
         "details": [
             {
@@ -554,9 +554,9 @@
     {
         "id": "380",
         "name": "Jos\u00e9 Antonio Reyes #11",
-        "image": "/products/jerseys/2002-2003-380/REYES_BACK.png",
-        "imageFront": "/products/jerseys/2002-2003-380/REYES_FRONT.png",
-        "imageBack": "/products/jerseys/2002-2003-380/REYES_BACK.png",
+        "image": "/products/jerseys/sfc/2002-2003-380/REYES_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2002-2003-380/REYES_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2002-2003-380/REYES_BACK.png",
         "season": "2002-2003",
         "details": [
             {
@@ -600,9 +600,9 @@
     {
         "id": "484",
         "name": "Dar\u00edo Silva #4",
-        "image": "/products/jerseys/2003-2004-484/DARIO_BACK.png",
-        "imageFront": "/products/jerseys/2003-2004-484/DARIO_FRONT.png",
-        "imageBack": "/products/jerseys/2003-2004-484/DARIO_BACK.png",
+        "image": "/products/jerseys/sfc/2003-2004-484/DARIO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2003-2004-484/DARIO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2003-2004-484/DARIO_BACK.png",
         "season": "2003-2004",
         "details": [
             {
@@ -646,9 +646,9 @@
     {
         "id": "397",
         "name": "",
-        "image": "/products/jerseys/2003-2004-397/0304_FRONT.png",
-        "imageFront": "/products/jerseys/2003-2004-397/0304_FRONT.png",
-        "imageBack": "/products/jerseys/2003-2004-397/0304_BACK.png",
+        "image": "/products/jerseys/sfc/2003-2004-397/0304_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2003-2004-397/0304_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2003-2004-397/0304_BACK.png",
         "season": "2003-2004",
         "details": [
             {
@@ -692,9 +692,9 @@
     {
         "id": "378",
         "name": "",
-        "image": "/products/jerseys/2004-2005-378/0405_FRONT.png",
-        "imageFront": "/products/jerseys/2004-2005-378/0405_FRONT.png",
-        "imageBack": "/products/jerseys/2004-2005-378/0405_BACK.png",
+        "image": "/products/jerseys/sfc/2004-2005-378/0405_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2004-2005-378/0405_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2004-2005-378/0405_BACK.png",
         "season": "2004-2005",
         "details": [
             {
@@ -738,9 +738,9 @@
     {
         "id": "504",
         "name": "Javier Saviola #7",
-        "image": "/products/jerseys/2005-2006-504/SAVIOLA_BACK.png",
-        "imageFront": "/products/jerseys/2005-2006-504/SAVIOLA_FRONT.png",
-        "imageBack": "/products/jerseys/2005-2006-504/SAVIOLA_BACK.png",
+        "image": "/products/jerseys/sfc/2005-2006-504/SAVIOLA_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2005-2006-504/SAVIOLA_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2005-2006-504/SAVIOLA_BACK.png",
         "season": "2005-2006",
         "details": [
             {
@@ -784,9 +784,9 @@
     {
         "id": "305",
         "name": "",
-        "image": "/products/jerseys/2005-2006-305/0506_FINAL_FRONT.png",
-        "imageFront": "/products/jerseys/2005-2006-305/0506_FINAL_FRONT.png",
-        "imageBack": "/products/jerseys/2005-2006-305/0506_FINAL_BACK.png",
+        "image": "/products/jerseys/sfc/2005-2006-305/0506_FINAL_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2005-2006-305/0506_FINAL_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2005-2006-305/0506_FINAL_BACK.png",
         "season": "2005-2006",
         "details": [
             {
@@ -830,9 +830,9 @@
     {
         "id": "519",
         "name": "Enzo Maresca #25",
-        "image": "/products/jerseys/2005-2006-519/ENZO_BACK.png",
-        "imageFront": "/products/jerseys/2005-2006-519/ENZO_FRONT.png",
-        "imageBack": "/products/jerseys/2005-2006-519/ENZO_BACK.png",
+        "image": "/products/jerseys/sfc/2005-2006-519/ENZO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2005-2006-519/ENZO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2005-2006-519/ENZO_BACK.png",
         "season": "2005-2006",
         "details": [
             {
@@ -876,9 +876,9 @@
     {
         "id": "44",
         "name": "Pep Mart\u00ed #18",
-        "image": "/products/jerseys/2006-2007-44/MARTI_BACK.png",
-        "imageFront": "/products/jerseys/2006-2007-44/MARTI_FRONT.png",
-        "imageBack": "/products/jerseys/2006-2007-44/MARTI_BACK.png",
+        "image": "/products/jerseys/sfc/2006-2007-44/MARTI_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2006-2007-44/MARTI_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2006-2007-44/MARTI_BACK.png",
         "season": "2006-2007",
         "details": [
             {
@@ -922,9 +922,9 @@
     {
         "id": "43",
         "name": "",
-        "image": "/products/jerseys/2006-2007-43/0607CREY_FRONT.png",
-        "imageFront": "/products/jerseys/2006-2007-43/0607CREY_FRONT.png",
-        "imageBack": "/products/jerseys/2006-2007-43/0607CREY_BACK.png",
+        "image": "/products/jerseys/sfc/2006-2007-43/0607CREY_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2006-2007-43/0607CREY_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2006-2007-43/0607CREY_BACK.png",
         "season": "2006-2007",
         "details": [
             {
@@ -968,9 +968,9 @@
     {
         "id": "471",
         "name": "Christian Poulsen #8",
-        "image": "/products/jerseys/2006-2007-471/POULSEN_BACK.png",
-        "imageFront": "/products/jerseys/2006-2007-471/POULSEN_FRONT.png",
-        "imageBack": "/products/jerseys/2006-2007-471/POULSEN_BACK.png",
+        "image": "/products/jerseys/sfc/2006-2007-471/POULSEN_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2006-2007-471/POULSEN_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2006-2007-471/POULSEN_BACK.png",
         "season": "2006-2007",
         "details": [
             {
@@ -1014,9 +1014,9 @@
     {
         "id": "348",
         "name": "Luis Fabiano #10",
-        "image": "/products/jerseys/2006-2007-348/LUISFAB_BACK.png",
-        "imageFront": "/products/jerseys/2006-2007-348/LUISFAB_FRONT.png",
-        "imageBack": "/products/jerseys/2006-2007-348/LUISFAB_BACK.png",
+        "image": "/products/jerseys/sfc/2006-2007-348/LUISFAB_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2006-2007-348/LUISFAB_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2006-2007-348/LUISFAB_BACK.png",
         "season": "2006-2007",
         "details": [
             {
@@ -1060,9 +1060,9 @@
     {
         "id": "130",
         "name": "",
-        "image": "/products/jerseys/2006-2007-130/0607_FRONT.png",
-        "imageFront": "/products/jerseys/2006-2007-130/0607_FRONT.png",
-        "imageBack": "/products/jerseys/2006-2007-130/0607_BACK.png",
+        "image": "/products/jerseys/sfc/2006-2007-130/0607_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2006-2007-130/0607_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2006-2007-130/0607_BACK.png",
         "season": "2006-2007",
         "details": [
             {
@@ -1106,9 +1106,9 @@
     {
         "id": "490",
         "name": "Antonio Moreno #34",
-        "image": "/products/jerseys/2007-2008-490/MORENO_BACK.png",
-        "imageFront": "/products/jerseys/2007-2008-490/MORENO_FRONT.png",
-        "imageBack": "/products/jerseys/2007-2008-490/MORENO_BACK.png",
+        "image": "/products/jerseys/sfc/2007-2008-490/MORENO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2007-2008-490/MORENO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2007-2008-490/MORENO_BACK.png",
         "season": "2007-2008",
         "details": [
             {
@@ -1152,9 +1152,9 @@
     {
         "id": "670",
         "name": "Aquivaldo Mosquera #15",
-        "image": "/products/jerseys/2007-2008-670/MOSQUERA_BACK.png",
-        "imageFront": "/products/jerseys/2007-2008-670/MOSQUERA_FRONT.png",
-        "imageBack": "/products/jerseys/2007-2008-670/MOSQUERA_BACK.png",
+        "image": "/products/jerseys/sfc/2007-2008-670/MOSQUERA_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2007-2008-670/MOSQUERA_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2007-2008-670/MOSQUERA_BACK.png",
         "season": "2007-2008",
         "details": [
             {
@@ -1198,9 +1198,9 @@
     {
         "id": "122",
         "name": "",
-        "image": "/products/jerseys/2007-2008-122/SUPERCUP_FRONT.png",
-        "imageFront": "/products/jerseys/2007-2008-122/SUPERCUP_FRONT.png",
-        "imageBack": "/products/jerseys/2007-2008-122/SUPERCUP_BACK.png",
+        "image": "/products/jerseys/sfc/2007-2008-122/SUPERCUP_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2007-2008-122/SUPERCUP_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2007-2008-122/SUPERCUP_BACK.png",
         "season": "2007-2008",
         "details": [
             {
@@ -1244,9 +1244,9 @@
     {
         "id": "123",
         "name": "",
-        "image": "/products/jerseys/2007-2008-123/CL_FRONT.png",
-        "imageFront": "/products/jerseys/2007-2008-123/CL_FRONT.png",
-        "imageBack": "/products/jerseys/2007-2008-123/CL_BACK.png",
+        "image": "/products/jerseys/sfc/2007-2008-123/CL_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2007-2008-123/CL_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2007-2008-123/CL_BACK.png",
         "season": "2007-2008",
         "details": [
             {
@@ -1290,9 +1290,9 @@
     {
         "id": "426",
         "name": "",
-        "image": "/products/jerseys/2007-2008-426/0708CL_FRONT.png",
-        "imageFront": "/products/jerseys/2007-2008-426/0708CL_FRONT.png",
-        "imageBack": "/products/jerseys/2007-2008-426/0708CL_BACK.png",
+        "image": "/products/jerseys/sfc/2007-2008-426/0708CL_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2007-2008-426/0708CL_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2007-2008-426/0708CL_BACK.png",
         "season": "2007-2008",
         "details": [
             {
@@ -1336,9 +1336,9 @@
     {
         "id": "121",
         "name": "",
-        "image": "/products/jerseys/2007-2008-121/0708B_FRONT.png",
-        "imageFront": "/products/jerseys/2007-2008-121/0708B_FRONT.png",
-        "imageBack": "/products/jerseys/2007-2008-121/0708B_BACK.png",
+        "image": "/products/jerseys/sfc/2007-2008-121/0708B_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2007-2008-121/0708B_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2007-2008-121/0708B_BACK.png",
         "season": "2007-2008",
         "details": [
             {
@@ -1382,9 +1382,9 @@
     {
         "id": "675",
         "name": "Jes\u00fas Navas #7",
-        "image": "/products/jerseys/2008-2009-675/NAVAS_BACK.png",
-        "imageFront": "/products/jerseys/2008-2009-675/NAVAS_FRONT.png",
-        "imageBack": "/products/jerseys/2008-2009-675/NAVAS_BACK.png",
+        "image": "/products/jerseys/sfc/2008-2009-675/NAVAS_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2008-2009-675/NAVAS_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2008-2009-675/NAVAS_BACK.png",
         "season": "2008-2009",
         "details": [
             {
@@ -1428,9 +1428,9 @@
     {
         "id": "387",
         "name": "",
-        "image": "/products/jerseys/2008-2009-387/0809_FRONT.png",
-        "imageFront": "/products/jerseys/2008-2009-387/0809_FRONT.png",
-        "imageBack": "/products/jerseys/2008-2009-387/0809_BACK.png",
+        "image": "/products/jerseys/sfc/2008-2009-387/0809_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2008-2009-387/0809_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2008-2009-387/0809_BACK.png",
         "season": "2008-2009",
         "details": [
             {
@@ -1474,9 +1474,9 @@
     {
         "id": "181",
         "name": "",
-        "image": "/products/jerseys/2009-2010-181/CREY0910_FRONT.png",
-        "imageFront": "/products/jerseys/2009-2010-181/CREY0910_FRONT.png",
-        "imageBack": "/products/jerseys/2009-2010-181/CREY0910_BACK.png",
+        "image": "/products/jerseys/sfc/2009-2010-181/CREY0910_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2009-2010-181/CREY0910_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2009-2010-181/CREY0910_BACK.png",
         "season": "2009-2010",
         "details": [
             {
@@ -1520,9 +1520,9 @@
     {
         "id": "112",
         "name": "Diego Capel #16",
-        "image": "/products/jerseys/2009-2010-112/DCAPEL_BACK.png",
-        "imageFront": "/products/jerseys/2009-2010-112/DCAPEL_FRONT.png",
-        "imageBack": "/products/jerseys/2009-2010-112/DCAPEL_BACK.png",
+        "image": "/products/jerseys/sfc/2009-2010-112/DCAPEL_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2009-2010-112/DCAPEL_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2009-2010-112/DCAPEL_BACK.png",
         "season": "2009-2010",
         "details": [
             {
@@ -1566,9 +1566,9 @@
     {
         "id": "132",
         "name": "",
-        "image": "/products/jerseys/2009-2010-132/0910CL_FRONT.png",
-        "imageFront": "/products/jerseys/2009-2010-132/0910CL_FRONT.png",
-        "imageBack": "/products/jerseys/2009-2010-132/0910CL_BACK.png",
+        "image": "/products/jerseys/sfc/2009-2010-132/0910CL_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2009-2010-132/0910CL_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2009-2010-132/0910CL_BACK.png",
         "season": "2009-2010",
         "details": [
             {
@@ -1612,9 +1612,9 @@
     {
         "id": "485",
         "name": "",
-        "image": "/products/jerseys/2009-2010-485/0910_FRONT.png",
-        "imageFront": "/products/jerseys/2009-2010-485/0910_FRONT.png",
-        "imageBack": "/products/jerseys/2009-2010-485/0910_BACK.png",
+        "image": "/products/jerseys/sfc/2009-2010-485/0910_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2009-2010-485/0910_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2009-2010-485/0910_BACK.png",
         "season": "2009-2010",
         "details": [
             {
@@ -1658,9 +1658,9 @@
     {
         "id": "388",
         "name": "Antonio Luna #27",
-        "image": "/products/jerseys/2010-2011-388/LUNA_BACK.png",
-        "imageFront": "/products/jerseys/2010-2011-388/LUNA_FRONT.png",
-        "imageBack": "/products/jerseys/2010-2011-388/LUNA_BACK.png",
+        "image": "/products/jerseys/sfc/2010-2011-388/LUNA_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2010-2011-388/LUNA_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2010-2011-388/LUNA_BACK.png",
         "season": "2010-2011",
         "details": [
             {
@@ -1704,9 +1704,9 @@
     {
         "id": "452",
         "name": "",
-        "image": "/products/jerseys/2010-2011-452/1011_3_FRONT.png",
-        "imageFront": "/products/jerseys/2010-2011-452/1011_3_FRONT.png",
-        "imageBack": "/products/jerseys/2010-2011-452/1011_3_BACK.png",
+        "image": "/products/jerseys/sfc/2010-2011-452/1011_3_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2010-2011-452/1011_3_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2010-2011-452/1011_3_BACK.png",
         "season": "2010-2011",
         "details": [
             {
@@ -1750,9 +1750,9 @@
     {
         "id": "676",
         "name": "Sergio S\u00e1nchez #17",
-        "image": "/products/jerseys/2010-2011-676/SSANCHEZ_BACK.png",
-        "imageFront": "/products/jerseys/2010-2011-676/SSANCHEZ_FRONT.png",
-        "imageBack": "/products/jerseys/2010-2011-676/SSANCHEZ_BACK.png",
+        "image": "/products/jerseys/sfc/2010-2011-676/SSANCHEZ_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2010-2011-676/SSANCHEZ_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2010-2011-676/SSANCHEZ_BACK.png",
         "season": "2010-2011",
         "details": [
             {
@@ -1796,9 +1796,9 @@
     {
         "id": "520",
         "name": "Frederic Kanoute #12",
-        "image": "/products/jerseys/2010-2011-520/KANOUTE_BACK.png",
-        "imageFront": "/products/jerseys/2010-2011-520/KANOUTE_FRONT.png",
-        "imageBack": "/products/jerseys/2010-2011-520/KANOUTE_BACK.png",
+        "image": "/products/jerseys/sfc/2010-2011-520/KANOUTE_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2010-2011-520/KANOUTE_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2010-2011-520/KANOUTE_BACK.png",
         "season": "2010-2011",
         "details": [
             {
@@ -1842,9 +1842,9 @@
     {
         "id": "304",
         "name": "",
-        "image": "/products/jerseys/2011-2012-304/1112FIRM_FRONT.png",
-        "imageFront": "/products/jerseys/2011-2012-304/1112FIRM_FRONT.png",
-        "imageBack": "/products/jerseys/2011-2012-304/1112FIRM_BACK.png",
+        "image": "/products/jerseys/sfc/2011-2012-304/1112FIRM_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2011-2012-304/1112FIRM_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2011-2012-304/1112FIRM_BACK.png",
         "season": "2011-2012",
         "details": [
             {
@@ -1888,9 +1888,9 @@
     {
         "id": "442",
         "name": "\u00c1lvaro Negredo #9",
-        "image": "/products/jerseys/2011-2012-442/NEGREDO_BACK.png",
-        "imageFront": "/products/jerseys/2011-2012-442/NEGREDO_FRONT.png",
-        "imageBack": "/products/jerseys/2011-2012-442/NEGREDO_BACK.png",
+        "image": "/products/jerseys/sfc/2011-2012-442/NEGREDO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2011-2012-442/NEGREDO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2011-2012-442/NEGREDO_BACK.png",
         "season": "2011-2012",
         "details": [
             {
@@ -1934,9 +1934,9 @@
     {
         "id": "216",
         "name": "Piotr Trochowski #15",
-        "image": "/products/jerseys/2011-2012-216/TROCHO_BACK.png",
-        "imageFront": "/products/jerseys/2011-2012-216/TROCHO_FRONT.png",
-        "imageBack": "/products/jerseys/2011-2012-216/TROCHO_BACK.png",
+        "image": "/products/jerseys/sfc/2011-2012-216/TROCHO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2011-2012-216/TROCHO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2011-2012-216/TROCHO_BACK.png",
         "season": "2011-2012",
         "details": [
             {
@@ -1980,9 +1980,9 @@
     {
         "id": "441",
         "name": "",
-        "image": "/products/jerseys/2011-2012-441/1112EURO_FRONT.png",
-        "imageFront": "/products/jerseys/2011-2012-441/1112EURO_FRONT.png",
-        "imageBack": "/products/jerseys/2011-2012-441/1112EURO_BACK.png",
+        "image": "/products/jerseys/sfc/2011-2012-441/1112EURO_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2011-2012-441/1112EURO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2011-2012-441/1112EURO_BACK.png",
         "season": "2011-2012",
         "details": [
             {
@@ -2026,9 +2026,9 @@
     {
         "id": "331",
         "name": "Marco Manche\u00f1o #26",
-        "image": "/products/jerseys/2011-2012-331/MARCO_BACK.png",
-        "imageFront": "/products/jerseys/2011-2012-331/MARCO_FRONT.png",
-        "imageBack": "/products/jerseys/2011-2012-331/MARCO_BACK.png",
+        "image": "/products/jerseys/sfc/2011-2012-331/MARCO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2011-2012-331/MARCO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2011-2012-331/MARCO_BACK.png",
         "season": "2011-2012",
         "details": [
             {
@@ -2072,9 +2072,9 @@
     {
         "id": "542",
         "name": "Iv\u00e1n Rakitic #11",
-        "image": "/products/jerseys/2011-2012-542/RAKITIC_BACK.png",
-        "imageFront": "/products/jerseys/2011-2012-542/RAKITIC_FRONT.png",
-        "imageBack": "/products/jerseys/2011-2012-542/RAKITIC_BACK.png",
+        "image": "/products/jerseys/sfc/2011-2012-542/RAKITIC_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2011-2012-542/RAKITIC_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2011-2012-542/RAKITIC_BACK.png",
         "season": "2011-2012",
         "details": [
             {
@@ -2118,9 +2118,9 @@
     {
         "id": "674",
         "name": "Julien Escud\u00e9 #14",
-        "image": "/products/jerseys/2011-2012-674/ESCUDE_BACK.png",
-        "imageFront": "/products/jerseys/2011-2012-674/ESCUDE_FRONT.png",
-        "imageBack": "/products/jerseys/2011-2012-674/ESCUDE_BACK.png",
+        "image": "/products/jerseys/sfc/2011-2012-674/ESCUDE_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2011-2012-674/ESCUDE_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2011-2012-674/ESCUDE_BACK.png",
         "season": "2011-2012",
         "details": [
             {
@@ -2164,9 +2164,9 @@
     {
         "id": "382",
         "name": "",
-        "image": "/products/jerseys/2013-2014-382/TURIN_FRONT.png",
-        "imageFront": "/products/jerseys/2013-2014-382/TURIN_FRONT.png",
-        "imageBack": "/products/jerseys/2013-2014-382/TURIN_BACK.png",
+        "image": "/products/jerseys/sfc/2013-2014-382/TURIN_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2013-2014-382/TURIN_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2013-2014-382/TURIN_BACK.png",
         "season": "2013-2014",
         "details": [
             {
@@ -2210,9 +2210,9 @@
     {
         "id": "406",
         "name": "",
-        "image": "/products/jerseys/2013-2014-406/1314_FRONT.png",
-        "imageFront": "/products/jerseys/2013-2014-406/1314_FRONT.png",
-        "imageBack": "/products/jerseys/2013-2014-406/1314_BACK.png",
+        "image": "/products/jerseys/sfc/2013-2014-406/1314_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2013-2014-406/1314_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2013-2014-406/1314_BACK.png",
         "season": "2013-2014",
         "details": [
             {
@@ -2256,9 +2256,9 @@
     {
         "id": "407",
         "name": "",
-        "image": "/products/jerseys/2013-2014-407/1314_3_FRONT.png",
-        "imageFront": "/products/jerseys/2013-2014-407/1314_3_FRONT.png",
-        "imageBack": "/products/jerseys/2013-2014-407/1314_3_BACK.png",
+        "image": "/products/jerseys/sfc/2013-2014-407/1314_3_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2013-2014-407/1314_3_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2013-2014-407/1314_3_BACK.png",
         "season": "2013-2014",
         "details": [
             {
@@ -2302,9 +2302,9 @@
     {
         "id": "673",
         "name": "Juanje Arg\u00fcez #31",
-        "image": "/products/jerseys/2014-2015-673/JUANJE_BACK.png",
-        "imageFront": "/products/jerseys/2014-2015-673/JUANJE_FRONT.png",
-        "imageBack": "/products/jerseys/2014-2015-673/JUANJE_BACK.png",
+        "image": "/products/jerseys/sfc/2014-2015-673/JUANJE_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2014-2015-673/JUANJE_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2014-2015-673/JUANJE_BACK.png",
         "season": "2014-2015",
         "details": [
             {
@@ -2348,9 +2348,9 @@
     {
         "id": "663",
         "name": "Mariano Barbosa #25",
-        "image": "/products/jerseys/2014-2015-663/BARBOSA_BACK.png",
-        "imageFront": "/products/jerseys/2014-2015-663/BARBOSA_FRONT.png",
-        "imageBack": "/products/jerseys/2014-2015-663/BARBOSA_BACK.png",
+        "image": "/products/jerseys/sfc/2014-2015-663/BARBOSA_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2014-2015-663/BARBOSA_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2014-2015-663/BARBOSA_BACK.png",
         "season": "2014-2015",
         "details": [
             {
@@ -2394,9 +2394,9 @@
     {
         "id": "455",
         "name": "Grzegorz Krychowiak  #4",
-        "image": "/products/jerseys/2014-2015-455/KRYCHO_BACK.png",
-        "imageFront": "/products/jerseys/2014-2015-455/KRYCHO_FRONT.png",
-        "imageBack": "/products/jerseys/2014-2015-455/KRYCHO_BACK.png",
+        "image": "/products/jerseys/sfc/2014-2015-455/KRYCHO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2014-2015-455/KRYCHO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2014-2015-455/KRYCHO_BACK.png",
         "season": "2014-2015",
         "details": [
             {
@@ -2440,9 +2440,9 @@
     {
         "id": "445",
         "name": "",
-        "image": "/products/jerseys/2014-2015-445/1415_UEL_FRONT.png",
-        "imageFront": "/products/jerseys/2014-2015-445/1415_UEL_FRONT.png",
-        "imageBack": "/products/jerseys/2014-2015-445/1415_UEL_BACK.png",
+        "image": "/products/jerseys/sfc/2014-2015-445/1415_UEL_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2014-2015-445/1415_UEL_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2014-2015-445/1415_UEL_BACK.png",
         "season": "2014-2015",
         "details": [
             {
@@ -2486,9 +2486,9 @@
     {
         "id": "479",
         "name": "Daniel Carri\u00e7o #6",
-        "image": "/products/jerseys/2015-2016-479/CARRICO_BACK.png",
-        "imageFront": "/products/jerseys/2015-2016-479/CARRICO_FRONT.png",
-        "imageBack": "/products/jerseys/2015-2016-479/CARRICO_BACK.png",
+        "image": "/products/jerseys/sfc/2015-2016-479/CARRICO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2015-2016-479/CARRICO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2015-2016-479/CARRICO_BACK.png",
         "season": "2015-2016",
         "details": [
             {
@@ -2532,9 +2532,9 @@
     {
         "id": "463",
         "name": "Yevhen Konoplyanka #22",
-        "image": "/products/jerseys/2015-2016-463/KONO_BACK.png",
-        "imageFront": "/products/jerseys/2015-2016-463/KONO_FRONT.png",
-        "imageBack": "/products/jerseys/2015-2016-463/KONO_BACK.png",
+        "image": "/products/jerseys/sfc/2015-2016-463/KONO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2015-2016-463/KONO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2015-2016-463/KONO_BACK.png",
         "season": "2015-2016",
         "details": [
             {
@@ -2578,9 +2578,9 @@
     {
         "id": "477",
         "name": "Jos\u00e9 Antonio Reyes #10",
-        "image": "/products/jerseys/2015-2016-477/REYES_BACK.png",
-        "imageFront": "/products/jerseys/2015-2016-477/REYES_FRONT.png",
-        "imageBack": "/products/jerseys/2015-2016-477/REYES_BACK.png",
+        "image": "/products/jerseys/sfc/2015-2016-477/REYES_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2015-2016-477/REYES_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2015-2016-477/REYES_BACK.png",
         "season": "2015-2016",
         "details": [
             {
@@ -2624,9 +2624,9 @@
     {
         "id": "513",
         "name": "Juan Soriano #35",
-        "image": "/products/jerseys/2016-2017-513/SORIANO_BACK.png",
-        "imageFront": "/products/jerseys/2016-2017-513/SORIANO_FRONT.png",
-        "imageBack": "/products/jerseys/2016-2017-513/SORIANO_BACK.png",
+        "image": "/products/jerseys/sfc/2016-2017-513/SORIANO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2016-2017-513/SORIANO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2016-2017-513/SORIANO_BACK.png",
         "season": "2016-2017",
         "details": [
             {
@@ -2670,9 +2670,9 @@
     {
         "id": "518",
         "name": "Stevan Jovetic #16",
-        "image": "/products/jerseys/2016-2017-518/JOVETIC_BACK.png",
-        "imageFront": "/products/jerseys/2016-2017-518/JOVETIC_FRONT.png",
-        "imageBack": "/products/jerseys/2016-2017-518/JOVETIC_BACK.png",
+        "image": "/products/jerseys/sfc/2016-2017-518/JOVETIC_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2016-2017-518/JOVETIC_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2016-2017-518/JOVETIC_BACK.png",
         "season": "2016-2017",
         "details": [
             {
@@ -2716,9 +2716,9 @@
     {
         "id": "492",
         "name": "V\u00edctor Mach\u00edn \u2018Vitolo\u2019 #20",
-        "image": "/products/jerseys/2016-2017-492/VITOLO_BACK.png",
-        "imageFront": "/products/jerseys/2016-2017-492/VITOLO_FRONT.png",
-        "imageBack": "/products/jerseys/2016-2017-492/VITOLO_BACK.png",
+        "image": "/products/jerseys/sfc/2016-2017-492/VITOLO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2016-2017-492/VITOLO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2016-2017-492/VITOLO_BACK.png",
         "season": "2016-2017",
         "details": [
             {
@@ -2762,9 +2762,9 @@
     {
         "id": "489",
         "name": "",
-        "image": "/products/jerseys/2016-2017-489/1617_FRONT.png",
-        "imageFront": "/products/jerseys/2016-2017-489/1617_FRONT.png",
-        "imageBack": "/products/jerseys/2016-2017-489/1617_BACK.png",
+        "image": "/products/jerseys/sfc/2016-2017-489/1617_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2016-2017-489/1617_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2016-2017-489/1617_BACK.png",
         "season": "2016-2017",
         "details": [
             {
@@ -2808,9 +2808,9 @@
     {
         "id": "498",
         "name": "Franco V\u00e1zquez #22",
-        "image": "/products/jerseys/2017-2018-498/FRANCO_BACK.png",
-        "imageFront": "/products/jerseys/2017-2018-498/FRANCO_FRONT.png",
-        "imageBack": "/products/jerseys/2017-2018-498/FRANCO_BACK.png",
+        "image": "/products/jerseys/sfc/2017-2018-498/FRANCO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2017-2018-498/FRANCO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2017-2018-498/FRANCO_BACK.png",
         "season": "2017-2018",
         "details": [
             {
@@ -2854,9 +2854,9 @@
     {
         "id": "493",
         "name": "Franco V\u00e1zquez #22",
-        "image": "/products/jerseys/2017-2018-493/FRANCO_BACK.png",
-        "imageFront": "/products/jerseys/2017-2018-493/FRANCO_FRONT.png",
-        "imageBack": "/products/jerseys/2017-2018-493/FRANCO_BACK.png",
+        "image": "/products/jerseys/sfc/2017-2018-493/FRANCO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2017-2018-493/FRANCO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2017-2018-493/FRANCO_BACK.png",
         "season": "2017-2018",
         "details": [
             {
@@ -2900,9 +2900,9 @@
     {
         "id": "494",
         "name": "Johannes Geis #12",
-        "image": "/products/jerseys/2017-2018-494/GEIS_BACK.png",
-        "imageFront": "/products/jerseys/2017-2018-494/GEIS_FRONT.png",
-        "imageBack": "/products/jerseys/2017-2018-494/GEIS_BACK.png",
+        "image": "/products/jerseys/sfc/2017-2018-494/GEIS_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2017-2018-494/GEIS_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2017-2018-494/GEIS_BACK.png",
         "season": "2017-2018",
         "details": [
             {
@@ -2946,9 +2946,9 @@
     {
         "id": "496",
         "name": "Gabriel Mercado #25",
-        "image": "/products/jerseys/2017-2018-496/MERCADO_BACK.png",
-        "imageFront": "/products/jerseys/2017-2018-496/MERCADO_FRONT.png",
-        "imageBack": "/products/jerseys/2017-2018-496/MERCADO_BACK.png",
+        "image": "/products/jerseys/sfc/2017-2018-496/MERCADO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2017-2018-496/MERCADO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2017-2018-496/MERCADO_BACK.png",
         "season": "2017-2018",
         "details": [
             {
@@ -2992,9 +2992,9 @@
     {
         "id": "497",
         "name": "Borja Lasso #23",
-        "image": "/products/jerseys/2017-2018-497/LASSO_BACK.png",
-        "imageFront": "/products/jerseys/2017-2018-497/LASSO_FRONT.png",
-        "imageBack": "/products/jerseys/2017-2018-497/LASSO_BACK.png",
+        "image": "/products/jerseys/sfc/2017-2018-497/LASSO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2017-2018-497/LASSO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2017-2018-497/LASSO_BACK.png",
         "season": "2017-2018",
         "details": [
             {
@@ -3038,9 +3038,9 @@
     {
         "id": "511",
         "name": "Alejandro Pozo #31",
-        "image": "/products/jerseys/2017-2018-511/POZO_BACK.png",
-        "imageFront": "/products/jerseys/2017-2018-511/POZO_FRONT.png",
-        "imageBack": "/products/jerseys/2017-2018-511/POZO_BACK.png",
+        "image": "/products/jerseys/sfc/2017-2018-511/POZO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2017-2018-511/POZO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2017-2018-511/POZO_BACK.png",
         "season": "2017-2018",
         "details": [
             {
@@ -3084,9 +3084,9 @@
     {
         "id": "512",
         "name": "David Soria #13",
-        "image": "/products/jerseys/2017-2018-512/SORIA_BACK.png",
-        "imageFront": "/products/jerseys/2017-2018-512/SORIA_FRONT.png",
-        "imageBack": "/products/jerseys/2017-2018-512/SORIA_BACK.png",
+        "image": "/products/jerseys/sfc/2017-2018-512/SORIA_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2017-2018-512/SORIA_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2017-2018-512/SORIA_BACK.png",
         "season": "2017-2018",
         "details": [
             {
@@ -3130,9 +3130,9 @@
     {
         "id": "505",
         "name": "Andr\u00e9 Silva #12",
-        "image": "/products/jerseys/2018-2019-505/ASILVA_BACK.png",
-        "imageFront": "/products/jerseys/2018-2019-505/ASILVA_FRONT.png",
-        "imageBack": "/products/jerseys/2018-2019-505/ASILVA_BACK.png",
+        "image": "/products/jerseys/sfc/2018-2019-505/ASILVA_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2018-2019-505/ASILVA_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2018-2019-505/ASILVA_BACK.png",
         "season": "2018-2019",
         "details": [
             {
@@ -3176,9 +3176,9 @@
     {
         "id": "506",
         "name": "",
-        "image": "/products/jerseys/2018-2019-506/1819_2_FRONT.png",
-        "imageFront": "/products/jerseys/2018-2019-506/1819_2_FRONT.png",
-        "imageBack": "/products/jerseys/2018-2019-506/1819_2_BACK.png",
+        "image": "/products/jerseys/sfc/2018-2019-506/1819_2_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2018-2019-506/1819_2_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2018-2019-506/1819_2_BACK.png",
         "season": "2018-2019",
         "details": [
             {
@@ -3222,9 +3222,9 @@
     {
         "id": "507",
         "name": "",
-        "image": "/products/jerseys/2018-2019-507/1819_3_FRONT.png",
-        "imageFront": "/products/jerseys/2018-2019-507/1819_3_FRONT.png",
-        "imageBack": "/products/jerseys/2018-2019-507/1819_3_BACK.png",
+        "image": "/products/jerseys/sfc/2018-2019-507/1819_3_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2018-2019-507/1819_3_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2018-2019-507/1819_3_BACK.png",
         "season": "2018-2019",
         "details": [
             {
@@ -3268,9 +3268,9 @@
     {
         "id": "508",
         "name": "",
-        "image": "/products/jerseys/2018-2019-508/1819_SAT_BACK.png",
-        "imageFront": "/products/jerseys/2018-2019-508/1819_SAT_FRONT.png",
-        "imageBack": "/products/jerseys/2018-2019-508/1819_SAT_BACK.png",
+        "image": "/products/jerseys/sfc/2018-2019-508/1819_SAT_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2018-2019-508/1819_SAT_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2018-2019-508/1819_SAT_BACK.png",
         "season": "2018-2019",
         "details": [
             {
@@ -3314,9 +3314,9 @@
     {
         "id": "541",
         "name": "Diego Carlos #20",
-        "image": "/products/jerseys/2019-2020-541/DC_BACK.png",
-        "imageFront": "/products/jerseys/2019-2020-541/DC_FRONT.png",
-        "imageBack": "/products/jerseys/2019-2020-541/DC_BACK.png",
+        "image": "/products/jerseys/sfc/2019-2020-541/DC_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2019-2020-541/DC_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2019-2020-541/DC_BACK.png",
         "season": "2019-2020",
         "details": [
             {
@@ -3360,9 +3360,9 @@
     {
         "id": "527",
         "name": "Diego Carlos #20",
-        "image": "/products/jerseys/2019-2020-527/DC_BACK.png",
-        "imageFront": "/products/jerseys/2019-2020-527/DC_FRONT.png",
-        "imageBack": "/products/jerseys/2019-2020-527/DC_BACK.png",
+        "image": "/products/jerseys/sfc/2019-2020-527/DC_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2019-2020-527/DC_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2019-2020-527/DC_BACK.png",
         "season": "2019-2020",
         "details": [
             {
@@ -3406,9 +3406,9 @@
     {
         "id": "539",
         "name": "Jes\u00fas Navas #16",
-        "image": "/products/jerseys/2019-2020-539/NAVAS_BACK.png",
-        "imageFront": "/products/jerseys/2019-2020-539/NAVAS_FRONT.png",
-        "imageBack": "/products/jerseys/2019-2020-539/NAVAS_BACK.png",
+        "image": "/products/jerseys/sfc/2019-2020-539/NAVAS_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2019-2020-539/NAVAS_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2019-2020-539/NAVAS_BACK.png",
         "season": "2019-2020",
         "details": [
             {
@@ -3452,9 +3452,9 @@
     {
         "id": "528",
         "name": "",
-        "image": "/products/jerseys/2019-2020-528/1920BLACK_FRONT.png",
-        "imageFront": "/products/jerseys/2019-2020-528/1920BLACK_FRONT.png",
-        "imageBack": "/products/jerseys/2019-2020-528/1920BLACK_BACK.png",
+        "image": "/products/jerseys/sfc/2019-2020-528/1920BLACK_FRONT.png",
+        "imageFront": "/products/jerseys/sfc/2019-2020-528/1920BLACK_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2019-2020-528/1920BLACK_BACK.png",
         "season": "2019-2020",
         "details": [
             {
@@ -3498,9 +3498,9 @@
     {
         "id": "665",
         "name": "Sergio Escudero #18",
-        "image": "/products/jerseys/2019-2020-665/ESCUDERO_BACK.png",
-        "imageFront": "/products/jerseys/2019-2020-665/ESCUDERO_FRONT.png",
-        "imageBack": "/products/jerseys/2019-2020-665/ESCUDERO_BACK.png",
+        "image": "/products/jerseys/sfc/2019-2020-665/ESCUDERO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2019-2020-665/ESCUDERO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2019-2020-665/ESCUDERO_BACK.png",
         "season": "2019-2020",
         "details": [
             {
@@ -3544,9 +3544,9 @@
     {
         "id": "544",
         "name": "Genaro Rodr\u00edguez #36",
-        "image": "/products/jerseys/2019-2020-544/GENARO_BACK.png",
-        "imageFront": "/products/jerseys/2019-2020-544/GENARO_FRONT.png",
-        "imageBack": "/products/jerseys/2019-2020-544/GENARO_BACK.png",
+        "image": "/products/jerseys/sfc/2019-2020-544/GENARO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2019-2020-544/GENARO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2019-2020-544/GENARO_BACK.png",
         "season": "2019-2020",
         "details": [
             {
@@ -3590,9 +3590,9 @@
     {
         "id": "568",
         "name": "Alejandro 'Papu' G\u00f3mez #24",
-        "image": "/products/jerseys/2020-2021-568/PAPU_BACK.png",
-        "imageFront": "/products/jerseys/2020-2021-568/PAPU_FRONT.png",
-        "imageBack": "/products/jerseys/2020-2021-568/PAPU_BACK.png",
+        "image": "/products/jerseys/sfc/2020-2021-568/PAPU_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2020-2021-568/PAPU_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2020-2021-568/PAPU_BACK.png",
         "season": "2020-2021",
         "details": [
             {
@@ -3636,9 +3636,9 @@
     {
         "id": "569",
         "name": "Youssef En-Nesyri #15",
-        "image": "/products/jerseys/2020-2021-569/YEN_BACK.png",
-        "imageFront": "/products/jerseys/2020-2021-569/YEN_FRONT.png",
-        "imageBack": "/products/jerseys/2020-2021-569/YEN_BACK.png",
+        "image": "/products/jerseys/sfc/2020-2021-569/YEN_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2020-2021-569/YEN_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2020-2021-569/YEN_BACK.png",
         "season": "2020-2021",
         "details": [
             {
@@ -3682,9 +3682,9 @@
     {
         "id": "570",
         "name": "Yassine Bono #13",
-        "image": "/products/jerseys/2020-2021-570/BONO_BACK.png",
-        "imageFront": "/products/jerseys/2020-2021-570/BONO_FRONT.png",
-        "imageBack": "/products/jerseys/2020-2021-570/BONO_BACK.png",
+        "image": "/products/jerseys/sfc/2020-2021-570/BONO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2020-2021-570/BONO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2020-2021-570/BONO_BACK.png",
         "season": "2020-2021",
         "details": [
             {
@@ -3728,9 +3728,9 @@
     {
         "id": "584",
         "name": "\u00d3liver Torres #21",
-        "image": "/products/jerseys/2020-2021-584/OLIVER_BACK.png",
-        "imageFront": "/products/jerseys/2020-2021-584/OLIVER_FRONT.png",
-        "imageBack": "/products/jerseys/2020-2021-584/OLIVER_BACK.png",
+        "image": "/products/jerseys/sfc/2020-2021-584/OLIVER_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2020-2021-584/OLIVER_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2020-2021-584/OLIVER_BACK.png",
         "season": "2020-2021",
         "details": [
             {
@@ -3774,9 +3774,9 @@
     {
         "id": "586",
         "name": "Jes\u00fas Navas #16",
-        "image": "/products/jerseys/2020-2021-586/NAVAS_BACK.png",
-        "imageFront": "/products/jerseys/2020-2021-586/NAVAS_FRONT.png",
-        "imageBack": "/products/jerseys/2020-2021-586/NAVAS_BACK.png",
+        "image": "/products/jerseys/sfc/2020-2021-586/NAVAS_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2020-2021-586/NAVAS_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2020-2021-586/NAVAS_BACK.png",
         "season": "2020-2021",
         "details": [
             {
@@ -3820,9 +3820,9 @@
     {
         "id": "557",
         "name": "Lucas Ocampos #5",
-        "image": "/products/jerseys/2020-2021-557/OCAMPOS_BACK.png",
-        "imageFront": "/products/jerseys/2020-2021-557/OCAMPOS_FRONT.png",
-        "imageBack": "/products/jerseys/2020-2021-557/OCAMPOS_BACK.png",
+        "image": "/products/jerseys/sfc/2020-2021-557/OCAMPOS_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2020-2021-557/OCAMPOS_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2020-2021-557/OCAMPOS_BACK.png",
         "season": "2020-2021",
         "details": [
             {
@@ -3866,9 +3866,9 @@
     {
         "id": "562",
         "name": "Jules Kounde #12",
-        "image": "/products/jerseys/2020-2021-562/KOUNDE_BACK.png",
-        "imageFront": "/products/jerseys/2020-2021-562/KOUNDE_FRONT.png",
-        "imageBack": "/products/jerseys/2020-2021-562/KOUNDE_BACK.png",
+        "image": "/products/jerseys/sfc/2020-2021-562/KOUNDE_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2020-2021-562/KOUNDE_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2020-2021-562/KOUNDE_BACK.png",
         "season": "2020-2021",
         "details": [
             {
@@ -3912,9 +3912,9 @@
     {
         "id": "602",
         "name": "Alejandro 'Papu' G\u00f3mez #24",
-        "image": "/products/jerseys/2021-2022-602/PAPU_BACK.png",
-        "imageFront": "/products/jerseys/2021-2022-602/PAPU_FRONT.png",
-        "imageBack": "/products/jerseys/2021-2022-602/PAPU_BACK.png",
+        "image": "/products/jerseys/sfc/2021-2022-602/PAPU_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2021-2022-602/PAPU_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2021-2022-602/PAPU_BACK.png",
         "season": "2021-2022",
         "details": [
             {
@@ -3958,9 +3958,9 @@
     {
         "id": "615",
         "name": "Joan Jord\u00e1n #8",
-        "image": "/products/jerseys/2021-2022-615/JORDAN_BACK.png",
-        "imageFront": "/products/jerseys/2021-2022-615/JORDAN_FRONT.png",
-        "imageBack": "/products/jerseys/2021-2022-615/JORDAN_BACK.png",
+        "image": "/products/jerseys/sfc/2021-2022-615/JORDAN_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2021-2022-615/JORDAN_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2021-2022-615/JORDAN_BACK.png",
         "season": "2021-2022",
         "details": [
             {
@@ -4004,9 +4004,9 @@
     {
         "id": "610",
         "name": "Lucas Ocampos #5",
-        "image": "/products/jerseys/2021-2022-610/OCAMPOS_BACK.png",
-        "imageFront": "/products/jerseys/2021-2022-610/OCAMPOS_FRONT.png",
-        "imageBack": "/products/jerseys/2021-2022-610/OCAMPOS_BACK.png",
+        "image": "/products/jerseys/sfc/2021-2022-610/OCAMPOS_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2021-2022-610/OCAMPOS_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2021-2022-610/OCAMPOS_BACK.png",
         "season": "2021-2022",
         "details": [
             {
@@ -4050,9 +4050,9 @@
     {
         "id": "638",
         "name": "Fernando Reges #25",
-        "image": "/products/jerseys/2021-2022-638/FERNANDO_BACK.png",
-        "imageFront": "/products/jerseys/2021-2022-638/FERNANDO_FRONT.png",
-        "imageBack": "/products/jerseys/2021-2022-638/FERNANDO_BACK.png",
+        "image": "/products/jerseys/sfc/2021-2022-638/FERNANDO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2021-2022-638/FERNANDO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2021-2022-638/FERNANDO_BACK.png",
         "season": "2021-2022",
         "details": [
             {
@@ -4096,9 +4096,9 @@
     {
         "id": "622",
         "name": "Yassine Bono #13",
-        "image": "/products/jerseys/2021-2022-622/BONO_BACK.png",
-        "imageFront": "/products/jerseys/2021-2022-622/BONO_FRONT.png",
-        "imageBack": "/products/jerseys/2021-2022-622/BONO_BACK.png",
+        "image": "/products/jerseys/sfc/2021-2022-622/BONO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2021-2022-622/BONO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2021-2022-622/BONO_BACK.png",
         "season": "2021-2022",
         "details": [
             {
@@ -4142,9 +4142,9 @@
     {
         "id": "594",
         "name": "Erik Lamela #17",
-        "image": "/products/jerseys/2021-2022-594/LAMELA_BACK.png",
-        "imageFront": "/products/jerseys/2021-2022-594/LAMELA_FRONT.png",
-        "imageBack": "/products/jerseys/2021-2022-594/LAMELA_BACK.png",
+        "image": "/products/jerseys/sfc/2021-2022-594/LAMELA_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2021-2022-594/LAMELA_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2021-2022-594/LAMELA_BACK.png",
         "season": "2021-2022",
         "details": [
             {
@@ -4188,9 +4188,9 @@
     {
         "id": "652",
         "name": "Suso #7",
-        "image": "/products/jerseys/2022-2023-652/SUSO_BACK.png",
-        "imageFront": "/products/jerseys/2022-2023-652/SUSO_FRONT.png",
-        "imageBack": "/products/jerseys/2022-2023-652/SUSO_BACK.png",
+        "image": "/products/jerseys/sfc/2022-2023-652/SUSO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2022-2023-652/SUSO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2022-2023-652/SUSO_BACK.png",
         "season": "2022-2023",
         "details": [
             {
@@ -4234,9 +4234,9 @@
     {
         "id": "639",
         "name": "\u00d3liver Torres #21",
-        "image": "/products/jerseys/2022-2023-639/OLIVER_BACK.png",
-        "imageFront": "/products/jerseys/2022-2023-639/OLIVER_FRONT.png",
-        "imageBack": "/products/jerseys/2022-2023-639/OLIVER_BACK.png",
+        "image": "/products/jerseys/sfc/2022-2023-639/OLIVER_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2022-2023-639/OLIVER_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2022-2023-639/OLIVER_BACK.png",
         "season": "2022-2023",
         "details": [
             {
@@ -4280,9 +4280,9 @@
     {
         "id": "650",
         "name": "Fernando Reges #20",
-        "image": "/products/jerseys/2022-2023-650/FREGES_BACK.png",
-        "imageFront": "/products/jerseys/2022-2023-650/FREGES_FRONT.png",
-        "imageBack": "/products/jerseys/2022-2023-650/FREGES_BACK.png",
+        "image": "/products/jerseys/sfc/2022-2023-650/FREGES_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2022-2023-650/FREGES_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2022-2023-650/FREGES_BACK.png",
         "season": "2022-2023",
         "details": [
             {
@@ -4326,9 +4326,9 @@
     {
         "id": "631",
         "name": "Joan Jord\u00e1n #8",
-        "image": "/products/jerseys/2022-2023-631/JORDAN_BACK.png",
-        "imageFront": "/products/jerseys/2022-2023-631/JORDAN_FRONT.png",
-        "imageBack": "/products/jerseys/2022-2023-631/JORDAN_BACK.png",
+        "image": "/products/jerseys/sfc/2022-2023-631/JORDAN_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2022-2023-631/JORDAN_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2022-2023-631/JORDAN_BACK.png",
         "season": "2022-2023",
         "details": [
             {
@@ -4372,9 +4372,9 @@
     {
         "id": "642",
         "name": "Yassine Bono #13",
-        "image": "/products/jerseys/2022-2023-642/BONO_BACK.png",
-        "imageFront": "/products/jerseys/2022-2023-642/BONO_FRONT.png",
-        "imageBack": "/products/jerseys/2022-2023-642/BONO_BACK.png",
+        "image": "/products/jerseys/sfc/2022-2023-642/BONO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2022-2023-642/BONO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2022-2023-642/BONO_BACK.png",
         "season": "2022-2023",
         "details": [
             {
@@ -4418,9 +4418,9 @@
     {
         "id": "654",
         "name": "Loic Bade #22",
-        "image": "/products/jerseys/2022-2023-654/BADE_BACK.png",
-        "imageFront": "/products/jerseys/2022-2023-654/BADE_FRONT.png",
-        "imageBack": "/products/jerseys/2022-2023-654/BADE_BACK.png",
+        "image": "/products/jerseys/sfc/2022-2023-654/BADE_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2022-2023-654/BADE_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2022-2023-654/BADE_BACK.png",
         "season": "2022-2023",
         "details": [
             {
@@ -4464,9 +4464,9 @@
     {
         "id": "667",
         "name": "Orjan Nyland #13",
-        "image": "/products/jerseys/2023-2024-667/NYLAND_BACK.png",
-        "imageFront": "/products/jerseys/2023-2024-667/NYLAND_FRONT.png",
-        "imageBack": "/products/jerseys/2023-2024-667/NYLAND_BACK.png",
+        "image": "/products/jerseys/sfc/2023-2024-667/NYLAND_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2023-2024-667/NYLAND_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2023-2024-667/NYLAND_BACK.png",
         "season": "2023-2024",
         "details": [
             {
@@ -4510,9 +4510,9 @@
     {
         "id": "661",
         "name": "Youssef En-Nesyri #15",
-        "image": "/products/jerseys/2023-2024-661/YEN_BACK.png",
-        "imageFront": "/products/jerseys/2023-2024-661/YEN_FRONT.png",
-        "imageBack": "/products/jerseys/2023-2024-661/YEN_BACK.png",
+        "image": "/products/jerseys/sfc/2023-2024-661/YEN_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2023-2024-661/YEN_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2023-2024-661/YEN_BACK.png",
         "season": "2023-2024",
         "details": [
             {
@@ -4556,9 +4556,9 @@
     {
         "id": "669",
         "name": "Loic Bade #22",
-        "image": "/products/jerseys/2023-2024-669/BADE_BACK.png",
-        "imageFront": "/products/jerseys/2023-2024-669/BADE_FRONT.png",
-        "imageBack": "/products/jerseys/2023-2024-669/BADE_BACK.png",
+        "image": "/products/jerseys/sfc/2023-2024-669/BADE_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2023-2024-669/BADE_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2023-2024-669/BADE_BACK.png",
         "season": "2023-2024",
         "details": [
             {
@@ -4602,9 +4602,9 @@
     {
         "id": "658",
         "name": "Nemanja Gudelj #6",
-        "image": "/products/jerseys/2023-2024-658/GUDELJ_BACK.png",
-        "imageFront": "/products/jerseys/2023-2024-658/GUDELJ_FRONT.png",
-        "imageBack": "/products/jerseys/2023-2024-658/GUDELJ_BACK.png",
+        "image": "/products/jerseys/sfc/2023-2024-658/GUDELJ_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2023-2024-658/GUDELJ_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2023-2024-658/GUDELJ_BACK.png",
         "season": "2023-2024",
         "details": [
             {
@@ -4648,9 +4648,9 @@
     {
         "id": "668",
         "name": "Jes\u00fas Navas #16",
-        "image": "/products/jerseys/2023-2024-668/NAVAS_134_BACK.png",
-        "imageFront": "/products/jerseys/2023-2024-668/NAVAS_134_FRONT.png",
-        "imageBack": "/products/jerseys/2023-2024-668/NAVAS_134_BACK.png",
+        "image": "/products/jerseys/sfc/2023-2024-668/NAVAS_134_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2023-2024-668/NAVAS_134_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2023-2024-668/NAVAS_134_BACK.png",
         "season": "2023-2024",
         "details": [
             {
@@ -4694,9 +4694,9 @@
     {
         "id": "671",
         "name": "Alberto Flores #31",
-        "image": "/products/jerseys/2023-2024-671/FLORES_BACK.png",
-        "imageFront": "/products/jerseys/2023-2024-671/FLORES_FRONT.png",
-        "imageBack": "/products/jerseys/2023-2024-671/FLORES_BACK.png",
+        "image": "/products/jerseys/sfc/2023-2024-671/FLORES_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2023-2024-671/FLORES_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2023-2024-671/FLORES_BACK.png",
         "season": "2023-2024",
         "details": [
             {
@@ -4740,9 +4740,9 @@
     {
         "id": "655",
         "name": "Erik Lamela #17",
-        "image": "/products/jerseys/2023-2024-655/LAMELA_BACK.png",
-        "imageFront": "/products/jerseys/2023-2024-655/LAMELA_FRONT.png",
-        "imageBack": "/products/jerseys/2023-2024-655/LAMELA_BACK.png",
+        "image": "/products/jerseys/sfc/2023-2024-655/LAMELA_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2023-2024-655/LAMELA_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2023-2024-655/LAMELA_BACK.png",
         "season": "2023-2024",
         "details": [
             {
@@ -4786,9 +4786,9 @@
     {
         "id": "672",
         "name": "Yassine Bono #13",
-        "image": "/products/jerseys/2023-2024-672/BONO_BACK.png",
-        "imageFront": "/products/jerseys/2023-2024-672/BONO_FRONT.png",
-        "imageBack": "/products/jerseys/2023-2024-672/BONO_BACK.png",
+        "image": "/products/jerseys/sfc/2023-2024-672/BONO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2023-2024-672/BONO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2023-2024-672/BONO_BACK.png",
         "season": "2023-2024",
         "details": [
             {
@@ -4832,9 +4832,9 @@
     {
         "id": "678",
         "name": "Yassine Bono #13",
-        "image": "/products/jerseys/2019-2020-678/BONO_BACK.png",
-        "imageFront": "/products/jerseys/2019-2020-678/BONO_FRONT.png",
-        "imageBack": "/products/jerseys/2019-2020-678/BONO_BACK.png",
+        "image": "/products/jerseys/sfc/2019-2020-678/BONO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2019-2020-678/BONO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2019-2020-678/BONO_BACK.png",
         "season": "2019-2020",
         "details": [
             {
@@ -4878,9 +4878,9 @@
     {
         "id": "679",
         "name": "Fernando Reges #20",
-        "image": "/products/jerseys/2023-2024-679/FREGES_BACK.png",
-        "imageFront": "/products/jerseys/2023-2024-679/FREGES_FRONT.png",
-        "imageBack": "/products/jerseys/2023-2024-679/FREGES_BACK.png",
+        "image": "/products/jerseys/sfc/2023-2024-679/FREGES_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2023-2024-679/FREGES_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2023-2024-679/FREGES_BACK.png",
         "season": "2023-2024",
         "details": [
             {
@@ -4924,9 +4924,9 @@
     {
         "id": "681",
         "name": "Igor Gluscevic #19",
-        "image": "/products/jerseys/1998-1999-681/GLUSCEVIC_BACK.png",
-        "imageFront": "/products/jerseys/1998-1999-681/GLUSCEVIC_FRONT.png",
-        "imageBack": "/products/jerseys/1998-1999-681/GLUSCEVIC_BACK.png",
+        "image": "/products/jerseys/sfc/1998-1999-681/GLUSCEVIC_BACK.png",
+        "imageFront": "/products/jerseys/sfc/1998-1999-681/GLUSCEVIC_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/1998-1999-681/GLUSCEVIC_BACK.png",
         "season": "1998-1999",
         "details": [
             {
@@ -4970,9 +4970,9 @@
     {
         "id": "682",
         "name": "Brian Rabello #14",
-        "image": "/products/jerseys/2013-2014-682/RABELLO_BACK.png",
-        "imageFront": "/products/jerseys/2013-2014-682/RABELLO_FRONT.png",
-        "imageBack": "/products/jerseys/2013-2014-682/RABELLO_BACK.png",
+        "image": "/products/jerseys/sfc/2013-2014-682/RABELLO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2013-2014-682/RABELLO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2013-2014-682/RABELLO_BACK.png",
         "season": "2013-2014",
         "details": [
             {
@@ -5016,9 +5016,9 @@
     {
         "id": "683",
         "name": "Luis Gil #15",
-        "image": "/products/jerseys/2001-2002-683/LUISGIL_BACK.png",
-        "imageFront": "/products/jerseys/2001-2002-683/LUISGIL_FRONT.png",
-        "imageBack": "/products/jerseys/2001-2002-683/LUISGIL_BACK.png",
+        "image": "/products/jerseys/sfc/2001-2002-683/LUISGIL_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2001-2002-683/LUISGIL_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2001-2002-683/LUISGIL_BACK.png",
         "season": "2001-2002",
         "details": [
             {
@@ -5062,9 +5062,9 @@
     {
         "id": "693",
         "name": "Jos\u00e9 \u00c1ngel Carmona #32",
-        "image": "/products/jerseys/2024-2025-693/CARMONA_BACK.png",
-        "imageFront": "/products/jerseys/2024-2025-693/CARMONA_FRONT.png",
-        "imageBack": "/products/jerseys/2024-2025-693/CARMONA_BACK.png",
+        "image": "/products/jerseys/sfc/2024-2025-693/CARMONA_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2024-2025-693/CARMONA_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2024-2025-693/CARMONA_BACK.png",
         "season": "2024-2025",
         "details": [
             {
@@ -5108,9 +5108,9 @@
     {
         "id": "694",
         "name": "Pedro Ortiz #8",
-        "image": "/products/jerseys/2024-2025-694/PORTIZ_BACK.png",
-        "imageFront": "/products/jerseys/2024-2025-694/PORTIZ_FRONT.png",
-        "imageBack": "/products/jerseys/2024-2025-694/PORTIZ_BACK.png",
+        "image": "/products/jerseys/sfc/2024-2025-694/PORTIZ_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2024-2025-694/PORTIZ_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2024-2025-694/PORTIZ_BACK.png",
         "season": "2024-2025",
         "details": [
             {
@@ -5154,9 +5154,9 @@
     {
         "id": "695",
         "name": "Israel Dom\u00ednguez #41",
-        "image": "/products/jerseys/2024-2025-695/ISRA_BACK.png",
-        "imageFront": "/products/jerseys/2024-2025-695/ISRA_FRONT.png",
-        "imageBack": "/products/jerseys/2024-2025-695/ISRA_BACK.png",
+        "image": "/products/jerseys/sfc/2024-2025-695/ISRA_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2024-2025-695/ISRA_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2024-2025-695/ISRA_BACK.png",
         "season": "2024-2025",
         "details": [
             {
@@ -5200,9 +5200,9 @@
     {
         "id": "697",
         "name": "Nemanja Gudelj #6",
-        "image": "/products/jerseys/2024-2025-697/GUDELJ_BACK.png",
-        "imageFront": "/products/jerseys/2024-2025-697/GUDELJ_FRONT.png",
-        "imageBack": "/products/jerseys/2024-2025-697/GUDELJ_BACK.png",
+        "image": "/products/jerseys/sfc/2024-2025-697/GUDELJ_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2024-2025-697/GUDELJ_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2024-2025-697/GUDELJ_BACK.png",
         "season": "2024-2025",
         "details": [
             {
@@ -5246,9 +5246,9 @@
     {
         "id": "699",
         "name": "Jes\u00fas Navas #16",
-        "image": "/products/jerseys/2024-2025-699/JNAVAS_BACK.png",
-        "imageFront": "/products/jerseys/2024-2025-699/JNAVAS_FRONT.png",
-        "imageBack": "/products/jerseys/2024-2025-699/JNAVAS_BACK.png",
+        "image": "/products/jerseys/sfc/2024-2025-699/JNAVAS_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2024-2025-699/JNAVAS_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2024-2025-699/JNAVAS_BACK.png",
         "season": "2024-2025",
         "details": [
             {
@@ -5292,9 +5292,9 @@
     {
         "id": "701",
         "name": "Jes\u00fas Navas #16",
-        "image": "/products/jerseys/2024-2025-701/JNAVAS_BACK.png",
-        "imageFront": "/products/jerseys/2024-2025-701/JNAVAS_FRONT.png",
-        "imageBack": "/products/jerseys/2024-2025-701/JNAVAS_BACK.png",
+        "image": "/products/jerseys/sfc/2024-2025-701/JNAVAS_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2024-2025-701/JNAVAS_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2024-2025-701/JNAVAS_BACK.png",
         "season": "2024-2025",
         "details": [
             {
@@ -5338,9 +5338,9 @@
     {
         "id": "702",
         "name": "Stanis Idumbo #27",
-        "image": "/products/jerseys/2024-2025-702/IDUMBO_BACK.png",
-        "imageFront": "/products/jerseys/2024-2025-702/IDUMBO_FRONT.png",
-        "imageBack": "/products/jerseys/2024-2025-702/IDUMBO_BACK.png",
+        "image": "/products/jerseys/sfc/2024-2025-702/IDUMBO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2024-2025-702/IDUMBO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2024-2025-702/IDUMBO_BACK.png",
         "season": "2024-2025",
         "details": [
             {
@@ -5384,9 +5384,9 @@
     {
         "id": "708",
         "name": "Dodi Lukebakio #11",
-        "image": "/products/jerseys/2024-2025-708/DODI_BACK.png",
-        "imageFront": "/products/jerseys/2024-2025-708/DODI_FRONT.png",
-        "imageBack": "/products/jerseys/2024-2025-708/DODI_BACK.png",
+        "image": "/products/jerseys/sfc/2024-2025-708/DODI_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2024-2025-708/DODI_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2024-2025-708/DODI_BACK.png",
         "season": "2024-2025",
         "details": [
             {
@@ -5430,9 +5430,9 @@
     {
         "id": "721",
         "name": "Rub\u00e9n Vargas #11",
-        "image": "/products/jerseys/2025-2026-721/VARGAS_BACK.png",
-        "imageFront": "/products/jerseys/2025-2026-721/VARGAS_FRONT.png",
-        "imageBack": "/products/jerseys/2025-2026-721/VARGAS_BACK.png",
+        "image": "/products/jerseys/sfc/2025-2026-721/VARGAS_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2025-2026-721/VARGAS_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2025-2026-721/VARGAS_BACK.png",
         "season": "2025-2026",
         "details": [
             {
@@ -5476,9 +5476,9 @@
     {
         "id": "724",
         "name": "",
-        "image": "/products/jerseys/2022-2023-724/35_EMIRATES_BACK.png",
-        "imageFront": "/products/jerseys/2022-2023-724/35_EMIRATES_FRONT.png",
-        "imageBack": "/products/jerseys/2022-2023-724/35_EMIRATES_BACK.png",
+        "image": "/products/jerseys/sfc/2022-2023-724/35_EMIRATES_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2022-2023-724/35_EMIRATES_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2022-2023-724/35_EMIRATES_BACK.png",
         "season": "2022-2023",
         "details": [
             {
@@ -5522,9 +5522,9 @@
     {
         "id": "725",
         "name": "Marko Dmitrovic #1",
-        "image": "/products/jerseys/2023-2024-725/DMITROVIC_BACK.png",
-        "imageFront": "/products/jerseys/2023-2024-725/DMITROVIC_FRONT.png",
-        "imageBack": "/products/jerseys/2023-2024-725/DMITROVIC_BACK.png",
+        "image": "/products/jerseys/sfc/2023-2024-725/DMITROVIC_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2023-2024-725/DMITROVIC_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2023-2024-725/DMITROVIC_BACK.png",
         "season": "2023-2024",
         "details": [
             {
@@ -5568,9 +5568,9 @@
     {
         "id": "727",
         "name": "Andr\u00e9s Castr\u00edn #32",
-        "image": "/products/jerseys/2025-2026-727/CASTRIN_BACK.png",
-        "imageFront": "/products/jerseys/2025-2026-727/CASTRIN_FRONT.png",
-        "imageBack": "/products/jerseys/2025-2026-727/CASTRIN_BACK.png",
+        "image": "/products/jerseys/sfc/2025-2026-727/CASTRIN_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2025-2026-727/CASTRIN_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2025-2026-727/CASTRIN_BACK.png",
         "season": "2025-2026",
         "details": [
             {
@@ -5614,9 +5614,9 @@
     {
         "id": "730",
         "name": "Joaqu\u00edn Mart\u00ednez Gauna OSO #36",
-        "image": "/products/jerseys/2025-2026-730/OSO_BACK.png",
-        "imageFront": "/products/jerseys/2025-2026-730/OSO_FRONT.png",
-        "imageBack": "/products/jerseys/2025-2026-730/OSO_BACK.png",
+        "image": "/products/jerseys/sfc/2025-2026-730/OSO_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2025-2026-730/OSO_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2025-2026-730/OSO_BACK.png",
         "season": "2025-2026",
         "details": [
             {
@@ -5660,9 +5660,9 @@
     {
         "id": "731",
         "name": "Lucien Agoum\u00e9 #18",
-        "image": "/products/jerseys/2025-2026-731/AGOUME_BACK.png",
-        "imageFront": "/products/jerseys/2025-2026-731/AGOUME_FRONT.png",
-        "imageBack": "/products/jerseys/2025-2026-731/AGOUME_BACK.png",
+        "image": "/products/jerseys/sfc/2025-2026-731/AGOUME_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2025-2026-731/AGOUME_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2025-2026-731/AGOUME_BACK.png",
         "season": "2025-2026",
         "details": [
             {
@@ -5706,9 +5706,9 @@
     {
         "id": "732",
         "name": "Akor Adams #9",
-        "image": "/products/jerseys/2025-2026-732/AKOR_BACK.png",
-        "imageFront": "/products/jerseys/2025-2026-732/AKOR_FRONT.png",
-        "imageBack": "/products/jerseys/2025-2026-732/AKOR_BACK.png",
+        "image": "/products/jerseys/sfc/2025-2026-732/AKOR_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2025-2026-732/AKOR_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2025-2026-732/AKOR_BACK.png",
         "season": "2025-2026",
         "details": [
             {
@@ -5752,9 +5752,9 @@
     {
         "id": "733",
         "name": "Odysseas Vlachodimos #1",
-        "image": "/products/jerseys/2025-2026-733/VLACHODIMOS_BACK.png",
-        "imageFront": "/products/jerseys/2025-2026-733/VLACHODIMOS_FRONT.png",
-        "imageBack": "/products/jerseys/2025-2026-733/VLACHODIMOS_BACK.png",
+        "image": "/products/jerseys/sfc/2025-2026-733/VLACHODIMOS_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2025-2026-733/VLACHODIMOS_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2025-2026-733/VLACHODIMOS_BACK.png",
         "season": "2025-2026",
         "details": [
             {
@@ -5798,9 +5798,9 @@
     {
         "id": "738",
         "name": "Chidera Ejuke #21",
-        "image": "/products/jerseys/2025-2026-738/EJUKE_BACK.png",
-        "imageFront": "/products/jerseys/2025-2026-738/EJUKE_FRONT.png",
-        "imageBack": "/products/jerseys/2025-2026-738/EJUKE_BACK.png",
+        "image": "/products/jerseys/sfc/2025-2026-738/EJUKE_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2025-2026-738/EJUKE_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2025-2026-738/EJUKE_BACK.png",
         "season": "2025-2026",
         "details": [
             {
@@ -5844,9 +5844,9 @@
     {
         "id": "739",
         "name": "Odysseas Vlachodimos #1",
-        "image": "/products/jerseys/2025-2026-739/ODYSSEAS_BACK.png",
-        "imageFront": "/products/jerseys/2025-2026-739/ODYSSEAS_FRONT.png",
-        "imageBack": "/products/jerseys/2025-2026-739/ODYSSEAS_BACK.png",
+        "image": "/products/jerseys/sfc/2025-2026-739/ODYSSEAS_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2025-2026-739/ODYSSEAS_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2025-2026-739/ODYSSEAS_BACK.png",
         "season": "2025-2026",
         "details": [
             {
@@ -5890,9 +5890,9 @@
     {
         "id": "745",
         "name": "Marko Marin #7",
-        "image": "/products/jerseys/2013-2014-745/MARIN_BACK.png",
-        "imageFront": "/products/jerseys/2013-2014-745/MARIN_FRONT.png",
-        "imageBack": "/products/jerseys/2013-2014-745/MARIN_BACK.png",
+        "image": "/products/jerseys/sfc/2013-2014-745/MARIN_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2013-2014-745/MARIN_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2013-2014-745/MARIN_BACK.png",
         "season": "2013-2014",
         "details": [
             {
@@ -5936,9 +5936,9 @@
     {
         "id": "746",
         "name": "Andr\u00e9s Castr\u00edn #5",
-        "image": "/products/jerseys/2026-2027-746/CASTRIN_BACK.png",
-        "imageFront": "/products/jerseys/2026-2027-746/CASTRIN_FRONT.png",
-        "imageBack": "/products/jerseys/2026-2027-746/CASTRIN_BACK.png",
+        "image": "/products/jerseys/sfc/2026-2027-746/CASTRIN_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2026-2027-746/CASTRIN_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2026-2027-746/CASTRIN_BACK.png",
         "season": "2026-2027",
         "details": [
             {
@@ -5982,9 +5982,9 @@
     {
         "id": "747",
         "name": "Jos\u00e9 Am\u00e9rico Taira Costa Pereira #4",
-        "image": "",
-        "imageFront": "",
-        "imageBack": "",
+        "image": "/products/jerseys/sfc/2000-2001-747/TAIRA_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2000-2001-747/TAIRA_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2000-2001-747/TAIRA_BACK.png",
         "season": "2000-2001",
         "details": [
             {
@@ -6028,9 +6028,9 @@
     {
         "id": "748",
         "name": "Vassilis Tsartas #10",
-        "image": "",
-        "imageFront": "",
-        "imageBack": "",
+        "image": "/products/jerseys/sfc/2000-2001-748/TSARTAS_BACK.png",
+        "imageFront": "/products/jerseys/sfc/2000-2001-748/TSARTAS_FRONT.png",
+        "imageBack": "/products/jerseys/sfc/2000-2001-748/TSARTAS_BACK.png",
         "season": "2000-2001",
         "details": [
             {

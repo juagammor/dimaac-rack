@@ -4651,6 +4651,10 @@
     "image": "/products/jerseys/csf/2025-2026-735/OBI_01_BACK.png",
     "imageFront": "/products/jerseys/csf/2025-2026-735/OBI_01_FRONT.png",
     "imageBack": "/products/jerseys/csf/2025-2026-735/OBI_01_BACK.png",
+    "images": [
+      {"label": "Front Reverse", "value": "/products/jerseys/csf/2025-2026-735/OBI_02_FRONT.png"},
+      {"label": "Back Reverse", "value": "/products/jerseys/csf/2025-2026-735/OBI_02_BACK.png"}
+    ],
     "season": "2025-2026",
     "details": [
       {

@@ -1,0 +1,4 @@
+{
+  "presentation": "src/config/presentation_pielcajista.json",
+  "products": "src/data/products_pielcajista.json"
+}

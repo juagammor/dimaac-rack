@@ -1,8 +1,7 @@
 import { Suspense } from "react";
 import Link from "next/link";
 import { ClothesRack, type ClothesRackItem } from "@/components/dimaac/clothes-rack";
-import catalogData from "@/data/products.json";
-import presentation from "@/config/presentation.json";
+import { catalogData, presentation } from "@/lib/site-data";
 
 type SeasonalClothesRackItem = ClothesRackItem & { season: string };
 

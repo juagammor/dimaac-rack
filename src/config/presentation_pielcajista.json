@@ -6,12 +6,12 @@
       "subtitle": "Bienvenido a Piel Cajista, mi colección de camisetas del CDB Sevilla SAD y del Caja 87.",
       "bg": {
         "image": "/landing-2.jpg",
-        "color": "#084117f"
+        "color": "#10100f"
       }
     },
     "temporadas": {
       "bg": {
-        "color": "#FF3737"
+        "color": "#FAFAFA"
       }
     },
     "contacto": {
