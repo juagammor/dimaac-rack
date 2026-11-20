@@ -1,7 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import catalogData from "@/data/products.json";
-import presentation from "@/config/presentation.json";
+import { catalogData, presentation } from "@/lib/site-data";
 
 type ContactSettings = Partial<
   Record<"description" | "instagram" | "twitter" | "email", string>

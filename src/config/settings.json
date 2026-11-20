@@ -1,0 +1,4 @@
+{
+  "presentation": "src/config/presentation_sfccloset.json",
+  "products": "src/data/products_sfccloset.json"
+}
