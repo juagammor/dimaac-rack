@@ -5,7 +5,11 @@ import path from "node:path";
 import settings from "@/config/settings.json";
 
 type Presentation = typeof import("@/config/presentation.json");
-type ProductCatalog = typeof import("@/data/products.json");
+type ProductCatalog = Array<
+  (typeof import("@/data/products.json"))[number] & {
+    images?: (string | { label?: string; value: string })[];
+  }
+>;
 
 function loadJson<T>(configuredPath: string): T {
   const filePath = path.isAbsolute(configuredPath)
