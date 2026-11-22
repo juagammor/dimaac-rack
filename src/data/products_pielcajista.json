@@ -1983,6 +1983,10 @@
     "image": "/products/jerseys/csf/2002-2003-700/DONATAS_BACK_R.png",
     "imageFront": "/products/jerseys/csf/2002-2003-700/DONATAS_FRONT_R.png",
     "imageBack": "/products/jerseys/csf/2002-2003-700/DONATAS_BACK_R.png",
+    "images": [
+      { "label": "Back Reverse", "value": "/products/jerseys/csf/2002-2003-700/DONATAS_BACK_W.png" },
+      { "label": "Front Reverse", "value": "/products/jerseys/csf/2002-2003-700/DONATAS_FRONT_W.png" }
+    ],
     "season": "2002-2003",
     "details": [
       {
@@ -3912,9 +3916,9 @@
   {
     "id": "629",
     "name": "Kristaps Porzingis #6",
-    "image": "/products/jerseys/csf/2014-2015-629/KP_BACK.png.png",
+    "image": "/products/jerseys/csf/2014-2015-629/KP_BACK.png",
     "imageFront": "/products/jerseys/csf/2014-2015-629/KP_FRONT.png",
-    "imageBack": "/products/jerseys/csf/2014-2015-629/KP_BACK.png.png",
+    "imageBack": "/products/jerseys/csf/2014-2015-629/KP_BACK.png",
     "season": "2014-2015",
     "details": [
       {
@@ -4050,9 +4054,13 @@
   {
     "id": "722",
     "name": "Derrick Byars #1",
-    "image": "/products/jerseys/csf/2014-2015-722/DB_G_BACK.png",
+    "image": "/products/jerseys/csf/2014-2015-722/DB_G_FRONT.png",
     "imageFront": "/products/jerseys/csf/2014-2015-722/DB_G_FRONT.png",
     "imageBack": "/products/jerseys/csf/2014-2015-722/DB_G_BACK.png",
+    "images": [
+      {"label" :"Front Reverse", "value": "/products/jerseys/csf/2014-2015-722/DB_W_FRONT.png"},
+      {"label": "Back Reverse", "value": "/products/jerseys/csf/2014-2015-722/DB_W_BACK.png"}
+    ],
     "season": "2014-2015",
     "details": [
       {
@@ -4421,6 +4429,10 @@
     "image": "/products/jerseys/csf/2024-2025-726/FILIP_1_FRONT.png",
     "imageFront": "/products/jerseys/csf/2024-2025-726/FILIP_1_FRONT.png",
     "imageBack": "/products/jerseys/csf/2024-2025-726/FILIP_1_BACK.png",
+    "images": [
+      {"label" :"Front Reverse", "value": "/products/jerseys/csf/2024-2025-726/FILIP_2_FRONT.png"},
+      {"label": "Back Reverse", "value": "/products/jerseys/csf/2024-2025-726/FILIP_2_BACK.png"}
+    ],
     "season": "2024-2025",
     "details": [
       {
@@ -4513,6 +4525,10 @@
     "image": "/products/jerseys/csf/2024-2025-742/BAOKO_RED_BACK.png",
     "imageFront": "/products/jerseys/csf/2024-2025-742/BAOKO_RED_FRONT.png",
     "imageBack": "/products/jerseys/csf/2024-2025-742/BAOKO_RED_BACK.png",
+    "images": [
+      {"label" :"Front Reverse", "value": "/products/jerseys/csf/2024-2025-742/BAOKO_WHITE_FRONT.png"},
+      {"label": "Back Reverse", "value": "/products/jerseys/csf/2024-2025-742/BAOKO_WHITE_BACK.png"}
+    ],
     "season": "2024-2025",
     "details": [
       {
