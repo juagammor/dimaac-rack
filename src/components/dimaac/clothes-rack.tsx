@@ -1519,6 +1519,7 @@ export function ClothesRack({
           {hasProductImages ? (
             <section
               aria-label={`${shown?.name ?? "Garment"} product details`}
+              onContextMenu={(event) => event.preventDefault()}
               className="absolute inset-x-14 top-1/2 mx-auto grid max-h-[88dvh] w-auto -translate-y-1/2 grid-cols-1 overflow-y-auto rounded-2xl border border-(--cr-line) bg-(--cr-paper) text-left shadow-[0_24px_80px_rgba(0,0,0,0.16)] md:left-1/2 md:right-auto md:w-[min(92vw,88rem)] md:-translate-x-1/2 md:grid-cols-[minmax(0,1.5fr)_minmax(240px,0.5fr)]"
             >
               <div className="relative min-h-[min(82dvh,760px)] bg-[color-mix(in_srgb,var(--cr-ink)_3%,var(--cr-paper))]">
